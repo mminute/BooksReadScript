@@ -37,8 +37,6 @@ const graphicNovels = rawGraphicNovels.split('\n').map(parseGraphicNovels);
 
 const allBooks = [...manuallyProcessed, ...regularBooks, ...graphicNovels].sort(sortByDate);
 
-console.log(allBooks);
-
 fs.writeFile('output.js', `module.exports = ${JSON.stringify(regularBooks)};`, function cb (err) {
   if (err) {
     throw err;
