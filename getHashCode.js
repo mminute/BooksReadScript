@@ -15,4 +15,8 @@ function hashCode(str) {
 	return hash;
 }
 
-module.exports = hashCode;
+function getHashCode(str) {
+  return Math.abs(hashCode(str));
+}
+
+module.exports = getHashCode;
