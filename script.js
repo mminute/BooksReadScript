@@ -1,9 +1,8 @@
 /*
   To run: node script.js
 
-  Script seems to hang when running the full list of books.
-  Maybe getting rate limited by google
-  TODO: Throw in some logs, maybe setTimeouts?
+  TODO: With ISBN can I get the goodreads link
+  TODO: cli to add a new book?
 */
 
 const constants = require('./constants.js');
