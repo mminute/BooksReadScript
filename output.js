@@ -85,7 +85,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'Heart of Darkness',
 	},
 	{
@@ -149,7 +149,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Orphans of the Sky',
 	},
 	{
@@ -214,7 +214,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Slaughterhouse 5',
 	},
 	{
@@ -278,7 +278,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'V for Vendetta',
 	},
 	{
@@ -328,7 +328,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Glory Road',
 	},
 	{
@@ -402,7 +402,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fantasy', 'fiction'],
 		title: 'Through the Looking Glass: And What Alice Found There',
 	},
 	{
@@ -466,7 +466,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Watchmen',
 	},
 	{
@@ -535,7 +535,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Empire',
 	},
 	{
@@ -598,7 +598,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'nonFiction', 'trueCrime'],
 		title: 'In Cold Blood',
 	},
 	{
@@ -685,7 +685,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Orphanage',
 	},
 	{
@@ -749,7 +749,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'VALIS',
 	},
 	{
@@ -810,7 +810,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'American Gods',
 	},
 	{
@@ -878,7 +878,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir', 'nonFiction'],
 		title: "It's Not About the Bike: My Journey Back to Life",
 	},
 	{
@@ -944,7 +944,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Divine Invasion',
 	},
 	{
@@ -1027,7 +1027,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction'],
 		title: 'Bikie',
 	},
 	{
@@ -1094,7 +1094,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Transmigration of Timothy Archer',
 	},
 	{
@@ -1158,7 +1158,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'nonFiction'],
 		title: 'New Rules',
 	},
 	{
@@ -1239,7 +1239,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Last Colony',
 	},
 	{
@@ -1307,7 +1307,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Friday',
 	},
 	{
@@ -1374,8 +1374,72 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 2: Body of a Journalist',
+	},
+	{
+		author: 'Miller, Frank',
+		date: '2007-05-21T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'f1ANIK0kCxUC',
+			etag: 'AMshE4woNp4',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/f1ANIK0kCxUC',
+			volumeInfo: {
+				title: 'Sin City',
+				authors: ['Frank Miller'],
+				publishedDate: '1992',
+				description:
+					"Psychopathic hard man, Marvin, is drawn into a deadly game of cat and mouse with the murderer of his lover, Goldie, and the police. As he teams up with Goldie's twin sister and friends, he finds himself taking on the corrupt authorities and the influential man behind it all - Cardinal Rock.--Amazon.com.",
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1878574590' },
+					{ type: 'ISBN_13', identifier: '9781878574596' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 199,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: '1.1.1.0.preview.0',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=f1ANIK0kCxUC&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=f1ANIK0kCxUC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=f1ANIK0kCxUC&q=Sin+City:+The+Hard+Goodbye&dq=Sin+City:+The+Hard+Goodbye&hl=&cd=1&source=gbs_api',
+				infoLink:
+					'http://books.google.com/books?id=f1ANIK0kCxUC&dq=Sin+City:+The+Hard+Goodbye&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Sin_City.html?hl=&id=f1ANIK0kCxUC',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=f1ANIK0kCxUC&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'Psychopathic hard man, Marvin, is drawn into a deadly game of cat and mouse with the murderer of his lover, Goldie, and the police.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'Sin City: The Hard Goodbye',
 	},
 	{
 		author: 'Wood, Brian',
@@ -1473,72 +1537,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 1: On the Ground',
-	},
-	{
-		author: 'Miller, Frank',
-		date: '2007-05-21T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'f1ANIK0kCxUC',
-			etag: 'AMshE4woNp4',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/f1ANIK0kCxUC',
-			volumeInfo: {
-				title: 'Sin City',
-				authors: ['Frank Miller'],
-				publishedDate: '1992',
-				description:
-					"Psychopathic hard man, Marvin, is drawn into a deadly game of cat and mouse with the murderer of his lover, Goldie, and the police. As he teams up with Goldie's twin sister and friends, he finds himself taking on the corrupt authorities and the influential man behind it all - Cardinal Rock.--Amazon.com.",
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1878574590' },
-					{ type: 'ISBN_13', identifier: '9781878574596' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 199,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: '1.1.1.0.preview.0',
-				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=f1ANIK0kCxUC&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=f1ANIK0kCxUC&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=f1ANIK0kCxUC&q=Sin+City:+The+Hard+Goodbye&dq=Sin+City:+The+Hard+Goodbye&hl=&cd=1&source=gbs_api',
-				infoLink:
-					'http://books.google.com/books?id=f1ANIK0kCxUC&dq=Sin+City:+The+Hard+Goodbye&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Sin_City.html?hl=&id=f1ANIK0kCxUC',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=f1ANIK0kCxUC&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'Psychopathic hard man, Marvin, is drawn into a deadly game of cat and mouse with the murderer of his lover, Goldie, and the police.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'Sin City: The Hard Goodbye',
 	},
 	{
 		author: 'Wood, Brian and Becky Cloonan',
@@ -1607,7 +1607,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Demo',
 	},
 	{
@@ -1672,7 +1672,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'The Inferno',
 	},
 	{
@@ -1737,7 +1737,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'horror', 'sciFi', 'fiction'],
 		title: 'Frankenstein',
 	},
 	{
@@ -1832,7 +1832,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: "Dragon's Teeth",
 	},
 	{
@@ -1898,7 +1898,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Lost Fleet: Dauntless',
 	},
 	{
@@ -1983,7 +1983,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Lost Fleet: Fearless',
 	},
 	{
@@ -2073,7 +2073,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Illuminatus Trilogy',
 	},
 	{
@@ -2162,7 +2162,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction'],
 		title: 'Philosophy for Dummies',
 	},
 	{
@@ -2226,7 +2226,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'Casino Royale',
 	},
 	{
@@ -2311,7 +2311,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'youngAdult'],
 		title: 'A Tree Grows in Brooklyn',
 	},
 	{
@@ -2396,7 +2396,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Virtual Light',
 	},
 	{
@@ -2461,7 +2461,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Harry Potter and the Deathly Hallows',
 	},
 	{
@@ -2526,7 +2526,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: Public Works',
 	},
 	{
@@ -2590,7 +2590,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror', 'sciFi', 'fiction'],
 		title: 'World War Z',
 	},
 	{
@@ -2655,7 +2655,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Ringworld',
 	},
 	{
@@ -2718,7 +2718,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'horror'],
 		title: 'Dracula',
 	},
 	{
@@ -2803,7 +2803,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'A Separate War and Other Stories',
 	},
 	{
@@ -2868,7 +2868,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['alternateHistory', 'sciFi', 'steamPunk', 'fiction'],
 		title: 'The Difference Engine',
 	},
 	{
@@ -2933,7 +2933,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror', 'sciFi', 'fiction'],
 		title: 'I am Legend',
 	},
 	{
@@ -3018,7 +3018,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Forever Peace',
 	},
 	{
@@ -3085,7 +3085,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Moon Is A Harsh Mistress',
 	},
 	{
@@ -3167,7 +3167,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'A War of Gifts',
 	},
 	{
@@ -3230,7 +3230,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Magic Street',
 	},
 	{
@@ -3313,7 +3313,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'dystopian', 'sciFi', 'fiction'],
 		title: 'We',
 	},
 	{
@@ -3401,7 +3401,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'Business School Confidential',
 	},
 	{
@@ -3465,7 +3465,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'nonFiction'],
 		title: "Professional Pilot's Career Guide",
 	},
 	{
@@ -3550,7 +3550,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Hyperion',
 	},
 	{
@@ -3631,7 +3631,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Ender's Shadow",
 	},
 	{
@@ -3715,7 +3715,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 4: Friendly Fire',
 	},
 	{
@@ -3793,7 +3793,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Beyond This Horizon',
 	},
 	{
@@ -3858,7 +3858,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'A Canticle for Leibowitz',
 	},
 	{
@@ -3941,7 +3941,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'humor', 'noir'],
 		title: 'Crooked Little Vein',
 	},
 	{
@@ -4026,7 +4026,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Spook Country',
 	},
 	{
@@ -4113,7 +4113,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'nonFiction'],
 		title: 'Learning to Fly Helicopters',
 	},
 	{
@@ -4178,7 +4178,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'The Portrait of Mr W.H.',
 	},
 	{
@@ -4264,7 +4264,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: "Patton's Panthers",
 	},
 	{
@@ -4350,7 +4350,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: 'Tiger Force',
 	},
 	{
@@ -4436,7 +4436,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'biography', 'history', 'nonFiction'],
 		title: 'To Conquer the Air: The Wright Brothers and the Great Race for Flight',
 	},
 	{
@@ -4520,7 +4520,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: The Hidden War',
 	},
 	{
@@ -4593,7 +4593,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'horror', 'youngAdult', 'fiction'],
 		title: 'Coraline',
 	},
 	{
@@ -4682,7 +4682,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Red Thunder',
 	},
 	{
@@ -4745,7 +4745,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Rolling Thunder',
 	},
 	{
@@ -4831,7 +4831,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'economics', 'nonFiction'],
 		title: 'No Logo',
 	},
 	{
@@ -4898,7 +4898,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'horror'],
 		title: 'The Girl Who Loved Tom Gordon',
 	},
 	{
@@ -4963,7 +4963,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Forever War',
 	},
 	{
@@ -5048,7 +5048,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Starship Troopers',
 	},
 	{
@@ -5113,7 +5113,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Ender in Exile',
 	},
 	{
@@ -5212,7 +5212,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: Blood in the Game',
 	},
 	{
@@ -5297,7 +5297,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'The Fountainhead',
 	},
 	{
@@ -5363,7 +5363,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'science'],
 		title: 'A Brief History of Time',
 	},
 	{
@@ -5454,7 +5454,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'science', 'sciFi', 'fiction'],
 		title: 'Physics of the Impossible',
 	},
 	{
@@ -5514,7 +5514,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'humor', 'sciFi', 'fiction'],
 		title: "The Hitchhiker's Guide to the Galaxy",
 	},
 	{
@@ -5578,7 +5578,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'travel'],
 		title: "The Reader's Companion to Alaska",
 	},
 	{
@@ -5645,7 +5645,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'science'],
 		title: 'Death by Black Hole',
 	},
 	{
@@ -5710,7 +5710,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir', 'nonFiction', 'travel'],
 		title: 'Looking for Alaska',
 	},
 	{
@@ -5775,7 +5775,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Speed of Dark',
 	},
 	{
@@ -5860,7 +5860,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Seeker',
 	},
 	{
@@ -5924,7 +5924,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'nonFiction'],
 		title: 'Nine Lives of an Alaskan Bush Pilot',
 	},
 	{
@@ -6013,7 +6013,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Fears",
 	},
 	{
@@ -6102,7 +6102,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'Wheels',
 	},
 	{
@@ -6187,7 +6187,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'The Dogs of War',
 	},
 	{
@@ -6273,7 +6273,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['military', 'nonFiction'],
 		title: 'Into the Storm',
 	},
 	{
@@ -6342,7 +6342,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Hell's Gate",
 	},
 	{
@@ -6405,7 +6405,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Rules of Engagement',
 	},
 	{
@@ -6492,7 +6492,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Next',
 	},
 	{
@@ -6558,7 +6558,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'Airframe',
 	},
 	{
@@ -6623,7 +6623,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror'],
 		title: 'Pet Sematary',
 	},
 	{
@@ -6705,7 +6705,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Eternity Road',
 	},
 	{
@@ -6788,7 +6788,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'Wicked',
 	},
 	{
@@ -6853,7 +6853,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'Catch-22',
 	},
 	{
@@ -6919,7 +6919,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror'],
 		title: 'It',
 	},
 	{
@@ -6983,7 +6983,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'The Road',
 	},
 	{
@@ -7050,7 +7050,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'nonFiction'],
 		title: 'Homeward Bound: American Families in the Cold War Era',
 	},
 	{
@@ -7116,7 +7116,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'sciFi', 'fiction'],
 		title: 'The Dark Tower',
 	},
 	{
@@ -7171,7 +7171,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['biography', 'nonFiction'],
 		title: 'Deaf Again',
 	},
 	{
@@ -7231,7 +7231,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror'],
 		title: 'Four Past Midnight',
 	},
 	{
@@ -7300,7 +7300,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir'],
 		title: 'My Booky Wook',
 	},
 	{
@@ -7362,7 +7362,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: War Powers',
 	},
 	{
@@ -7447,7 +7447,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'mystery'],
 		title: 'Blonde Faith',
 	},
 	{
@@ -7511,7 +7511,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction'],
 		title: 'The Illustrated Encyclopedia of Motorcycles',
 	},
 	{
@@ -7576,7 +7576,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Legends in Exile',
 	},
 	{
@@ -7642,7 +7642,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Animal Farm',
 	},
 	{
@@ -7708,7 +7708,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Under the Dome',
 	},
 	{
@@ -7778,7 +7778,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: March of the Wooden Soldiers',
 	},
 	{
@@ -7892,7 +7892,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Storybook Love',
 	},
 	{
@@ -8006,7 +8006,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Mean Seasons',
 	},
 	{
@@ -8071,7 +8071,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Harry Potter and the Deathly Hallows',
 	},
 	{
@@ -8198,7 +8198,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Homelands',
 	},
 	{
@@ -8262,7 +8262,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Arabian Nights (And Days)',
 	},
 	{
@@ -8326,7 +8326,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Wolves',
 	},
 	{
@@ -8389,7 +8389,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Sons of Empire',
 	},
 	{
@@ -8455,7 +8455,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Good Prince',
 	},
 	{
@@ -8516,7 +8516,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: War and Pieces',
 	},
 	{
@@ -8577,7 +8577,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Moon War',
 	},
 	{
@@ -8641,7 +8641,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Valis',
 	},
 	{
@@ -8722,7 +8722,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: "Old Man's War",
 	},
 	{
@@ -8803,7 +8803,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Ghost Brigade',
 	},
 	{
@@ -8869,7 +8869,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['biography', 'history', 'nonFiction'],
 		title: 'Marine Sniper',
 	},
 	{
@@ -8950,7 +8950,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Last Colony',
 	},
 	{
@@ -9076,7 +9076,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Dark Ages',
 	},
 	{
@@ -9134,7 +9134,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Witches',
 	},
 	{
@@ -9223,7 +9223,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'military'],
 		title: 'The Things They Carried',
 	},
 	{
@@ -9308,7 +9308,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'A Separate War and Other Stories',
 	},
 	{
@@ -9397,7 +9397,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Penultimate Truth',
 	},
 	{
@@ -9545,7 +9545,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 1',
 	},
 	{
@@ -9609,7 +9609,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 2',
 	},
 	{
@@ -9667,7 +9667,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 3',
 	},
 	{
@@ -9751,7 +9751,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 4',
 	},
 	{
@@ -9856,7 +9856,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 5',
 	},
 	{
@@ -9920,7 +9920,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Watchmen',
 	},
 	{
@@ -10025,7 +10025,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: "The Invincible Iron Man: World's Most Wanted Vol 1",
 	},
 	{
@@ -10130,7 +10130,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: "The Invincible Iron Man: World's Most Wanted Vol 2",
 	},
 	{
@@ -10194,7 +10194,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'V for Vendetta',
 	},
 	{
@@ -10293,75 +10293,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 1: On the Ground',
-	},
-	{
-		author: 'Wood, Brian',
-		date: '2011-04-26T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: '0eUBOAAACAAJ',
-			etag: 'pu4EBocaJ88',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/0eUBOAAACAAJ',
-			volumeInfo: {
-				title: 'Body of a Journalist',
-				authors: ['Brian Wood', 'Riccardo Burchielli'],
-				publisher: 'Vertigo',
-				publishedDate: '2007',
-				description:
-					'Presents the adventures of aspiring photojournalist, Matty Roth, as he lands his dream job following a veteran war correspondant covering the second American civil war as they go into Manhattan, the heart of the DMZ.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401212476' },
-					{ type: 'ISBN_13', identifier: '9781401212476' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 166,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				averageRating: 3.5,
-				ratingsCount: 2,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=0eUBOAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=0eUBOAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=0eUBOAAACAAJ&dq=DMZ+Vol+2:+Body+of+a+Journalist&hl=&cd=1&source=gbs_api',
-				infoLink:
-					'http://books.google.com/books?id=0eUBOAAACAAJ&dq=DMZ+Vol+2:+Body+of+a+Journalist&hl=&source=gbs_api',
-				canonicalVolumeLink:
-					'https://books.google.com/books/about/Body_of_a_Journalist.html?hl=&id=0eUBOAAACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=0eUBOAAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'Presents the adventures of aspiring photojournalist, Matty Roth, as he lands his dream job following a veteran war correspondant covering the second American civil war as they go into Manhattan, the heart of the DMZ.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'DMZ Vol 2: Body of a Journalist',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10459,8 +10392,75 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 3: Public Works',
+	},
+	{
+		author: 'Wood, Brian',
+		date: '2011-04-26T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: '0eUBOAAACAAJ',
+			etag: 'pu4EBocaJ88',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/0eUBOAAACAAJ',
+			volumeInfo: {
+				title: 'Body of a Journalist',
+				authors: ['Brian Wood', 'Riccardo Burchielli'],
+				publisher: 'Vertigo',
+				publishedDate: '2007',
+				description:
+					'Presents the adventures of aspiring photojournalist, Matty Roth, as he lands his dream job following a veteran war correspondant covering the second American civil war as they go into Manhattan, the heart of the DMZ.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401212476' },
+					{ type: 'ISBN_13', identifier: '9781401212476' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 166,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				averageRating: 3.5,
+				ratingsCount: 2,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=0eUBOAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=0eUBOAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=0eUBOAAACAAJ&dq=DMZ+Vol+2:+Body+of+a+Journalist&hl=&cd=1&source=gbs_api',
+				infoLink:
+					'http://books.google.com/books?id=0eUBOAAACAAJ&dq=DMZ+Vol+2:+Body+of+a+Journalist&hl=&source=gbs_api',
+				canonicalVolumeLink:
+					'https://books.google.com/books/about/Body_of_a_Journalist.html?hl=&id=0eUBOAAACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=0eUBOAAACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'Presents the adventures of aspiring photojournalist, Matty Roth, as he lands his dream job following a veteran war correspondant covering the second American civil war as they go into Manhattan, the heart of the DMZ.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'DMZ Vol 2: Body of a Journalist',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10543,7 +10543,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 4: Friendly Fire',
 	},
 	{
@@ -10627,7 +10627,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 5: The Hidden War',
 	},
 	{
@@ -10711,7 +10711,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 6: Blood in the Game',
 	},
 	{
@@ -10795,7 +10795,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 7: War Powers',
 	},
 	{
@@ -10892,7 +10892,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 8: Hearts and Minds',
 	},
 	{
@@ -10946,7 +10946,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 1: Gone to Texas',
 	},
 	{
@@ -11014,7 +11014,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 2: Until the End of the World',
 	},
 	{
@@ -11080,7 +11080,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 3: Proud Americans',
 	},
 	{
@@ -11145,7 +11145,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'military'],
 		title: 'Rainbow Six',
 	},
 	{
@@ -11198,7 +11198,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 4: Ancient History',
 	},
 	{
@@ -11286,7 +11286,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 5: Dixie Fried',
 	},
 	{
@@ -11353,7 +11353,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 6: War in the Sun',
 	},
 	{
@@ -11418,7 +11418,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Ender in Exile',
 	},
 	{
@@ -11485,7 +11485,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 7: Salvation',
 	},
 	{
@@ -11549,7 +11549,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: "Preacher Vol 8: All Hell's A-Coming",
 	},
 	{
@@ -11614,7 +11614,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 9: Alamo',
 	},
 	{
@@ -11673,7 +11673,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor'],
 		title: 'The Bad Ass Bible',
 	},
 	{
@@ -11770,7 +11770,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 1: Preludes and Nocturnes',
 	},
 	{
@@ -11896,7 +11896,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables Vol 15: Rose Red',
 	},
 	{
@@ -11993,7 +11993,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: "The Sandman Vol 2: The Doll's House",
 	},
 	{
@@ -12058,7 +12058,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 3: Dream Country',
 	},
 	{
@@ -12126,7 +12126,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 4: Season of Mists',
 	},
 	{
@@ -12191,7 +12191,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir', 'nonFiction', 'travel'],
 		title: "Jupiter's Travels",
 	},
 	{
@@ -12256,7 +12256,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 5: A Game of You',
 	},
 	{
@@ -12353,7 +12353,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 6: Fables and Reflections',
 	},
 	{
@@ -12436,7 +12436,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'The Day of the Jackal',
 	},
 	{
@@ -12551,7 +12551,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 7: Brief Lives',
 	},
 	{
@@ -12661,7 +12661,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: "The Sandman Vol 8: Worlds' End",
 	},
 	{
@@ -12725,7 +12725,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military'],
 		title: 'The Longest Day',
 	},
 	{
@@ -12822,66 +12822,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 9: The Kindly Ones',
-	},
-	{
-		author: 'Gaiman, Neil',
-		date: '2011-09-15T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'poNBzQEACAAJ',
-			etag: 'aILhsdmqksQ',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/poNBzQEACAAJ',
-			volumeInfo: {
-				title: 'The Sandman, Volume 10, the Wake',
-				authors: ['Neil Gaiman'],
-				publishedDate: '1996',
-				description:
-					'All dreamers celebrate the life of the King of Dreams in the last chapter of the "Sandman" saga.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1563892790' },
-					{ type: 'ISBN_13', identifier: '9781563892790' },
-				],
-				readingModes: { text: false, image: false },
-				printType: 'BOOK',
-				averageRating: 3.5,
-				ratingsCount: 2718,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=poNBzQEACAAJ&dq=The+Sandman+Vol+10:+The+Wake&hl=&cd=1&source=gbs_api',
-				infoLink:
-					'http://books.google.com/books?id=poNBzQEACAAJ&dq=The+Sandman+Vol+10:+The+Wake&hl=&source=gbs_api',
-				canonicalVolumeLink:
-					'https://books.google.com/books/about/The_Sandman_Volume_10_the_Wake.html?hl=&id=poNBzQEACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=poNBzQEACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'All dreamers celebrate the life of the King of Dreams in the last chapter of the &quot;Sandman&quot; saga.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'The Sandman Vol 10: The Wake',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -12944,8 +12886,66 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Zap Gun',
+	},
+	{
+		author: 'Gaiman, Neil',
+		date: '2011-09-15T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'poNBzQEACAAJ',
+			etag: 'aILhsdmqksQ',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/poNBzQEACAAJ',
+			volumeInfo: {
+				title: 'The Sandman, Volume 10, the Wake',
+				authors: ['Neil Gaiman'],
+				publishedDate: '1996',
+				description:
+					'All dreamers celebrate the life of the King of Dreams in the last chapter of the "Sandman" saga.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1563892790' },
+					{ type: 'ISBN_13', identifier: '9781563892790' },
+				],
+				readingModes: { text: false, image: false },
+				printType: 'BOOK',
+				averageRating: 3.5,
+				ratingsCount: 2718,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=poNBzQEACAAJ&dq=The+Sandman+Vol+10:+The+Wake&hl=&cd=1&source=gbs_api',
+				infoLink:
+					'http://books.google.com/books?id=poNBzQEACAAJ&dq=The+Sandman+Vol+10:+The+Wake&hl=&source=gbs_api',
+				canonicalVolumeLink:
+					'https://books.google.com/books/about/The_Sandman_Volume_10_the_Wake.html?hl=&id=poNBzQEACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=poNBzQEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'All dreamers celebrate the life of the King of Dreams in the last chapter of the &quot;Sandman&quot; saga.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'The Sandman Vol 10: The Wake',
 	},
 	{
 		author: 'Johns, Geoff',
@@ -13007,7 +13007,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Green Lantern: Rebirth',
 	},
 	{
@@ -13060,7 +13060,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Maus I: My Father Bleeds History',
 	},
 	{
@@ -13127,7 +13127,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Maus II: And Here My Troubles Began',
 	},
 	{
@@ -13190,7 +13190,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer IV: The Divine Comedy',
 	},
 	{
@@ -13255,7 +13255,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer I: Devil in the Gateway',
 	},
 	{
@@ -13319,7 +13319,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer II: Children and Monsters',
 	},
 	{
@@ -13378,7 +13378,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'The Godfather',
 	},
 	{
@@ -13444,7 +13444,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer III: A Dalliance with the Damned',
 	},
 	{
@@ -13509,7 +13509,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer V: Inferno',
 	},
 	{
@@ -13574,7 +13574,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer VI: Mansions of Silence',
 	},
 	{
@@ -13660,8 +13660,66 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer VII: Exodus',
+	},
+	{
+		author: 'Carey, Mike',
+		date: '2011-11-02T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'xJ2JmgEACAAJ',
+			etag: 'DoaX0KHAJIk',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/xJ2JmgEACAAJ',
+			volumeInfo: {
+				title: 'Lucifer',
+				subtitle: 'The wolf beneath the tree. 8',
+				authors: ['Mike Carey'],
+				publishedDate: '2005',
+				description:
+					'God has left His Creation and existence teeters on the edge of oblivion. The archangel Michael turns to Destiny of the Endless to determine the future. Whatever insight he gets, however, cannot help. Only Lucifer Morningstar can see what is coming, how it will shake the World Tree to its roots, and how its echoes may even reach the foundations of his own Cosmos.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401203027' },
+					{ type: 'ISBN_13', identifier: '9781401203023' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 158,
+				printType: 'BOOK',
+				categories: ['Angels'],
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=xJ2JmgEACAAJ&dq=Lucifer+VIII:+The+Wolf+Beneath+the+Tree&hl=&cd=1&source=gbs_api',
+				infoLink:
+					'http://books.google.com/books?id=xJ2JmgEACAAJ&dq=Lucifer+VIII:+The+Wolf+Beneath+the+Tree&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Lucifer.html?hl=&id=xJ2JmgEACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=xJ2JmgEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'Whatever insight he gets, however, cannot help. Only Lucifer Morningstar can see what is coming, how it will shake the World Tree to its roots, and how its echoes may even reach the foundations of his own Cosmos.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'Lucifer VIII: The Wolf Beneath the Tree',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13744,66 +13802,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer IX: Crux',
-	},
-	{
-		author: 'Carey, Mike',
-		date: '2011-11-02T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'xJ2JmgEACAAJ',
-			etag: 'DoaX0KHAJIk',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/xJ2JmgEACAAJ',
-			volumeInfo: {
-				title: 'Lucifer',
-				subtitle: 'The wolf beneath the tree. 8',
-				authors: ['Mike Carey'],
-				publishedDate: '2005',
-				description:
-					'God has left His Creation and existence teeters on the edge of oblivion. The archangel Michael turns to Destiny of the Endless to determine the future. Whatever insight he gets, however, cannot help. Only Lucifer Morningstar can see what is coming, how it will shake the World Tree to its roots, and how its echoes may even reach the foundations of his own Cosmos.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401203027' },
-					{ type: 'ISBN_13', identifier: '9781401203023' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 158,
-				printType: 'BOOK',
-				categories: ['Angels'],
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=xJ2JmgEACAAJ&dq=Lucifer+VIII:+The+Wolf+Beneath+the+Tree&hl=&cd=1&source=gbs_api',
-				infoLink:
-					'http://books.google.com/books?id=xJ2JmgEACAAJ&dq=Lucifer+VIII:+The+Wolf+Beneath+the+Tree&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Lucifer.html?hl=&id=xJ2JmgEACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=xJ2JmgEACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'Whatever insight he gets, however, cannot help. Only Lucifer Morningstar can see what is coming, how it will shake the World Tree to its roots, and how its echoes may even reach the foundations of his own Cosmos.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'Lucifer VIII: The Wolf Beneath the Tree',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13865,7 +13865,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer X: Morningstar',
 	},
 	{
@@ -13931,7 +13931,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer XI: Evensong',
 	},
 	{
@@ -14025,7 +14025,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Harley Quinn: Preludes and Knock-Knock Jokes',
 	},
 	{
@@ -14109,7 +14109,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military'],
 		title: 'A Bridge Too Far',
 	},
 	{
@@ -14174,7 +14174,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Metal Gear Solid Omnibus',
 	},
 	{
@@ -14269,7 +14269,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 1',
 	},
 	{
@@ -14334,7 +14334,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 2',
 	},
 	{
@@ -14429,7 +14429,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 3',
 	},
 	{
@@ -14522,7 +14522,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: The Dark Knight Returns',
 	},
 	{
@@ -14585,7 +14585,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: Arkham Asylum',
 	},
 	{
@@ -14648,7 +14648,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders I: Sven the Returned',
 	},
 	{
@@ -14745,7 +14745,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders II: The Cross and the Hammer',
 	},
 	{
@@ -14864,7 +14864,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders III: Blood in the Snow',
 	},
 	{
@@ -14925,7 +14925,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Caves of Steel',
 	},
 	{
@@ -14991,7 +14991,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders IV: The Plague Widow',
 	},
 	{
@@ -15054,7 +15054,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman Year One: Two-Face and Scarecrow',
 	},
 	{
@@ -15120,7 +15120,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: 'Ghost Soldiers',
 	},
 	{
@@ -15230,7 +15230,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 1: Seeds of Destruction',
 	},
 	{
@@ -15309,7 +15309,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 2: Wake the Devil',
 	},
 	{
@@ -15369,7 +15369,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 3: The Chained Coffin and Others',
 	},
 	{
@@ -15657,7 +15657,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Divine Invasion',
 	},
 	{
@@ -15722,7 +15722,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Battle Royale',
 	},
 	{
@@ -15804,7 +15804,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'A War of Gifts',
 	},
 	{
@@ -15888,7 +15888,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'memoir', 'military', 'nonFiction'],
 		title: 'If I Die in a Combat Zone',
 	},
 	{
@@ -15966,7 +15966,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction'],
 		title: 'Omerta',
 	},
 	{
@@ -16062,7 +16062,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: 'Enemy at the Gates:The Battle for Stalingrad',
 	},
 	{
@@ -16122,7 +16122,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'shortFiction', 'fiction'],
 		title: 'Armored',
 	},
 	{
@@ -16187,7 +16187,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'A Game of Thrones',
 	},
 	{
@@ -16256,7 +16256,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'The Hunger Games',
 	},
 	{
@@ -16322,7 +16322,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'Clash of Kings',
 	},
 	{
@@ -16409,7 +16409,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Shadow Puppets',
 	},
 	{
@@ -16498,7 +16498,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Catching Fire',
 	},
 	{
@@ -16587,7 +16587,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Mocking Jay',
 	},
 	{
@@ -16648,7 +16648,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'B',
 	},
 	{
@@ -16734,7 +16734,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: 'Panzerkreig',
 	},
 	{
@@ -16824,7 +16824,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'A Storm of Swords',
 	},
 	{
@@ -16891,7 +16891,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'nonFiction'],
 		title: 'One Nation Underground: The Fallout Shelter in American Culture',
 	},
 	{
@@ -16956,7 +16956,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'A Feast for Crows',
 	},
 	{
@@ -17017,7 +17017,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi'],
 		title: 'L. Ron Hubbard Presents: The Best of Writers of the Future',
 	},
 	{
@@ -17105,7 +17105,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['biography', 'nonFiction', 'psychology'],
 		title: 'Introducing Jung',
 	},
 	{
@@ -17170,7 +17170,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Neuromancer',
 	},
 	{
@@ -17236,7 +17236,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'history', 'military', 'nonFiction'],
 		title: 'The Rise of American Air Power: The Creation of Armageddon',
 	},
 	{
@@ -17325,7 +17325,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'The Quiet American',
 	},
 	{
@@ -17415,7 +17415,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'nonFiction'],
 		title: 'The Railway Journey',
 	},
 	{
@@ -17501,7 +17501,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Man in the High Castle',
 	},
 	{
@@ -17586,16 +17586,16 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'history', 'nonFiction'],
 		title: 'The Soul of a New Machine',
 	},
 	{
-		author: 'Dick. Dick, Philip K.',
+		author: 'Dick, Philip K.',
 		date: '2013-10-29T07:00:00.000Z',
 		googleData: {
 			kind: 'books#volume',
 			id: 'ie0Vw7ygOj4C',
-			etag: 'vnasnxmbgsc',
+			etag: 'jc0YcMyzq1Y',
 			selfLink: 'https://www.googleapis.com/books/v1/volumes/ie0Vw7ygOj4C',
 			volumeInfo: {
 				title: 'Selected Stories of Philip K. Dick',
@@ -17626,7 +17626,7 @@ module.exports = [
 				},
 				language: 'en',
 				previewLink:
-					'http://books.google.com/books?id=ie0Vw7ygOj4C&printsec=frontcover&dq=Selected+Stories+of+Philip+K&hl=&cd=1&source=gbs_api',
+					'http://books.google.com/books?id=ie0Vw7ygOj4C&printsec=frontcover&dq=Selected+Stories+of+Philip+K+Dick&hl=&cd=1&source=gbs_api',
 				infoLink: 'https://play.google.com/store/books/details?id=ie0Vw7ygOj4C&source=gbs_api',
 				canonicalVolumeLink: 'https://play.google.com/store/books/details?id=ie0Vw7ygOj4C',
 			},
@@ -17675,8 +17675,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
-		title: 'Selected Stories of Philip K',
+		tags: ['sciFi', 'fiction'],
+		title: 'Selected Stories of Philip K Dick',
 	},
 	{
 		author: 'Gibson, William',
@@ -17760,7 +17760,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Virtual Light',
 	},
 	{
@@ -17825,7 +17825,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'The Rum Diary',
 	},
 	{
@@ -17895,7 +17895,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'Cannery Row',
 	},
 	{
@@ -17980,7 +17980,7 @@ module.exports = [
 		},
 		notes: 'Did not understand this book',
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'classics'],
 		title: 'The Crying of Lot 49',
 	},
 	{
@@ -18043,7 +18043,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Arkham Asylum',
 	},
 	{
@@ -18132,7 +18132,7 @@ module.exports = [
 		},
 		notes: 'Weird book. I did not get it',
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'classics', 'horror'],
 		title: 'American Psycho',
 	},
 	{
@@ -18246,7 +18246,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Saga of the Swamp Thing',
 	},
 	{
@@ -18305,7 +18305,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Swamp Thing: Love and Death',
 	},
 	{
@@ -18370,7 +18370,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables #16: Super Team',
 	},
 	{
@@ -18449,7 +18449,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables #17: Inherit the Wind',
 	},
 	{
@@ -18514,8 +18514,71 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Fairest #1: Wide Awake',
+	},
+	{
+		author: 'Gaiman, Neil',
+		date: '2014-04-13T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'f9fJVHny6msC',
+			etag: '4JRWElOO8BU',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/f9fJVHny6msC',
+			volumeInfo: {
+				title: 'Mr Punch',
+				authors: ['Bill Ridgway'],
+				publisher: 'Nelson Thornes',
+				publishedDate: '2001',
+				description:
+					'The puppet looked just like the ones you see on a seaside holiday. But this Mr Punch had taken on a murderous life of his own.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '074876061X' },
+					{ type: 'ISBN_13', identifier: '9780748760619' },
+				],
+				readingModes: { text: false, image: true },
+				pageCount: 47,
+				printType: 'BOOK',
+				categories: ['Readers for new literates'],
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: '0.2.3.0.preview.1',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=f9fJVHny6msC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=f9fJVHny6msC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
+				},
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=f9fJVHny6msC&pg=PA20&dq=Mr+Punch&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=f9fJVHny6msC&dq=Mr+Punch&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Mr_Punch.html?hl=&id=f9fJVHny6msC',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'PARTIAL',
+				embeddable: true,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=f9fJVHny6msC&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'SAMPLE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'I could still do <b>Mr Punch</b> &#39; s squeaky voice . And I thought up other voices for Judy <br>\nand baby and the hangman and the others . Soon I was thinking up plays for <br>\nthem all to do . The plays all had one thing in common . <b>Mr Punch</b> always beat his<br>\n&nbsp;...',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'Mr Punch',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -18579,71 +18642,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: Whatever Happened To The Caped Crusader?',
-	},
-	{
-		author: 'Gaiman, Neil',
-		date: '2014-04-13T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'f9fJVHny6msC',
-			etag: '4JRWElOO8BU',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/f9fJVHny6msC',
-			volumeInfo: {
-				title: 'Mr Punch',
-				authors: ['Bill Ridgway'],
-				publisher: 'Nelson Thornes',
-				publishedDate: '2001',
-				description:
-					'The puppet looked just like the ones you see on a seaside holiday. But this Mr Punch had taken on a murderous life of his own.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '074876061X' },
-					{ type: 'ISBN_13', identifier: '9780748760619' },
-				],
-				readingModes: { text: false, image: true },
-				pageCount: 47,
-				printType: 'BOOK',
-				categories: ['Readers for new literates'],
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: '0.2.3.0.preview.1',
-				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=f9fJVHny6msC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=f9fJVHny6msC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
-				},
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=f9fJVHny6msC&pg=PA20&dq=Mr+Punch&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=f9fJVHny6msC&dq=Mr+Punch&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Mr_Punch.html?hl=&id=f9fJVHny6msC',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'PARTIAL',
-				embeddable: true,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=f9fJVHny6msC&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'SAMPLE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'I could still do <b>Mr Punch</b> &#39; s squeaky voice . And I thought up other voices for Judy <br>\nand baby and the hangman and the others . Soon I was thinking up plays for <br>\nthem all to do . The plays all had one thing in common . <b>Mr Punch</b> always beat his<br>\n&nbsp;...',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'Mr Punch',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -18727,7 +18727,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Doomed',
 	},
 	{
@@ -18782,7 +18782,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'CBGB: OMFUG',
 	},
 	{
@@ -18879,7 +18879,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Death: The High Cost of Living',
 	},
 	{
@@ -18968,7 +18968,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Black Orchid',
 	},
 	{
@@ -19030,67 +19030,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 4',
-	},
-	{
-		author: 'Wood, Ashley',
-		date: '2014-05-04T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'ULgXAgAACAAJ',
-			etag: 'Ud6JtejJhJ8',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/ULgXAgAACAAJ',
-			volumeInfo: {
-				title: 'Popbot',
-				subtitle: 'Symbolic Machine Code/A',
-				authors: ['Ashley Wood', 'Sam Kieth'],
-				publisher: 'Idea & Design Works Llc',
-				publishedDate: '2006',
-				description: "Includes the first 6 issues of Wood's Popbot.",
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1600100341' },
-					{ type: 'ISBN_13', identifier: '9781600100345' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 300,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=ULgXAgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=ULgXAgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink: 'http://books.google.com/books?id=ULgXAgAACAAJ&dq=PopBot:+Book+5&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=ULgXAgAACAAJ&dq=PopBot:+Book+5&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Popbot.html?hl=&id=ULgXAgAACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=ULgXAgAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: { textSnippet: 'Includes the first 6 issues of Wood&#39;s Popbot.' },
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel'],
-		title: 'PopBot: Book 5',
 	},
 	{
 		author: 'Reher, Chris',
@@ -19163,8 +19104,67 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Sky Hunter (Targon Tales 1)',
+	},
+	{
+		author: 'Wood, Ashley',
+		date: '2014-05-04T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'ULgXAgAACAAJ',
+			etag: 'Ud6JtejJhJ8',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/ULgXAgAACAAJ',
+			volumeInfo: {
+				title: 'Popbot',
+				subtitle: 'Symbolic Machine Code/A',
+				authors: ['Ashley Wood', 'Sam Kieth'],
+				publisher: 'Idea & Design Works Llc',
+				publishedDate: '2006',
+				description: "Includes the first 6 issues of Wood's Popbot.",
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1600100341' },
+					{ type: 'ISBN_13', identifier: '9781600100345' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 300,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=ULgXAgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=ULgXAgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink: 'http://books.google.com/books?id=ULgXAgAACAAJ&dq=PopBot:+Book+5&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=ULgXAgAACAAJ&dq=PopBot:+Book+5&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Popbot.html?hl=&id=ULgXAgAACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=ULgXAgAACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: { textSnippet: 'Includes the first 6 issues of Wood&#39;s Popbot.' },
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'PopBot: Book 5',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19222,7 +19222,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 6',
 	},
 	{
@@ -19281,7 +19281,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 7',
 	},
 	{
@@ -19344,7 +19344,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl: The Gifting',
 	},
 	{
@@ -19410,7 +19410,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir', 'nonFiction'],
 		title: 'Rocket Boys',
 	},
 	{
@@ -19480,7 +19480,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: ['graphicNovel'],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'Demo',
 	},
 	{
@@ -19565,7 +19565,7 @@ module.exports = [
 		},
 		notes: 'Weird book. I did not get it',
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'classics'],
 		title: 'White Noise',
 	},
 	{
@@ -19631,7 +19631,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'A Dance With Dragons',
 	},
 	{
@@ -19779,7 +19779,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Compendium 1',
 	},
 	{
@@ -19925,7 +19925,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Compendium 2',
 	},
 	{
@@ -19992,7 +19992,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Isaac Asimov: The Complete Stories- Vol 1',
 	},
 	{
@@ -20059,7 +20059,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction'],
 		title: 'Burlesque/Fetish and the Art of the Teese',
 	},
 	{
@@ -20124,7 +20124,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Time's Eye: Book 1 of A Time Odyssey",
 	},
 	{
@@ -20213,7 +20213,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Sunstorm: Book 2 of A Time Odyssey',
 	},
 	{
@@ -20302,7 +20302,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Firstborn: Book 3 of A Time Odyssey',
 	},
 	{
@@ -20368,7 +20368,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Exodus',
 	},
 	{
@@ -20458,7 +20458,7 @@ module.exports = [
 		},
 		notes: 'Forgetable WWII novel',
 		review: 0,
-		tags: [],
+		tags: ['history', 'military'],
 		title: 'Last Bridge To Victory',
 	},
 	{
@@ -20525,7 +20525,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'horror', 'fiction'],
 		title: 'The Ocean at the End of the Lane',
 	},
 	{
@@ -20594,7 +20594,7 @@ module.exports = [
 		},
 		notes: 'Did not understand this book',
 		review: 0,
-		tags: [],
+		tags: ['sciFi'],
 		title: 'Cloud Atlas',
 	},
 	{
@@ -20658,7 +20658,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Martian',
 	},
 	{
@@ -20724,7 +20724,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'science'],
 		title: 'What if?: Serious Scientific Answers to Absurd Hypothetical Questions',
 	},
 	{
@@ -20789,7 +20789,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Ready Player One',
 	},
 	{
@@ -20852,7 +20852,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'For Us, the Living',
 	},
 	{
@@ -20918,7 +20918,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['memoir', 'nonFiction'],
 		title: 'The Color of Water',
 	},
 	{
@@ -20997,7 +20997,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Redshirts',
 	},
 	{
@@ -21061,7 +21061,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'youngAdult'],
 		title: 'Catcher in the Rye',
 	},
 	{
@@ -21146,7 +21146,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'noir'],
 		title: 'Mildred Pierce',
 	},
 	{
@@ -21227,7 +21227,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Human Division',
 	},
 	{
@@ -21282,7 +21282,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Infinity Squad',
 	},
 	{
@@ -21367,7 +21367,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Nine Stories',
 	},
 	{
@@ -21428,7 +21428,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'War Dogs',
 	},
 	{
@@ -21517,7 +21517,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'On the Beach',
 	},
 	{
@@ -21603,7 +21603,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction'],
 		title: 'Post Office',
 	},
 	{
@@ -21679,7 +21679,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'Lockstep',
 	},
 	{
@@ -21748,7 +21748,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'Oryx and Crake',
 	},
 	{
@@ -21814,7 +21814,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Zero',
 	},
 	{
@@ -21903,7 +21903,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['aviation', 'classics', 'fiction'],
 		title: 'No Highway',
 	},
 	{
@@ -21969,7 +21969,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Red Mars',
 	},
 	{
@@ -21978,7 +21978,7 @@ module.exports = [
 		googleData: {
 			kind: 'books#volume',
 			id: '3cMaAgAAQBAJ',
-			etag: '20b+eDWiHqY',
+			etag: 'JK6QiC7Y5rk',
 			selfLink: 'https://www.googleapis.com/books/v1/volumes/3cMaAgAAQBAJ',
 			volumeInfo: {
 				title: 'The Walking Dead: Compendium 1',
@@ -22014,7 +22014,7 @@ module.exports = [
 				},
 				language: 'en',
 				previewLink:
-					'http://books.google.com/books?id=3cMaAgAAQBAJ&printsec=frontcover&dq=Walking+Dead,+Compendium+3&hl=&cd=2&source=gbs_api',
+					'http://books.google.com/books?id=3cMaAgAAQBAJ&printsec=frontcover&dq=The+Walking+Dead+Compendium+3&hl=&cd=2&source=gbs_api',
 				infoLink: 'https://play.google.com/store/books/details?id=3cMaAgAAQBAJ&source=gbs_api',
 				canonicalVolumeLink: 'https://play.google.com/store/books/details?id=3cMaAgAAQBAJ',
 				seriesInfo: {
@@ -22117,8 +22117,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
-		title: 'Walking Dead, Compendium 3',
+		tags: ['graphicNovel', 'fiction'],
+		title: 'The Walking Dead Compendium 3',
 	},
 	{
 		author: 'Cave, Nick',
@@ -22182,7 +22182,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror'],
 		title: 'And the Ass Saw the Angel',
 	},
 	{
@@ -22245,7 +22245,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'noir'],
 		title: 'Philadelphia Noir',
 	},
 	{
@@ -22335,7 +22335,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'nonFiction', 'travel'],
 		title: 'The Moaning of Life',
 	},
 	{
@@ -22417,7 +22417,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'Flood',
 	},
 	{
@@ -22502,7 +22502,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Raise High the Roof Beams, Carpenters',
 	},
 	{
@@ -22591,7 +22591,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fiction', 'shortFiction'],
 		title: 'The Overcoat and Other Short Stories',
 	},
 	{
@@ -22658,7 +22658,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'history', 'nonFiction'],
 		title: 'Revolution In The Valley: The Insanely Great Story of How The Mac was Made',
 	},
 	{
@@ -22740,7 +22740,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'sciFi', 'fiction'],
 		title: 'The Memory of Earth',
 	},
 	{
@@ -22825,7 +22825,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Fear",
 	},
 	{
@@ -22890,7 +22890,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Shadow of the Giant',
 	},
 	{
@@ -22976,7 +22976,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Foundation and Chaos',
 	},
 	{
@@ -23040,7 +23040,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Franny and Zoey',
 	},
 	{
@@ -23126,7 +23126,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'Armada',
 	},
 	{
@@ -23212,7 +23212,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'computerProgramming', 'nonFiction'],
 		title: 'Dealers of Lightning',
 	},
 	{
@@ -23274,7 +23274,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi'],
 		title: 'The Empire of Isher',
 	},
 	{
@@ -23363,7 +23363,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'humor'],
 		title: 'A Confederacy of Dunces',
 	},
 	{
@@ -23429,7 +23429,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Artemis',
 	},
 	{
@@ -23514,7 +23514,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction', 'science'],
 		title: 'Packing for Mars: The Curious Science of Life in the Void',
 	},
 	{
@@ -23580,7 +23580,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Children of the Mind',
 	},
 	{
@@ -23669,7 +23669,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'economics', 'nonFiction'],
 		title: 'Understanding Stocks',
 	},
 	{
@@ -23736,7 +23736,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'nonFiction', 'travel'],
 		title: 'Cool Gray City of Love: 49 Views of San Francisco',
 	},
 	{
@@ -23801,7 +23801,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'nonFiction', 'fiction'],
 		title: 'Of Dice and Men: The Story of Dungeons & Dragons and the People Who Play It',
 	},
 	{
@@ -23882,7 +23882,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Waldo & Magic Inc',
 	},
 	{
@@ -23943,7 +23943,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Aurora',
 	},
 	{
@@ -24025,7 +24025,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'All Systems Red: The Murderbot Diaries',
 	},
 	{
@@ -24089,7 +24089,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Autonomous',
 	},
 	{
@@ -24171,7 +24171,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Lock In: A novel of the near future',
 	},
 	{
@@ -24257,7 +24257,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'Creativity, Inc: Overcoming the Unseen Forces That Stand in the Way of True Inspiration',
 	},
 	{
@@ -24342,7 +24342,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Triumph",
 	},
 	{
@@ -24410,7 +24410,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'The Right Kind of Crazy: A True Story of Teamwork, Leadership, and High-Stakes Innovation',
 	},
 	{
@@ -24481,7 +24481,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: "Dungeons and Dragons: Player's Handbook",
 	},
 	{
@@ -24570,7 +24570,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'sciFi', 'fiction'],
 		title: 'Twenty Thousand Leagues Under the Seas',
 	},
 	{
@@ -24655,7 +24655,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Leviathan Wakes',
 	},
 	{
@@ -24740,7 +24740,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Caliban's War",
 	},
 	{
@@ -24825,7 +24825,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Abaddon's Gate",
 	},
 	{
@@ -24910,7 +24910,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Nemesis Games',
 	},
 	{
@@ -24995,7 +24995,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Babylon's Ashes",
 	},
 	{
@@ -25080,7 +25080,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Persepolis Rising',
 	},
 	{
@@ -25165,7 +25165,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: "Tiamat's Wrath",
 	},
 	{
@@ -25253,7 +25253,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: '21st Century Sub/Dragon of the Sea',
 	},
 	{
@@ -25339,7 +25339,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'Brick by Brick',
 	},
 	{
@@ -25407,7 +25407,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'nonFiction'],
 		title: 'Practical Object-Oriented Design: An Agile Primer Using Ruby',
 	},
 	{
@@ -25469,7 +25469,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['horror', 'mystery', 'sciFi', 'fiction'],
 		title: 'Pines',
 	},
 	{
@@ -25555,7 +25555,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'Zero to One',
 	},
 	{
@@ -25644,7 +25644,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['classics', 'dystopian', 'sciFi', 'fiction'],
 		title: 'Anthem',
 	},
 	{
@@ -25711,7 +25711,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['history', 'military', 'nonFiction'],
 		title: "Brothers In Arms: The Epic Story of the 761st Tank Battalion, WWII's Forgotten Heroes",
 	},
 	{
@@ -25796,7 +25796,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Churn',
 	},
 	{
@@ -25882,7 +25882,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Vital Abyss',
 	},
 	{
@@ -25966,7 +25966,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Strange Dogs',
 	},
 	{
@@ -26052,7 +26052,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'Gods of Risk',
 	},
 	{
@@ -26138,7 +26138,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi', 'fiction'],
 		title: 'The Butcher of Anderson Station',
 	},
 	{
@@ -26204,7 +26204,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: "The Handmaid's Tale",
 	},
 	{
@@ -26269,8 +26269,68 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'nonFiction'],
 		title: "You Don't Know JS: Scopes and Closures",
+	},
+	{
+		author: 'Adams, Douglass',
+		date: '2019-11-28T08:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'uU3sPAAACAAJ',
+			etag: '2Ka/2IHYuVw',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/uU3sPAAACAAJ',
+			volumeInfo: {
+				title: "The Illustrated Hitchhiker's Guide to the Galaxy",
+				authors: ['Douglas Adams'],
+				publisher: 'Harmony',
+				publishedDate: '1994',
+				description:
+					'The off-beat and occasionally extraterrestrial journeys, notions, and acquaintances of galactic traveler Arthur Dent are illustrated with digitally generated graphic images and tricky visual puns',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '0517599244' },
+					{ type: 'ISBN_13', identifier: '9780517599242' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 96,
+				printType: 'BOOK',
+				categories: ['Science'],
+				averageRating: 5,
+				ratingsCount: 1,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=uU3sPAAACAAJ&dq=The+Hitchhiker%27s+Guide+to+the+Galaxy&hl=&cd=1&source=gbs_api',
+				infoLink:
+					'http://books.google.com/books?id=uU3sPAAACAAJ&dq=The+Hitchhiker%27s+Guide+to+the+Galaxy&hl=&source=gbs_api',
+				canonicalVolumeLink:
+					'https://books.google.com/books/about/The_Illustrated_Hitchhiker_s_Guide_to_th.html?hl=&id=uU3sPAAACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=uU3sPAAACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'The off-beat and occasionally extraterrestrial journeys, notions, and acquaintances of galactic traveler Arthur Dent are illustrated with digitally generated graphic images and tricky visual puns',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['classics', 'humor', 'sciFi', 'fiction'],
+		title: "The Hitchhiker's Guide to the Galaxy",
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26358,7 +26418,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'The Restaurant at the End of the Universe',
 	},
 	{
@@ -26444,7 +26504,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Life, the Universe and Everything',
 	},
 	{
@@ -26533,7 +26593,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'So Long, and Thanks for All the Fish',
 	},
 	{
@@ -26597,68 +26657,8 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Mostly Harmless',
-	},
-	{
-		author: 'Adams, Douglass',
-		date: '2019-11-28T08:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'uU3sPAAACAAJ',
-			etag: '2Ka/2IHYuVw',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/uU3sPAAACAAJ',
-			volumeInfo: {
-				title: "The Illustrated Hitchhiker's Guide to the Galaxy",
-				authors: ['Douglas Adams'],
-				publisher: 'Harmony',
-				publishedDate: '1994',
-				description:
-					'The off-beat and occasionally extraterrestrial journeys, notions, and acquaintances of galactic traveler Arthur Dent are illustrated with digitally generated graphic images and tricky visual puns',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '0517599244' },
-					{ type: 'ISBN_13', identifier: '9780517599242' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 96,
-				printType: 'BOOK',
-				categories: ['Science'],
-				averageRating: 5,
-				ratingsCount: 1,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=uU3sPAAACAAJ&dq=The+Hitchhiker%27s+Guide+to+the+Galaxy&hl=&cd=1&source=gbs_api',
-				infoLink:
-					'http://books.google.com/books?id=uU3sPAAACAAJ&dq=The+Hitchhiker%27s+Guide+to+the+Galaxy&hl=&source=gbs_api',
-				canonicalVolumeLink:
-					'https://books.google.com/books/about/The_Illustrated_Hitchhiker_s_Guide_to_th.html?hl=&id=uU3sPAAACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=uU3sPAAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'The off-beat and occasionally extraterrestrial journeys, notions, and acquaintances of galactic traveler Arthur Dent are illustrated with digitally generated graphic images and tricky visual puns',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: [],
-		title: "The Hitchhiker's Guide to the Galaxy",
 	},
 	{
 		author: 'Rothfuss, Patrick',
@@ -26724,7 +26724,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'The Name of the Wind',
 	},
 	{
@@ -26805,7 +26805,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'The Grace of Kings',
 	},
 	{
@@ -26890,7 +26890,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: "The Wise Man's Fear",
 	},
 	{
@@ -26954,7 +26954,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['fantasy', 'fiction'],
 		title: 'Dungeons and Dragons: Eberron, Rising From the Last War',
 	},
 	{
@@ -27019,7 +27019,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'nonFiction'],
 		title: 'Zero Bugs and Program Faster',
 	},
 	{
@@ -27101,7 +27101,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['computerProgramming', 'nonFiction'],
 		title: 'The Pragmatic Programmer: From Journeyman to Master',
 	},
 	{
@@ -27183,7 +27183,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['sciFi'],
 		title: 'Star Tek: Starfleet Corp of Engineers- Book One: Have Tech. Will Travel',
 	},
 	{
@@ -27269,7 +27269,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['nonFiction'],
 		title: 'Endurance: My Year in Space, A Lifetime of Discovery',
 	},
 	{
@@ -27355,7 +27355,7 @@ module.exports = [
 		},
 		notes: null,
 		review: 0,
-		tags: [],
+		tags: ['business', 'nonFiction'],
 		title: 'Zero to One',
 	},
 ];
