@@ -190,6 +190,7 @@ module.exports = {
   ],
 
   [c.humor]: [
+    'The Bad Ass Bible',
     'Crooked Little Vein',
     'The Moaning of Life',
     'New Rules',
@@ -324,6 +325,7 @@ module.exports = {
   ],
 
   [c.sciFi]: [
+    'Selected Stories of Philip K Dick',
     'Sky Hunter (Targon Tales 1)',
     'Isaac Asimov: The Complete Stories- Vol 1',
     "Time's Eye: Book 1 of A Time Odyssey",
