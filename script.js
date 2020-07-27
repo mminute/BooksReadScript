@@ -2,6 +2,7 @@
   To run: node script.js
 
   TODO: With ISBN can I get the goodreads link
+  TODO: Same for amazon?
   TODO: cli to add a new book?
 */
 
@@ -46,20 +47,19 @@ function consolidateBook(book, googleData) {
 
 const rawBooks = fs.readFileSync('./DATA/Books.txt').toString();
 const regularBooks = rawBooks.split('\n').map(parsers.parseRegularBooks);
-
 const rawGraphicNovels = fs.readFileSync('./DATA/GraphicNovels.txt').toString();
 const graphicNovels = rawGraphicNovels.split('\n').map(parsers.parseGraphicNovels);
-
 const allBooks = [...manuallyProcessed, ...regularBooks, ...graphicNovels].sort(sortByDate);
 
+// FETCH THE BOOK DATA FROM THE GOOGLE BOOKS API OR LOAD THE CACHED DATA
 const booksWithFetch = allBooks.map((book)=> {
-  const q = querystring.escape(book.title);
   const cacheFilename = `./DATA/GoogleData/${getHashCode(book.title)}.json`;
 
   let cachedData;
   let fetcher;
   if (!fs.existsSync(cacheFilename)) {
     fetcher = () => {
+      const q = querystring.escape(book.title);
       fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}`)
         .then((res) => {
           console.log(`FETCHED- ${book.title}`);
@@ -92,6 +92,7 @@ const booksWithFetch = allBooks.map((book)=> {
 
 const fetchPromises = booksWithFetch.map((bk) => bk.fetchPromise).filter(Boolean);
 
+// ONCE ALL THE `fetchPromises` HAVE RESOLVED GO THROUGH AND COLLECT THE DATA
 Promise.all(fetchPromises).then((results) => {
   const bookPromises = [];
   const booksWithGoogleData = [];
@@ -108,7 +109,7 @@ Promise.all(fetchPromises).then((results) => {
         const imageLinks = volumeInfo.imageLinks || {};
   
         const googleData = {
-          author: volumeInfo.authors[0], // (volumeInfo.authors && volumeInfo.authors[0]) || ''
+          author: volumeInfo.authors[0],
           categories: volumeInfo.categories,
           description: volumeInfo.description,
           image: imageLinks.thumbnail || imageLinks.smallThumbnail,
@@ -129,6 +130,7 @@ Promise.all(fetchPromises).then((results) => {
     }
   });
 
+  // ONCE THE LAST SET OF PROMISES RESOLVE WRITE THE OUTPUT
   Promise.all(bookPromises).then(() => {
     writeFile('output.js', `module.exports = ${JSON.stringify(booksWithGoogleData)};`);
   })
