@@ -87,6 +87,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'Heart of Darkness',
+		hashCode: 829704732,
+		goodReadsId: null,
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -151,6 +153,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Orphans of the Sky',
+		hashCode: 1828485634,
+		goodReadsId: '50832',
 	},
 	{
 		author: 'Vonnegut, Kurt',
@@ -216,6 +220,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Slaughterhouse 5',
+		hashCode: 347155326,
+		goodReadsId: '50016569',
 	},
 	{
 		author: 'Moore, Alan',
@@ -280,6 +286,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'V for Vendetta',
+		hashCode: 670470818,
+		goodReadsId: '5805',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -330,6 +338,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Glory Road',
+		hashCode: 1228254673,
+		goodReadsId: '1654985',
 	},
 	{
 		author: 'Carrol, Lewis',
@@ -404,6 +414,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fantasy', 'fiction'],
 		title: 'Through the Looking Glass: And What Alice Found There',
+		hashCode: 699937202,
+		goodReadsId: null,
 	},
 	{
 		author: 'Moore, Alan',
@@ -468,6 +480,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Watchmen',
+		hashCode: 609803975,
+		goodReadsId: '18339835',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -537,6 +551,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Empire',
+		hashCode: 2079516340,
+		goodReadsId: '16467720',
 	},
 	{
 		author: 'Capote, Truman',
@@ -600,6 +616,140 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'nonFiction', 'trueCrime'],
 		title: 'In Cold Blood',
+		hashCode: 561316999,
+		goodReadsId: '15799209',
+	},
+	{
+		author: 'Moore, Alan',
+		date: '2011-04-11T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'ixfQngEACAAJ',
+			etag: 'aDgvvZVF60Y',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/ixfQngEACAAJ',
+			volumeInfo: {
+				title: 'Watchmen',
+				authors: ['Alan Moore'],
+				publisher: 'Dc Comics',
+				publishedDate: '2014',
+				description:
+					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401245250' },
+					{ type: 'ISBN_13', identifier: '9781401245252' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 448,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				averageRating: 4,
+				ratingsCount: 3907,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Watchmen.html?hl=&id=ixfQngEACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=ixfQngEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'Watchmen',
+		hashCode: 609803975,
+		goodReadsId: '18339835',
+	},
+	{
+		author: 'Moore, Alan',
+		date: '2011-04-21T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'lsOhPwAACAAJ',
+			etag: '8QpO2s9XZqs',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/lsOhPwAACAAJ',
+			volumeInfo: {
+				title: 'V for Vendetta',
+				authors: ['Alan Moore', 'David Lloyd', 'Steve Whitaker', 'Siobhan Dodds'],
+				publisher: 'Vertigo',
+				publishedDate: '2005',
+				description:
+					'In an alternate future in which Germany wins World War II and Britain becomesa fascist state, a vigilante named "V" stalks the streets of London trying tofree England of its ideological chains.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401207928' },
+					{ type: 'ISBN_13', identifier: '9781401207922' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 288,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				averageRating: 4,
+				ratingsCount: 3254,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/V_for_Vendetta.html?hl=&id=lsOhPwAACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=lsOhPwAACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'A frightening and powerful tale of the loss of freedom and identity in a totalitarian world.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'V for Vendetta',
+		hashCode: 670470818,
+		goodReadsId: '5805',
 	},
 	{
 		author: 'Buettner, Robert',
@@ -687,6 +837,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Orphanage',
+		hashCode: 551515305,
+		goodReadsId: '7938230',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -751,6 +903,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'VALIS',
+		hashCode: 81434603,
+		goodReadsId: '43713932',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -812,6 +966,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'American Gods',
+		hashCode: 567493495,
+		goodReadsId: '349347',
 	},
 	{
 		author: 'Armstrong, Lance',
@@ -880,6 +1036,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir', 'nonFiction'],
 		title: "It's Not About the Bike: My Journey Back to Life",
+		hashCode: 1094575011,
+		goodReadsId: '2265',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -946,6 +1104,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Divine Invasion',
+		hashCode: 63320775,
+		goodReadsId: '10846065',
 	},
 	{
 		author: 'Woods, Charlie',
@@ -1029,6 +1189,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction'],
 		title: 'Bikie',
+		hashCode: 64186624,
+		goodReadsId: '16565740',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -1096,6 +1258,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Transmigration of Timothy Archer',
+		hashCode: 388366803,
+		goodReadsId: '10856268',
 	},
 	{
 		author: 'Maher, Bill',
@@ -1160,6 +1324,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'nonFiction'],
 		title: 'New Rules',
+		hashCode: 83132873,
+		goodReadsId: '19163556',
 	},
 	{
 		author: 'Scalzi, John',
@@ -1241,6 +1407,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Last Colony',
+		hashCode: 739691403,
+		goodReadsId: '7342965',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -1309,6 +1477,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Friday',
+		hashCode: 2112549247,
+		goodReadsId: '21880721',
 	},
 	{
 		author: 'Wood, Brian',
@@ -1376,6 +1546,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 2: Body of a Journalist',
+		hashCode: 1016676409,
+		goodReadsId: '158682',
 	},
 	{
 		author: 'Miller, Frank',
@@ -1440,6 +1612,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Sin City: The Hard Goodbye',
+		hashCode: 1364501852,
+		goodReadsId: '423261',
 	},
 	{
 		author: 'Wood, Brian',
@@ -1539,6 +1713,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 1: On the Ground',
+		hashCode: 1854359260,
+		goodReadsId: null,
 	},
 	{
 		author: 'Wood, Brian and Becky Cloonan',
@@ -1609,6 +1785,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Demo',
+		hashCode: 2126339,
+		goodReadsId: '22716600',
 	},
 	{
 		author: 'Dante',
@@ -1674,6 +1852,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'The Inferno',
+		hashCode: 1798241696,
+		goodReadsId: '1422623',
 	},
 	{
 		author: 'Shelley, Mary',
@@ -1739,6 +1919,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'horror', 'sciFi', 'fiction'],
 		title: 'Frankenstein',
+		hashCode: 1176934002,
+		goodReadsId: '36849113',
 	},
 	{
 		author: 'Sinclair, Upton',
@@ -1834,6 +2016,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: "Dragon's Teeth",
+		hashCode: 2063235239,
+		goodReadsId: '28162884',
 	},
 	{
 		author: 'Campbell, Jack',
@@ -1900,6 +2084,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Lost Fleet: Dauntless',
+		hashCode: 899732912,
+		goodReadsId: '112292',
 	},
 	{
 		author: 'Campbell, Jack',
@@ -1985,6 +2171,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Lost Fleet: Fearless',
+		hashCode: 1044077744,
+		goodReadsId: '9329908',
 	},
 	{
 		author: 'Shea, Robert and Robert Anton Wilson',
@@ -2075,6 +2263,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Illuminatus Trilogy',
+		hashCode: 1027147736,
+		goodReadsId: '8971373',
 	},
 	{
 		author: 'Morris, Tom',
@@ -2164,6 +2354,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction'],
 		title: 'Philosophy for Dummies',
+		hashCode: 332564672,
+		goodReadsId: '11473342',
 	},
 	{
 		author: 'Fleming, Ian',
@@ -2228,6 +2420,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'Casino Royale',
+		hashCode: 1518972105,
+		goodReadsId: '15954464',
 	},
 	{
 		author: 'Smith, Betty',
@@ -2313,6 +2507,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'youngAdult'],
 		title: 'A Tree Grows in Brooklyn',
+		hashCode: 1451667330,
+		goodReadsId: '53409055',
 	},
 	{
 		author: 'Gibson, William',
@@ -2398,6 +2594,8 @@ module.exports = [
 		review: 0,
 		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Virtual Light',
+		hashCode: 223022207,
+		goodReadsId: '16113386',
 	},
 	{
 		author: 'Rowling, JK',
@@ -2463,6 +2661,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Harry Potter and the Deathly Hallows',
+		hashCode: 322229287,
+		goodReadsId: '28860260',
 	},
 	{
 		author: 'Woods, Brian',
@@ -2528,6 +2728,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: Public Works',
+		hashCode: 1429888926,
+		goodReadsId: '1151315',
 	},
 	{
 		author: 'Brooks, Max',
@@ -2592,6 +2794,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror', 'sciFi', 'fiction'],
 		title: 'World War Z',
+		hashCode: 1149970132,
+		goodReadsId: '17380096',
 	},
 	{
 		author: 'Niven, Larry',
@@ -2657,6 +2861,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Ringworld',
+		hashCode: 1967607998,
+		goodReadsId: '398274',
 	},
 	{
 		author: 'Stoker, Bram',
@@ -2720,6 +2926,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'horror'],
 		title: 'Dracula',
+		hashCode: 717889190,
+		goodReadsId: '469185',
 	},
 	{
 		author: 'Haldeman, Joe',
@@ -2805,6 +3013,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'A Separate War and Other Stories',
+		hashCode: 363780156,
+		goodReadsId: '9077617',
 	},
 	{
 		author: 'Gibson, William and Bruce Sterling',
@@ -2870,6 +3080,8 @@ module.exports = [
 		review: 0,
 		tags: ['alternateHistory', 'sciFi', 'steamPunk', 'fiction'],
 		title: 'The Difference Engine',
+		hashCode: 1472881782,
+		goodReadsId: '9811295',
 	},
 	{
 		author: 'Matheson, Richard',
@@ -2935,6 +3147,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror', 'sciFi', 'fiction'],
 		title: 'I am Legend',
+		hashCode: 1955946614,
+		goodReadsId: '2370696',
 	},
 	{
 		author: 'Haldeman, Joe',
@@ -3020,6 +3234,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Forever Peace',
+		hashCode: 1506133557,
+		goodReadsId: '32809486',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -3087,6 +3303,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Moon Is A Harsh Mistress',
+		hashCode: 2051483399,
+		goodReadsId: '349',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -3169,6 +3387,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'A War of Gifts',
+		hashCode: 603119247,
+		goodReadsId: '7130755',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -3232,6 +3452,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Magic Street',
+		hashCode: 835355158,
+		goodReadsId: '267772',
 	},
 	{
 		author: 'Zamyatin, Yevgeny',
@@ -3315,6 +3537,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'dystopian', 'sciFi', 'fiction'],
 		title: 'We',
+		hashCode: 2798,
+		goodReadsId: '7341496',
 	},
 	{
 		author: 'Miller, Robert and Katherine Koegler',
@@ -3403,6 +3627,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'nonFiction'],
 		title: 'Business School Confidential',
+		hashCode: 654129548,
+		goodReadsId: '17121186',
 	},
 	{
 		author: 'Mark, Robert',
@@ -3467,6 +3693,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'nonFiction'],
 		title: "Professional Pilot's Career Guide",
+		hashCode: 1582416657,
+		goodReadsId: '1977148',
 	},
 	{
 		author: 'Simmons, Dan',
@@ -3552,6 +3780,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Hyperion',
+		hashCode: 49670596,
+		goodReadsId: '10225671',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -3633,6 +3863,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Ender's Shadow",
+		hashCode: 1447854348,
+		goodReadsId: '8110558',
 	},
 	{
 		author: 'Woods, Brian',
@@ -3717,6 +3949,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 4: Friendly Fire',
+		hashCode: 186683405,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Heinlein, Robert A',
@@ -3795,6 +4029,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Beyond This Horizon',
+		hashCode: 1708644246,
+		goodReadsId: null,
 	},
 	{
 		author: 'Miller, Walter',
@@ -3860,6 +4096,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'A Canticle for Leibowitz',
+		hashCode: 906745140,
+		goodReadsId: '6480064',
 	},
 	{
 		author: 'Ellis, Warren',
@@ -3943,6 +4181,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'humor', 'noir'],
 		title: 'Crooked Little Vein',
+		hashCode: 1753020519,
+		goodReadsId: '10218165',
 	},
 	{
 		author: 'Gibson, William',
@@ -4028,6 +4268,8 @@ module.exports = [
 		review: 0,
 		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Spook Country',
+		hashCode: 1102777276,
+		goodReadsId: '9349654',
 	},
 	{
 		author: 'Padfield, R. Randal',
@@ -4115,6 +4357,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'nonFiction'],
 		title: 'Learning to Fly Helicopters',
+		hashCode: 618413172,
+		goodReadsId: '17320169',
 	},
 	{
 		author: 'Wilde, Oscar',
@@ -4180,6 +4424,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'The Portrait of Mr W.H.',
+		hashCode: 1141783227,
+		goodReadsId: null,
 	},
 	{
 		author: 'Sasser, Charles W.',
@@ -4266,6 +4512,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: "Patton's Panthers",
+		hashCode: 1364147047,
+		goodReadsId: '8100527',
 	},
 	{
 		author: 'Sallah, Michael and Mitch Weiss',
@@ -4352,6 +4600,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: 'Tiger Force',
+		hashCode: 2042199050,
+		goodReadsId: '10131381',
 	},
 	{
 		author: 'Tobin, James',
@@ -4438,6 +4688,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'biography', 'history', 'nonFiction'],
 		title: 'To Conquer the Air: The Wright Brothers and the Great Race for Flight',
+		hashCode: 510525733,
+		goodReadsId: '15799904',
 	},
 	{
 		author: 'Wood, Brian',
@@ -4522,6 +4774,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: The Hidden War',
+		hashCode: 1877513672,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -4595,6 +4849,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'horror', 'youngAdult', 'fiction'],
 		title: 'Coraline',
+		hashCode: 405504465,
+		goodReadsId: null,
 	},
 	{
 		author: 'Varley, John',
@@ -4684,6 +4940,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Red Thunder',
+		hashCode: 214142997,
+		goodReadsId: '1787581',
 	},
 	{
 		author: 'Varley, John',
@@ -4747,6 +5005,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Rolling Thunder',
+		hashCode: 1448926665,
+		goodReadsId: '1610282',
 	},
 	{
 		author: 'Klein, Naomi',
@@ -4833,6 +5093,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'economics', 'nonFiction'],
 		title: 'No Logo',
+		hashCode: 579394390,
+		goodReadsId: '8149200',
 	},
 	{
 		author: 'King, Stephen',
@@ -4900,6 +5162,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'horror'],
 		title: 'The Girl Who Loved Tom Gordon',
+		hashCode: 1092373204,
+		goodReadsId: '30753574',
 	},
 	{
 		author: 'Haldeman, Joe',
@@ -4965,6 +5229,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Forever War',
+		hashCode: 125775648,
+		goodReadsId: '5940939',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -5050,6 +5316,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Starship Troopers',
+		hashCode: 632948006,
+		goodReadsId: '9861967',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -5115,6 +5383,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Ender in Exile',
+		hashCode: 19010132,
+		goodReadsId: '3220405',
 	},
 	{
 		author: 'Wood, Brian',
@@ -5214,6 +5484,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: Blood in the Game',
+		hashCode: 352250177,
+		goodReadsId: null,
 	},
 	{
 		author: 'Rand, Ayn',
@@ -5299,6 +5571,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'The Fountainhead',
+		hashCode: 1296497635,
+		goodReadsId: '7025308',
 	},
 	{
 		author: 'Hawking, Stephen',
@@ -5365,6 +5639,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'science'],
 		title: 'A Brief History of Time',
+		hashCode: 564422267,
+		goodReadsId: '2093',
 	},
 	{
 		author: 'Kaku, Michio',
@@ -5456,6 +5732,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'science', 'sciFi', 'fiction'],
 		title: 'Physics of the Impossible',
+		hashCode: 752902796,
+		goodReadsId: '7071241',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -5516,6 +5794,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'humor', 'sciFi', 'fiction'],
 		title: "The Hitchhiker's Guide to the Galaxy",
+		hashCode: 1844119450,
+		goodReadsId: '8710',
 	},
 	{
 		author: 'Edited By Alan Ryan',
@@ -5580,6 +5860,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'travel'],
 		title: "The Reader's Companion to Alaska",
+		hashCode: 1841863170,
+		goodReadsId: '571740',
 	},
 	{
 		author: 'Tyson, Neil DeGrasse',
@@ -5647,6 +5929,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'science'],
 		title: 'Death by Black Hole',
+		hashCode: 1367146270,
+		goodReadsId: '22543',
 	},
 	{
 		author: 'Jenkins, Peter',
@@ -5712,6 +5996,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir', 'nonFiction', 'travel'],
 		title: 'Looking for Alaska',
+		hashCode: 2051454599,
+		goodReadsId: '21811657',
 	},
 	{
 		author: 'Moon, Elizabeth',
@@ -5777,6 +6063,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Speed of Dark',
+		hashCode: 576127927,
+		goodReadsId: '96063',
 	},
 	{
 		author: 'McDevitt, Jack',
@@ -5862,6 +6150,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Seeker',
+		hashCode: 1822357179,
+		goodReadsId: '22926825',
 	},
 	{
 		author: 'Eichner, Ken',
@@ -5926,6 +6216,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'nonFiction'],
 		title: 'Nine Lives of an Alaskan Bush Pilot',
+		hashCode: 835134518,
+		goodReadsId: '219045',
 	},
 	{
 		author: 'Benford, Gregory',
@@ -6015,6 +6307,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Fears",
+		hashCode: 145798914,
+		goodReadsId: null,
 	},
 	{
 		author: 'Hailey, Arthur',
@@ -6104,6 +6398,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'Wheels',
+		hashCode: 1705075560,
+		goodReadsId: '22308917',
 	},
 	{
 		author: 'Forsyth, Frederick',
@@ -6189,6 +6485,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'The Dogs of War',
+		hashCode: 2015685913,
+		goodReadsId: '16692566',
 	},
 	{
 		author: 'Clancy, Tom',
@@ -6275,6 +6573,8 @@ module.exports = [
 		review: 0,
 		tags: ['military', 'nonFiction'],
 		title: 'Into the Storm',
+		hashCode: 166272326,
+		goodReadsId: '9563548',
 	},
 	{
 		author: 'Weber, David and Linda Evans',
@@ -6344,6 +6644,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Hell's Gate",
+		hashCode: 1985917282,
+		goodReadsId: '260985',
 	},
 	{
 		author: 'Moon, Elizabeth',
@@ -6407,6 +6709,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Rules of Engagement',
+		hashCode: 2005136705,
+		goodReadsId: '1081016',
 	},
 	{
 		author: 'Crichton, Michael',
@@ -6494,6 +6798,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Next',
+		hashCode: 2424595,
+		goodReadsId: '24629166',
 	},
 	{
 		author: 'Crichton, Michael',
@@ -6560,6 +6866,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'Airframe',
+		hashCode: 621423997,
+		goodReadsId: '9316683',
 	},
 	{
 		author: 'King, Stephen',
@@ -6625,6 +6933,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror'],
 		title: 'Pet Sematary',
+		hashCode: 1409836037,
+		goodReadsId: '30753630',
 	},
 	{
 		author: 'McDevitt, Jack',
@@ -6707,6 +7017,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Eternity Road',
+		hashCode: 1714999204,
+		goodReadsId: '9729502',
 	},
 	{
 		author: 'Maguire, Gregory',
@@ -6790,6 +7102,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'Wicked',
+		hashCode: 1704206087,
+		goodReadsId: '10160154',
 	},
 	{
 		author: 'Heller, Joseph',
@@ -6855,6 +7169,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'Catch-22',
+		hashCode: 113272498,
+		goodReadsId: '26121',
 	},
 	{
 		author: 'King, Stephen',
@@ -6921,6 +7237,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror'],
 		title: 'It',
+		hashCode: 2379,
+		goodReadsId: '30753631',
 	},
 	{
 		author: 'McCarthy, Cormac',
@@ -6985,6 +7303,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'The Road',
+		hashCode: 1101931951,
+		goodReadsId: '3254246',
 	},
 	{
 		author: 'May, Elaine Tyler',
@@ -7052,6 +7372,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'nonFiction'],
 		title: 'Homeward Bound: American Families in the Cold War Era',
+		hashCode: 1465188109,
+		goodReadsId: null,
 	},
 	{
 		author: 'King, Stephen',
@@ -7118,6 +7440,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'sciFi', 'fiction'],
 		title: 'The Dark Tower',
+		hashCode: 1393379598,
+		goodReadsId: '452157',
 	},
 	{
 		author: 'Drolsbaugh, Mark',
@@ -7173,6 +7497,8 @@ module.exports = [
 		review: 0,
 		tags: ['biography', 'nonFiction'],
 		title: 'Deaf Again',
+		hashCode: 216976166,
+		goodReadsId: '48928340',
 	},
 	{
 		author: 'King, Stephen',
@@ -7233,6 +7559,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror'],
 		title: 'Four Past Midnight',
+		hashCode: 1115943364,
+		goodReadsId: '30753627',
 	},
 	{
 		author: 'Brand, Russel',
@@ -7302,6 +7630,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir'],
 		title: 'My Booky Wook',
+		hashCode: 953518392,
+		goodReadsId: '6539818',
 	},
 	{
 		author: 'Wood, Brian',
@@ -7364,6 +7694,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ: War Powers',
+		hashCode: 1548984419,
+		goodReadsId: '6420318',
 	},
 	{
 		author: 'Mosley, Walter',
@@ -7449,6 +7781,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'mystery'],
 		title: 'Blonde Faith',
+		hashCode: 452322380,
+		goodReadsId: '10201201',
 	},
 	{
 		author: 'Brown, Roland',
@@ -7513,6 +7847,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction'],
 		title: 'The Illustrated Encyclopedia of Motorcycles',
+		hashCode: 1937726465,
+		goodReadsId: '6806794',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -7578,6 +7914,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Legends in Exile',
+		hashCode: 326560153,
+		goodReadsId: '14612567',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -7644,6 +7982,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Animal Farm',
+		hashCode: 1115837953,
+		goodReadsId: '167010',
 	},
 	{
 		author: 'King, Stephen',
@@ -7710,6 +8050,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Under the Dome',
+		hashCode: 912293318,
+		goodReadsId: '18528453',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -7780,6 +8122,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: March of the Wooden Soldiers',
+		hashCode: 1277733337,
+		goodReadsId: '4911324',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -7894,6 +8238,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Storybook Love',
+		hashCode: 55293523,
+		goodReadsId: null,
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8008,6 +8354,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Mean Seasons',
+		hashCode: 736826819,
+		goodReadsId: null,
 	},
 	{
 		author: 'Rowling, J.K.',
@@ -8073,6 +8421,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'youngAdult', 'fiction'],
 		title: 'Harry Potter and the Deathly Hallows',
+		hashCode: 322229287,
+		goodReadsId: '28860260',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8200,6 +8550,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Homelands',
+		hashCode: 2558512,
+		goodReadsId: null,
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8264,6 +8616,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Arabian Nights (And Days)',
+		hashCode: 1016292559,
+		goodReadsId: '6341198',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8328,6 +8682,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Wolves',
+		hashCode: 1592848343,
+		goodReadsId: '21324',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8391,6 +8747,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Sons of Empire',
+		hashCode: 1153948023,
+		goodReadsId: '1260901',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8457,6 +8815,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Good Prince',
+		hashCode: 1177712484,
+		goodReadsId: '2147714',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -8518,6 +8878,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: War and Pieces',
+		hashCode: 1323044511,
+		goodReadsId: '3392123',
 	},
 	{
 		author: 'Bova, Ben',
@@ -8579,6 +8941,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Moon War',
+		hashCode: 233433783,
+		goodReadsId: '17687676',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -8643,6 +9007,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Valis',
+		hashCode: 82419691,
+		goodReadsId: '43713932',
 	},
 	{
 		author: 'Scalzi, John',
@@ -8724,6 +9090,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: "Old Man's War",
+		hashCode: 2069166923,
+		goodReadsId: '7342965',
 	},
 	{
 		author: 'Scalzi, John',
@@ -8805,6 +9173,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Ghost Brigade',
+		hashCode: 201982444,
+		goodReadsId: '8934762',
 	},
 	{
 		author: 'Henderson, Charles',
@@ -8871,6 +9241,8 @@ module.exports = [
 		review: 0,
 		tags: ['biography', 'history', 'nonFiction'],
 		title: 'Marine Sniper',
+		hashCode: 160902413,
+		goodReadsId: '55764',
 	},
 	{
 		author: 'Scalzi, John',
@@ -8952,6 +9324,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'The Last Colony',
+		hashCode: 739691403,
+		goodReadsId: '7342965',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -9078,6 +9452,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: The Dark Ages',
+		hashCode: 1307911446,
+		goodReadsId: null,
 	},
 	{
 		author: 'Willingham, Bill',
@@ -9136,6 +9512,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables: Witches',
+		hashCode: 1996358716,
+		goodReadsId: '7880221',
 	},
 	{
 		author: "O'Brien, Tim",
@@ -9225,6 +9603,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'military'],
 		title: 'The Things They Carried',
+		hashCode: 1410644610,
+		goodReadsId: '7762798',
 	},
 	{
 		author: 'Haldeman, Joe',
@@ -9310,6 +9690,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'A Separate War and Other Stories',
+		hashCode: 363780156,
+		goodReadsId: '9077617',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -9399,6 +9781,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Penultimate Truth',
+		hashCode: 2017492762,
+		goodReadsId: '12555712',
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -9547,6 +9931,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 1',
+		hashCode: 369286466,
+		goodReadsId: null,
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -9611,6 +9997,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 2',
+		hashCode: 369286465,
+		goodReadsId: '18174114',
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -9669,6 +10057,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 3',
+		hashCode: 369286464,
+		goodReadsId: '1258337',
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -9753,6 +10143,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 4',
+		hashCode: 369286463,
+		goodReadsId: null,
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -9858,70 +10250,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Vol 5',
-	},
-	{
-		author: 'Moore, Alan',
-		date: '2011-04-11T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'ixfQngEACAAJ',
-			etag: 'aDgvvZVF60Y',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/ixfQngEACAAJ',
-			volumeInfo: {
-				title: 'Watchmen',
-				authors: ['Alan Moore'],
-				publisher: 'Dc Comics',
-				publishedDate: '2014',
-				description:
-					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401245250' },
-					{ type: 'ISBN_13', identifier: '9781401245252' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 448,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				averageRating: 4,
-				ratingsCount: 3907,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Watchmen.html?hl=&id=ixfQngEACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=ixfQngEACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel', 'fiction'],
-		title: 'Watchmen',
+		hashCode: 369286462,
+		goodReadsId: '26715548',
 	},
 	{
 		author: 'Fraction, Matt',
@@ -10027,6 +10357,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: "The Invincible Iron Man: World's Most Wanted Vol 1",
+		hashCode: 81452556,
+		goodReadsId: '18924872',
 	},
 	{
 		author: 'Fraction, Matt',
@@ -10132,70 +10464,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: "The Invincible Iron Man: World's Most Wanted Vol 2",
-	},
-	{
-		author: 'Moore, Alan',
-		date: '2011-04-21T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'lsOhPwAACAAJ',
-			etag: '8QpO2s9XZqs',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/lsOhPwAACAAJ',
-			volumeInfo: {
-				title: 'V for Vendetta',
-				authors: ['Alan Moore', 'David Lloyd', 'Steve Whitaker', 'Siobhan Dodds'],
-				publisher: 'Vertigo',
-				publishedDate: '2005',
-				description:
-					'In an alternate future in which Germany wins World War II and Britain becomesa fascist state, a vigilante named "V" stalks the streets of London trying tofree England of its ideological chains.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401207928' },
-					{ type: 'ISBN_13', identifier: '9781401207922' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 288,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				averageRating: 4,
-				ratingsCount: 3254,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/V_for_Vendetta.html?hl=&id=lsOhPwAACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=lsOhPwAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'A frightening and powerful tale of the loss of freedom and identity in a totalitarian world.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel', 'fiction'],
-		title: 'V for Vendetta',
+		hashCode: 81452555,
+		goodReadsId: '18924872',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10295,6 +10565,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 1: On the Ground',
+		hashCode: 1854359260,
+		goodReadsId: null,
 	},
 	{
 		author: 'Wood, Brian',
@@ -10394,6 +10666,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 3: Public Works',
+		hashCode: 836504312,
+		goodReadsId: null,
 	},
 	{
 		author: 'Wood, Brian',
@@ -10461,6 +10735,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 2: Body of a Journalist',
+		hashCode: 1016676409,
+		goodReadsId: '158682',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10545,6 +10821,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 4: Friendly Fire',
+		hashCode: 186683405,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10629,6 +10907,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 5: The Hidden War',
+		hashCode: 158930592,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10713,6 +10993,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 6: Blood in the Game',
+		hashCode: 1537293558,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10797,6 +11079,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 7: War Powers',
+		hashCode: 701480903,
+		goodReadsId: '20545546',
 	},
 	{
 		author: 'Wood, Brian',
@@ -10894,6 +11178,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'DMZ Vol 8: Hearts and Minds',
+		hashCode: 806651815,
+		goodReadsId: null,
 	},
 	{
 		author: 'Ennis, Garth',
@@ -10948,6 +11234,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 1: Gone to Texas',
+		hashCode: 398361595,
+		goodReadsId: '95431',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11016,6 +11304,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 2: Until the End of the World',
+		hashCode: 246025163,
+		goodReadsId: '95406',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11082,6 +11372,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 3: Proud Americans',
+		hashCode: 2063193811,
+		goodReadsId: '102953',
 	},
 	{
 		author: 'Clancy, Tom',
@@ -11147,6 +11439,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'military'],
 		title: 'Rainbow Six',
+		hashCode: 1206827208,
+		goodReadsId: '5720',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11200,6 +11494,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 4: Ancient History',
+		hashCode: 722639087,
+		goodReadsId: '95431',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11288,6 +11584,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 5: Dixie Fried',
+		hashCode: 1455948563,
+		goodReadsId: '18290484',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11355,6 +11653,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 6: War in the Sun',
+		hashCode: 563474425,
+		goodReadsId: '102957',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -11420,6 +11720,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Ender in Exile',
+		hashCode: 19010132,
+		goodReadsId: '3220405',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11487,6 +11789,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 7: Salvation',
+		hashCode: 752706083,
+		goodReadsId: '102954',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11551,6 +11855,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: "Preacher Vol 8: All Hell's A-Coming",
+		hashCode: 686726468,
+		goodReadsId: '1835661',
 	},
 	{
 		author: 'Ennis, Garth',
@@ -11616,6 +11922,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Preacher Vol 9: Alamo',
+		hashCode: 1997840310,
+		goodReadsId: '1835662',
 	},
 	{
 		author: 'Smith, S.K.',
@@ -11675,6 +11983,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor'],
 		title: 'The Bad Ass Bible',
+		hashCode: 843495691,
+		goodReadsId: '1567530',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -11772,6 +12082,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 1: Preludes and Nocturnes',
+		hashCode: 1244429221,
+		goodReadsId: '45857963',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -11898,6 +12210,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables Vol 15: Rose Red',
+		hashCode: 1484653956,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -11995,6 +12309,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: "The Sandman Vol 2: The Doll's House",
+		hashCode: 1265229592,
+		goodReadsId: '45857967',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12060,6 +12376,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 3: Dream Country',
+		hashCode: 144868570,
+		goodReadsId: '818483',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12128,6 +12446,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 4: Season of Mists',
+		hashCode: 1466682954,
+		goodReadsId: '8462092',
 	},
 	{
 		author: 'Simon, Ted',
@@ -12193,6 +12513,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir', 'nonFiction', 'travel'],
 		title: "Jupiter's Travels",
+		hashCode: 1195557310,
+		goodReadsId: '19013591',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12258,6 +12580,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 5: A Game of You',
+		hashCode: 930874544,
+		goodReadsId: '825063',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12355,6 +12679,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 6: Fables and Reflections',
+		hashCode: 1875335976,
+		goodReadsId: '45857965',
 	},
 	{
 		author: 'Forsyth, Fredrick',
@@ -12438,6 +12764,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'The Day of the Jackal',
+		hashCode: 1377593041,
+		goodReadsId: '15734800',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12553,6 +12881,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 7: Brief Lives',
+		hashCode: 1615477174,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12663,6 +12993,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: "The Sandman Vol 8: Worlds' End",
+		hashCode: 179601641,
+		goodReadsId: null,
 	},
 	{
 		author: 'Ryan, Cornelius',
@@ -12727,6 +13059,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military'],
 		title: 'The Longest Day',
+		hashCode: 1740517769,
+		goodReadsId: '51042469',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12824,6 +13158,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 9: The Kindly Ones',
+		hashCode: 1918298492,
+		goodReadsId: '52039507',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -12888,6 +13224,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Zap Gun',
+		hashCode: 659105350,
+		goodReadsId: '12856915',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -12946,6 +13284,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Sandman Vol 10: The Wake',
+		hashCode: 1878345570,
+		goodReadsId: '47723',
 	},
 	{
 		author: 'Johns, Geoff',
@@ -13009,6 +13349,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Green Lantern: Rebirth',
+		hashCode: 1445000692,
+		goodReadsId: '21055720',
 	},
 	{
 		author: 'Spiegelman, Art',
@@ -13062,6 +13404,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Maus I: My Father Bleeds History',
+		hashCode: 696196066,
+		goodReadsId: '64229',
 	},
 	{
 		author: 'Spiegelman, Art',
@@ -13129,6 +13473,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Maus II: And Here My Troubles Began',
+		hashCode: 1675314034,
+		goodReadsId: '15197',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13192,6 +13538,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer IV: The Divine Comedy',
+		hashCode: 1402991060,
+		goodReadsId: '194719',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13257,6 +13605,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer I: Devil in the Gateway',
+		hashCode: 938172107,
+		goodReadsId: '359195',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13321,6 +13671,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer II: Children and Monsters',
+		hashCode: 504413249,
+		goodReadsId: '279787',
 	},
 	{
 		author: 'Puzo, Mario',
@@ -13380,6 +13732,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'The Godfather',
+		hashCode: 834266025,
+		goodReadsId: '978930',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13446,6 +13800,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer III: A Dalliance with the Damned',
+		hashCode: 1202210993,
+		goodReadsId: '620370',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13511,6 +13867,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer V: Inferno',
+		hashCode: 325674705,
+		goodReadsId: '1422623',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13576,6 +13934,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer VI: Mansions of Silence',
+		hashCode: 768801537,
+		goodReadsId: '359196',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13662,6 +14022,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer VII: Exodus',
+		hashCode: 1239586406,
+		goodReadsId: '12048629',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13720,6 +14082,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer VIII: The Wolf Beneath the Tree',
+		hashCode: 1521885404,
+		goodReadsId: '1149900',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13804,6 +14168,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer IX: Crux',
+		hashCode: 2003625789,
+		goodReadsId: '18182660',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13867,6 +14233,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer X: Morningstar',
+		hashCode: 375573004,
+		goodReadsId: '50676508',
 	},
 	{
 		author: 'Carey, Mike',
@@ -13933,6 +14301,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Lucifer XI: Evensong',
+		hashCode: 1514406558,
+		goodReadsId: '151872',
 	},
 	{
 		author: 'Kesel, Karl',
@@ -14027,6 +14397,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Harley Quinn: Preludes and Knock-Knock Jokes',
+		hashCode: 1965444386,
+		goodReadsId: '18875288',
 	},
 	{
 		author: 'Ryan, Cornelius',
@@ -14111,6 +14483,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military'],
 		title: 'A Bridge Too Far',
+		hashCode: 671301203,
+		goodReadsId: '7805638',
 	},
 	{
 		author: 'Garner, Alex and Kris Oprisko with Ashley Wood and Rufus Dayglo',
@@ -14176,6 +14550,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Metal Gear Solid Omnibus',
+		hashCode: 257884102,
+		goodReadsId: '35992946',
 	},
 	{
 		author: 'Hewlett, Jamie',
@@ -14271,6 +14647,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 1',
+		hashCode: 1487895645,
+		goodReadsId: null,
 	},
 	{
 		author: 'Hewlett, Jamie',
@@ -14336,6 +14714,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 2',
+		hashCode: 1487895644,
+		goodReadsId: '2314377',
 	},
 	{
 		author: 'Hewlett, Jamie',
@@ -14431,6 +14811,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl 3',
+		hashCode: 1487895643,
+		goodReadsId: null,
 	},
 	{
 		author: 'Miller, Frank',
@@ -14524,6 +14906,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: The Dark Knight Returns',
+		hashCode: 427325088,
+		goodReadsId: '30837638',
 	},
 	{
 		author: 'Morrison, Grant',
@@ -14587,6 +14971,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: Arkham Asylum',
+		hashCode: 328757320,
+		goodReadsId: '23167717',
 	},
 	{
 		author: 'Wood, Brian',
@@ -14650,6 +15036,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders I: Sven the Returned',
+		hashCode: 2132114285,
+		goodReadsId: '7661898',
 	},
 	{
 		author: 'Wood, Brian',
@@ -14747,6 +15135,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders II: The Cross and the Hammer',
+		hashCode: 1988198691,
+		goodReadsId: null,
 	},
 	{
 		author: 'Wood, Brian',
@@ -14866,6 +15256,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders III: Blood in the Snow',
+		hashCode: 309270686,
+		goodReadsId: null,
 	},
 	{
 		author: 'Asimov, Issac',
@@ -14927,6 +15319,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Caves of Steel',
+		hashCode: 453712309,
+		goodReadsId: '13482533',
 	},
 	{
 		author: 'Wood, Brian',
@@ -14993,6 +15387,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Northlanders IV: The Plague Widow',
+		hashCode: 961296920,
+		goodReadsId: '7661897',
 	},
 	{
 		author: 'Jones, Bruce and Sean Murphy',
@@ -15056,6 +15452,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman Year One: Two-Face and Scarecrow',
+		hashCode: 1386795660,
+		goodReadsId: '6215030',
 	},
 	{
 		author: 'Sides, Hampton',
@@ -15122,6 +15520,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: 'Ghost Soldiers',
+		hashCode: 1479067106,
+		goodReadsId: '94799',
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15232,6 +15632,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 1: Seeds of Destruction',
+		hashCode: 416920211,
+		goodReadsId: '18857241',
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15311,6 +15713,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 2: Wake the Devil',
+		hashCode: 449288108,
+		goodReadsId: '19081142',
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15371,6 +15775,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Hellboy 3: The Chained Coffin and Others',
+		hashCode: 2124494212,
+		goodReadsId: null,
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15436,6 +15842,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel'],
 		title: 'B.P.R.D. 1: Hollow Earth and Other Stories',
+		hashCode: 851000262,
+		goodReadsId: '356344',
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15528,6 +15936,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel'],
 		title: 'B.P.R.D. 2: The Soul of Venice and and Other Stories',
+		hashCode: 1732997712,
+		goodReadsId: null,
 	},
 	{
 		author: 'Mignola, Mike',
@@ -15593,6 +16003,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel'],
 		title: 'B.P.R.D. 3: Plauge of Frogs',
+		hashCode: 1586786863,
+		goodReadsId: '356345',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -15659,6 +16071,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Divine Invasion',
+		hashCode: 63320775,
+		goodReadsId: '10846065',
 	},
 	{
 		author: 'Takami, Koushun',
@@ -15724,6 +16138,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Battle Royale',
+		hashCode: 1220449958,
+		goodReadsId: '57893',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -15806,6 +16222,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'A War of Gifts',
+		hashCode: 603119247,
+		goodReadsId: '7130755',
 	},
 	{
 		author: "O'Brien, Tim",
@@ -15890,6 +16308,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'memoir', 'military', 'nonFiction'],
 		title: 'If I Die in a Combat Zone',
+		hashCode: 592861656,
+		goodReadsId: '12453731',
 	},
 	{
 		author: 'Puzo, Mario',
@@ -15968,6 +16388,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction'],
 		title: 'Omerta',
+		hashCode: 1929478440,
+		goodReadsId: '37537511',
 	},
 	{
 		author: 'Craig, William',
@@ -16064,6 +16486,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: 'Enemy at the Gates:The Battle for Stalingrad',
+		hashCode: 521652825,
+		goodReadsId: '26084964',
 	},
 	{
 		author: 'Edited by Adams, John Joseph',
@@ -16124,6 +16548,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'shortFiction', 'fiction'],
 		title: 'Armored',
+		hashCode: 926003710,
+		goodReadsId: null,
 	},
 	{
 		author: 'Martin, George R.R.',
@@ -16189,6 +16615,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'A Game of Thrones',
+		hashCode: 1886862801,
+		goodReadsId: '29807359',
 	},
 	{
 		author: 'Collins, Suzanne',
@@ -16258,6 +16686,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'The Hunger Games',
+		hashCode: 209926787,
+		goodReadsId: '17282465',
 	},
 	{
 		author: 'Martin, George R.R.',
@@ -16324,6 +16754,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'Clash of Kings',
+		hashCode: 1458718330,
+		goodReadsId: '12844597',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -16411,6 +16843,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Shadow Puppets',
+		hashCode: 1569587647,
+		goodReadsId: null,
 	},
 	{
 		author: 'Collins, Suzanne',
@@ -16500,6 +16934,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Catching Fire',
+		hashCode: 1973447825,
+		goodReadsId: '8376549',
 	},
 	{
 		author: 'Collins, Suzanne',
@@ -16589,67 +17025,73 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'youngAdult', 'fiction'],
 		title: 'Mocking Jay',
+		hashCode: 367721510,
+		goodReadsId: '8663600',
 	},
 	{
 		author: 'P.R.D. 4: The Dead. Mignola, Mike',
 		date: '2012-10-07T07:00:00.000Z',
 		googleData: {
 			kind: 'books#volume',
-			id: 'rgbRAgAACAAJ',
-			etag: 'u2vBoP37v5U',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/rgbRAgAACAAJ',
+			id: 'Bska8j2Hbm0C',
+			etag: 'k3iKR8Ve4mk',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/Bska8j2Hbm0C',
 			volumeInfo: {
-				title: "The Berenstains' B Book",
-				authors: ['Stan Berenstain', 'Jan Berenstain'],
-				publisher: 'Harpercollins Pub Limited',
-				publishedDate: '1983-03',
+				title: 'Liszt: Sonata in B Minor',
+				authors: ['Kenneth Hamilton'],
+				publisher: 'Cambridge University Press',
+				publishedDate: '1996-08-28',
 				description:
-					"In the B Book, the youngest child will be entertained by a hilarious build-up of words beginning with the letter B. It's an ideal introduction to the realisation that letters represent sounds, and end with a bang Ages 3+",
+					"Liszt's B minor Sonata is now regarded as his finest work for piano, and one of the pinnacles of Romantic piano music. This book, written by a pianist who has performed the Sonata extensively, includes a survey of Liszt's early attempts at sonata composition and clears away some of the persisent myths regarding program music in Liszt's output. The central chapters, built around an analysis of the B minor Sonata, discuss various interpretative approaches, while the concluding chapter treats the performance practice and performing history of the work. This is the first book to elucidate this ground-breaking piece for the general reader.",
 				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '000171287X' },
-					{ type: 'ISBN_13', identifier: '9780001712874' },
+					{ type: 'ISBN_10', identifier: '0521469635' },
+					{ type: 'ISBN_13', identifier: '9780521469630' },
 				],
-				readingModes: { text: false, image: false },
-				pageCount: 34,
+				readingModes: { text: false, image: true },
+				pageCount: 89,
 				printType: 'BOOK',
-				categories: ['Juvenile Fiction'],
-				averageRating: 4,
-				ratingsCount: 13,
+				categories: ['Music'],
 				maturityRating: 'NOT_MATURE',
 				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
+				contentVersion: '1.0.1.0.preview.1',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
 				imageLinks: {
 					smallThumbnail:
-						'http://books.google.com/books/content?id=rgbRAgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+						'http://books.google.com/books/content?id=Bska8j2Hbm0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
 					thumbnail:
-						'http://books.google.com/books/content?id=rgbRAgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+						'http://books.google.com/books/content?id=Bska8j2Hbm0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
 				},
 				language: 'en',
-				previewLink: 'http://books.google.com/books?id=rgbRAgAACAAJ&dq=B&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=rgbRAgAACAAJ&dq=B&hl=&source=gbs_api',
+				previewLink: 'http://books.google.com/books?id=Bska8j2Hbm0C&pg=PA28&dq=B&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=Bska8j2Hbm0C&dq=B&hl=&source=gbs_api',
 				canonicalVolumeLink:
-					'https://books.google.com/books/about/The_Berenstains_B_Book.html?hl=&id=rgbRAgAACAAJ',
+					'https://books.google.com/books/about/Liszt_Sonata_in_B_Minor.html?hl=&id=Bska8j2Hbm0C',
 			},
 			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
 			accessInfo: {
 				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
+				viewability: 'PARTIAL',
+				embeddable: true,
 				publicDomain: false,
 				textToSpeechPermission: 'ALLOWED',
 				epub: { isAvailable: false },
 				pdf: { isAvailable: false },
 				webReaderLink:
-					'http://play.google.com/books/reader?id=rgbRAgAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
+					'http://play.google.com/books/reader?id=Bska8j2Hbm0C&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'SAMPLE',
 				quoteSharingAllowed: false,
 			},
-			searchInfo: { textSnippet: 'Synopsis coming soon.......' },
+			searchInfo: {
+				textSnippet:
+					'Understanding the Sonata in <b>B</b> minor As a musician anxious to avoid formulaic <br>\ncomposition, Liszt surely would have been delighted at the amount of scholarly <br>\nbickering engendered by the Sonata in <b>B</b> minor. Such dissension is usually <br>\ncaused&nbsp;...',
+			},
 		},
 		notes: null,
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'B',
+		hashCode: 66,
+		goodReadsId: '3830228',
 	},
 	{
 		author: 'McCarthy, Peter and Mike Syron',
@@ -16736,6 +17178,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: 'Panzerkreig',
+		hashCode: 176565582,
+		goodReadsId: null,
 	},
 	{
 		author: 'Martin, George R.R.',
@@ -16826,6 +17270,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'A Storm of Swords',
+		hashCode: 855089111,
+		goodReadsId: '7013345',
 	},
 	{
 		author: 'Rose, Kenneth D.',
@@ -16893,6 +17339,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'nonFiction'],
 		title: 'One Nation Underground: The Fallout Shelter in American Culture',
+		hashCode: 1842589364,
+		goodReadsId: '773935',
 	},
 	{
 		author: 'Martin, George R.R.',
@@ -16958,6 +17406,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'A Feast for Crows',
+		hashCode: 403465737,
+		goodReadsId: '18773649',
 	},
 	{
 		author: 'Edited by Budrys, Algis',
@@ -17019,6 +17469,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi'],
 		title: 'L. Ron Hubbard Presents: The Best of Writers of the Future',
+		hashCode: 342505574,
+		goodReadsId: '2327216',
 	},
 	{
 		author: 'Hyde, Maggie and Michael McGuinness',
@@ -17107,6 +17559,8 @@ module.exports = [
 		review: 0,
 		tags: ['biography', 'nonFiction', 'psychology'],
 		title: 'Introducing Jung',
+		hashCode: 17740808,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gibson, William',
@@ -17172,6 +17626,8 @@ module.exports = [
 		review: 0,
 		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Neuromancer',
+		hashCode: 1939023025,
+		goodReadsId: '49769884',
 	},
 	{
 		author: 'Sherry, Michael',
@@ -17238,6 +17694,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'history', 'military', 'nonFiction'],
 		title: 'The Rise of American Air Power: The Creation of Armageddon',
+		hashCode: 225041489,
+		goodReadsId: '627921',
 	},
 	{
 		author: 'Greene, Graham',
@@ -17327,6 +17785,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'The Quiet American',
+		hashCode: 1327874949,
+		goodReadsId: '39295981',
 	},
 	{
 		author: 'Schivelbusch, Wolfgang',
@@ -17417,6 +17877,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'nonFiction'],
 		title: 'The Railway Journey',
+		hashCode: 1314165074,
+		goodReadsId: '21877053',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -17503,6 +17965,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Man in the High Castle',
+		hashCode: 2124655519,
+		goodReadsId: '12457211',
 	},
 	{
 		author: 'Kidder, Tracy',
@@ -17588,6 +18052,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'history', 'nonFiction'],
 		title: 'The Soul of a New Machine',
+		hashCode: 982285923,
+		goodReadsId: '12422554',
 	},
 	{
 		author: 'Dick, Philip K.',
@@ -17677,6 +18143,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Selected Stories of Philip K Dick',
+		hashCode: 1624116297,
+		goodReadsId: '16386781',
 	},
 	{
 		author: 'Gibson, William',
@@ -17762,6 +18230,8 @@ module.exports = [
 		review: 0,
 		tags: ['cyberPunk', 'sciFi', 'fiction'],
 		title: 'Virtual Light',
+		hashCode: 223022207,
+		goodReadsId: '16113386',
 	},
 	{
 		author: 'Thompson, Hunter S.',
@@ -17827,6 +18297,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'The Rum Diary',
+		hashCode: 1660472670,
+		goodReadsId: '18864',
 	},
 	{
 		author: 'Steinbeck, John',
@@ -17897,6 +18369,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'Cannery Row',
+		hashCode: 2014420856,
+		goodReadsId: null,
 	},
 	{
 		author: 'Pynchon, Thomas',
@@ -17982,6 +18456,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'classics'],
 		title: 'The Crying of Lot 49',
+		hashCode: 1698996196,
+		goodReadsId: '16441446',
 	},
 	{
 		author: 'Morrison, Grant',
@@ -18045,6 +18521,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Arkham Asylum',
+		hashCode: 254100221,
+		goodReadsId: '9713942',
 	},
 	{
 		author: 'Ellis, Bret Easton',
@@ -18134,6 +18612,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'classics', 'horror'],
 		title: 'American Psycho',
+		hashCode: 162372116,
+		goodReadsId: '8570631',
 	},
 	{
 		author: 'Moore, Alan',
@@ -18248,6 +18728,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Saga of the Swamp Thing',
+		hashCode: 1237217102,
+		goodReadsId: '44195369',
 	},
 	{
 		author: 'Moore, Alan',
@@ -18307,6 +18789,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Swamp Thing: Love and Death',
+		hashCode: 199492143,
+		goodReadsId: '2034251',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -18372,6 +18856,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables #16: Super Team',
+		hashCode: 910351619,
+		goodReadsId: '14612567',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -18451,6 +18937,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fables #17: Inherit the Wind',
+		hashCode: 974469630,
+		goodReadsId: '29660974',
 	},
 	{
 		author: 'Willingham, Bill',
@@ -18516,6 +19004,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Fairest #1: Wide Awake',
+		hashCode: 962698966,
+		goodReadsId: '13536522',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -18579,6 +19069,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Mr Punch',
+		hashCode: 142223091,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -18644,6 +19136,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Batman: Whatever Happened To The Caped Crusader?',
+		hashCode: 1595990059,
+		goodReadsId: '52357114',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -18729,6 +19223,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Doomed',
+		hashCode: 2052707880,
+		goodReadsId: '18666195',
 	},
 	{
 		author: 'Boom Town Comics, Various Authors',
@@ -18784,6 +19280,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'CBGB: OMFUG',
+		hashCode: 286531738,
+		goodReadsId: '43662117',
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -18881,6 +19379,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Death: The High Cost of Living',
+		hashCode: 1795721940,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -18970,6 +19470,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Black Orchid',
+		hashCode: 1203495972,
+		goodReadsId: '10615927',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19032,6 +19534,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 4',
+		hashCode: 2019771225,
+		goodReadsId: '289255',
 	},
 	{
 		author: 'Reher, Chris',
@@ -19106,6 +19610,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Sky Hunter (Targon Tales 1)',
+		hashCode: 1573481027,
+		goodReadsId: '21779693',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19165,6 +19671,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 5',
+		hashCode: 2019771226,
+		goodReadsId: '289243',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19224,6 +19732,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 6',
+		hashCode: 2019771227,
+		goodReadsId: '289243',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19283,6 +19793,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'PopBot: Book 7',
+		hashCode: 2019771228,
+		goodReadsId: '289243',
 	},
 	{
 		author: 'Wood, Ashley',
@@ -19346,6 +19858,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Tank Girl: The Gifting',
+		hashCode: 600805899,
+		goodReadsId: '489683',
 	},
 	{
 		author: 'Hickam Jr, Homer',
@@ -19412,6 +19926,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir', 'nonFiction'],
 		title: 'Rocket Boys',
+		hashCode: 89662963,
+		goodReadsId: '96642',
 	},
 	{
 		author: 'Wood, Brian and Becky Cloonan',
@@ -19482,6 +19998,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'Demo',
+		hashCode: 2126339,
+		goodReadsId: '22716600',
 	},
 	{
 		author: 'DeLillo, Don',
@@ -19567,6 +20085,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'classics'],
 		title: 'White Noise',
+		hashCode: 744997853,
+		goodReadsId: '9827976',
 	},
 	{
 		author: 'Martin, George R.R.',
@@ -19633,6 +20153,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'A Dance With Dragons',
+		hashCode: 1401402642,
+		goodReadsId: '13562678',
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -19781,6 +20303,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Compendium 1',
+		hashCode: 1925027636,
+		goodReadsId: null,
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -19927,6 +20451,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Compendium 2',
+		hashCode: 1925027635,
+		goodReadsId: '26715587',
 	},
 	{
 		author: 'Asimov, Isaac',
@@ -19994,6 +20520,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Isaac Asimov: The Complete Stories- Vol 1',
+		hashCode: 25702540,
+		goodReadsId: '824194',
 	},
 	{
 		author: 'Von Teese, Dita',
@@ -20061,6 +20589,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction'],
 		title: 'Burlesque/Fetish and the Art of the Teese',
+		hashCode: 591025711,
+		goodReadsId: '182186',
 	},
 	{
 		author: 'Clarke, Arthur C. and Stephen Baxter',
@@ -20126,6 +20656,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Time's Eye: Book 1 of A Time Odyssey",
+		hashCode: 1220685801,
+		goodReadsId: '64936',
 	},
 	{
 		author: 'Clarke, Arthur C. and Stephen Baxter',
@@ -20215,6 +20747,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Sunstorm: Book 2 of A Time Odyssey',
+		hashCode: 746866677,
+		goodReadsId: '6989591',
 	},
 	{
 		author: 'Clarke, Arthur C. and Stephen Baxter',
@@ -20304,6 +20838,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Firstborn: Book 3 of A Time Odyssey',
+		hashCode: 1923429992,
+		goodReadsId: '6989592',
 	},
 	{
 		author: 'Christensen, Andreas',
@@ -20370,6 +20906,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Exodus',
+		hashCode: 2089640582,
+		goodReadsId: null,
 	},
 	{
 		author: 'Cortesi, Lawrence',
@@ -20460,6 +20998,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military'],
 		title: 'Last Bridge To Victory',
+		hashCode: 1672149850,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gaiman, Neil',
@@ -20527,6 +21067,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'horror', 'fiction'],
 		title: 'The Ocean at the End of the Lane',
+		hashCode: 1020516980,
+		goodReadsId: '18102832',
 	},
 	{
 		author: 'Mitchell, David',
@@ -20596,6 +21138,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi'],
 		title: 'Cloud Atlas',
+		hashCode: 1363103072,
+		goodReadsId: '13533570',
 	},
 	{
 		author: 'Weir, Andy',
@@ -20660,6 +21204,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Martian',
+		hashCode: 692630225,
+		goodReadsId: '25852860',
 	},
 	{
 		author: 'Munroe, Randall',
@@ -20726,6 +21272,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'science'],
 		title: 'What if?: Serious Scientific Answers to Absurd Hypothetical Questions',
+		hashCode: 1222533957,
+		goodReadsId: '21413662',
 	},
 	{
 		author: 'Cline, Ernest',
@@ -20791,6 +21339,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Ready Player One',
+		hashCode: 1481289884,
+		goodReadsId: '9969571',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -20854,6 +21404,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'For Us, the Living',
+		hashCode: 2014481439,
+		goodReadsId: '906361',
 	},
 	{
 		author: 'McBride, James',
@@ -20920,6 +21472,8 @@ module.exports = [
 		review: 0,
 		tags: ['memoir', 'nonFiction'],
 		title: 'The Color of Water',
+		hashCode: 2147202726,
+		goodReadsId: '19595',
 	},
 	{
 		author: 'Scalzi, John',
@@ -20999,6 +21553,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Redshirts',
+		hashCode: 304498450,
+		goodReadsId: '13538492',
 	},
 	{
 		author: 'Salinger, J.D.',
@@ -21063,6 +21619,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'youngAdult'],
 		title: 'Catcher in the Rye',
+		hashCode: 1897006412,
+		goodReadsId: null,
 	},
 	{
 		author: 'Cain, James M.',
@@ -21148,6 +21706,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'noir'],
 		title: 'Mildred Pierce',
+		hashCode: 849803531,
+		goodReadsId: '9970254',
 	},
 	{
 		author: 'Scalzi, John',
@@ -21229,6 +21789,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Human Division',
+		hashCode: 1377572399,
+		goodReadsId: '17698371',
 	},
 	{
 		author: 'Ghose, Shuvom',
@@ -21284,6 +21846,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'Infinity Squad',
+		hashCode: 486329410,
+		goodReadsId: '52548936',
 	},
 	{
 		author: 'Salinger, J.D.',
@@ -21369,6 +21933,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Nine Stories',
+		hashCode: 812994843,
+		goodReadsId: null,
 	},
 	{
 		author: 'Bear, Greg',
@@ -21430,6 +21996,8 @@ module.exports = [
 		review: 0,
 		tags: ['militarySciFi', 'sciFi', 'fiction'],
 		title: 'War Dogs',
+		hashCode: 489599279,
+		goodReadsId: '29632229',
 	},
 	{
 		author: 'Shute, Nevil',
@@ -21519,6 +22087,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'On the Beach',
+		hashCode: 1594058739,
+		goodReadsId: '7757332',
 	},
 	{
 		author: 'Bukowski, Charles',
@@ -21605,6 +22175,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction'],
 		title: 'Post Office',
+		hashCode: 1232711228,
+		goodReadsId: '9397369',
 	},
 	{
 		author: 'Schroeder, Karl',
@@ -21681,6 +22253,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'Lockstep',
+		hashCode: 1974903447,
+		goodReadsId: '21512537',
 	},
 	{
 		author: 'Atwood, Margaret',
@@ -21750,6 +22324,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'Oryx and Crake',
+		hashCode: 1774044987,
+		goodReadsId: '13531365',
 	},
 	{
 		author: 'Moon, Adam',
@@ -21816,6 +22392,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Zero',
+		hashCode: 2781896,
+		goodReadsId: '329336',
 	},
 	{
 		author: 'Shute, Nevil',
@@ -21905,6 +22483,8 @@ module.exports = [
 		review: 0,
 		tags: ['aviation', 'classics', 'fiction'],
 		title: 'No Highway',
+		hashCode: 1308376750,
+		goodReadsId: '10472217',
 	},
 	{
 		author: 'Robinson, Kim Stanley',
@@ -21971,6 +22551,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Red Mars',
+		hashCode: 780023484,
+		goodReadsId: '8528225',
 	},
 	{
 		author: 'Kirkman, Robert',
@@ -22119,6 +22701,8 @@ module.exports = [
 		review: 0,
 		tags: ['graphicNovel', 'fiction'],
 		title: 'The Walking Dead Compendium 3',
+		hashCode: 1925027634,
+		goodReadsId: null,
 	},
 	{
 		author: 'Cave, Nick',
@@ -22184,6 +22768,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror'],
 		title: 'And the Ass Saw the Angel',
+		hashCode: 225953988,
+		goodReadsId: '7992730',
 	},
 	{
 		author: 'Edited by- Romano, Carlin',
@@ -22247,6 +22833,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'noir'],
 		title: 'Philadelphia Noir',
+		hashCode: 1771129419,
+		goodReadsId: '8034669',
 	},
 	{
 		author: 'Pilkington, Karl',
@@ -22337,6 +22925,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'nonFiction', 'travel'],
 		title: 'The Moaning of Life',
+		hashCode: 1298362089,
+		goodReadsId: '23098133',
 	},
 	{
 		author: 'Baxter, Stephen',
@@ -22419,6 +23009,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: 'Flood',
+		hashCode: 67974110,
+		goodReadsId: '9296918',
 	},
 	{
 		author: 'Salinger, J.D.',
@@ -22504,6 +23096,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Raise High the Roof Beams, Carpenters',
+		hashCode: 2022282492,
+		goodReadsId: null,
 	},
 	{
 		author: 'Gogol, Nikolai',
@@ -22593,6 +23187,8 @@ module.exports = [
 		review: 0,
 		tags: ['fiction', 'shortFiction'],
 		title: 'The Overcoat and Other Short Stories',
+		hashCode: 1863711960,
+		goodReadsId: '19093394',
 	},
 	{
 		author: 'Hertzfeld, Andy',
@@ -22660,6 +23256,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'history', 'nonFiction'],
 		title: 'Revolution In The Valley: The Insanely Great Story of How The Mac was Made',
+		hashCode: 1620504731,
+		goodReadsId: '40492',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -22742,6 +23340,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'sciFi', 'fiction'],
 		title: 'The Memory of Earth',
+		hashCode: 164330225,
+		goodReadsId: '9171480',
 	},
 	{
 		author: 'Benford, Gregory',
@@ -22827,6 +23427,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Fear",
+		hashCode: 2082913169,
+		goodReadsId: '10246943',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -22892,6 +23494,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Shadow of the Giant',
+		hashCode: 1445938931,
+		goodReadsId: '64912',
 	},
 	{
 		author: 'Bear, Greg',
@@ -22978,6 +23582,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Foundation and Chaos',
+		hashCode: 424030006,
+		goodReadsId: '10159688',
 	},
 	{
 		author: 'Salinger, J.D.',
@@ -23042,6 +23648,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'fiction', 'shortFiction'],
 		title: 'Franny and Zoey',
+		hashCode: 1843913106,
+		goodReadsId: null,
 	},
 	{
 		author: 'Cline, Earnest',
@@ -23128,6 +23736,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'youngAdult', 'fiction'],
 		title: 'Armada',
+		hashCode: 1969519842,
+		goodReadsId: '25472802',
 	},
 	{
 		author: 'Hiltzik, Michael',
@@ -23214,6 +23824,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'computerProgramming', 'nonFiction'],
 		title: 'Dealers of Lightning',
+		hashCode: 1243256999,
+		goodReadsId: '10178289',
 	},
 	{
 		author: 'Van Vogt, A.E.',
@@ -23276,6 +23888,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi'],
 		title: 'The Empire of Isher',
+		hashCode: 775866337,
+		goodReadsId: '358901',
 	},
 	{
 		author: 'Toole, John Kenedy',
@@ -23365,6 +23979,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'humor'],
 		title: 'A Confederacy of Dunces',
+		hashCode: 329629701,
+		goodReadsId: '8459260',
 	},
 	{
 		author: 'Weir, Andy',
@@ -23431,6 +24047,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Artemis',
+		hashCode: 932165781,
+		goodReadsId: '34928122',
 	},
 	{
 		author: 'Roach, Mary',
@@ -23516,6 +24134,8 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction', 'science'],
 		title: 'Packing for Mars: The Curious Science of Life in the Void',
+		hashCode: 1698995917,
+		goodReadsId: '8775079',
 	},
 	{
 		author: 'Card, Orson Scott',
@@ -23582,6 +24202,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Children of the Mind',
+		hashCode: 781193833,
+		goodReadsId: '31360',
 	},
 	{
 		author: 'Sincere, Michael',
@@ -23671,6 +24293,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'economics', 'nonFiction'],
 		title: 'Understanding Stocks',
+		hashCode: 932660007,
+		goodReadsId: '18057966',
 	},
 	{
 		author: 'Kamiya, Gary',
@@ -23738,6 +24362,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'nonFiction', 'travel'],
 		title: 'Cool Gray City of Love: 49 Views of San Francisco',
+		hashCode: 1750985710,
+		goodReadsId: '20945104',
 	},
 	{
 		author: 'Ewalt, David',
@@ -23803,6 +24429,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'nonFiction', 'fiction'],
 		title: 'Of Dice and Men: The Story of Dungeons & Dragons and the People Who Play It',
+		hashCode: 920415151,
+		goodReadsId: '18774850',
 	},
 	{
 		author: 'Heinlein, Robert',
@@ -23884,6 +24512,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Waldo & Magic Inc',
+		hashCode: 7267746,
+		goodReadsId: null,
 	},
 	{
 		author: 'Robinson, Kim Stanley',
@@ -23945,6 +24575,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Aurora',
+		hashCode: 1972453248,
+		goodReadsId: '40516960',
 	},
 	{
 		author: 'Wells, Martha',
@@ -24027,6 +24659,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'All Systems Red: The Murderbot Diaries',
+		hashCode: 887677130,
+		goodReadsId: '32758901',
 	},
 	{
 		author: 'Newitz, Annalee',
@@ -24091,6 +24725,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Autonomous',
+		hashCode: 1915946096,
+		goodReadsId: '28209634',
 	},
 	{
 		author: 'Scalzi, John',
@@ -24173,6 +24809,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Lock In: A novel of the near future',
+		hashCode: 111518842,
+		goodReadsId: '20818792',
 	},
 	{
 		author: 'Catmull, Ed',
@@ -24259,6 +24897,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'nonFiction'],
 		title: 'Creativity, Inc: Overcoming the Unseen Forces That Stand in the Way of True Inspiration',
+		hashCode: 958258181,
+		goodReadsId: '18666212',
 	},
 	{
 		author: 'Brin, David',
@@ -24344,6 +24984,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Foundation's Triumph",
+		hashCode: 1701360454,
+		goodReadsId: '10138040',
 	},
 	{
 		author: 'Steltzner, Adam',
@@ -24412,6 +25054,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'nonFiction'],
 		title: 'The Right Kind of Crazy: A True Story of Teamwork, Leadership, and High-Stakes Innovation',
+		hashCode: 1456473751,
+		goodReadsId: '24611874',
 	},
 	{
 		author: 'Wizards RPG Team',
@@ -24483,6 +25127,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: "Dungeons and Dragons: Player's Handbook",
+		hashCode: 1717586027,
+		goodReadsId: '22219682',
 	},
 	{
 		author: 'Verne, Jules',
@@ -24572,6 +25218,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'sciFi', 'fiction'],
 		title: 'Twenty Thousand Leagues Under the Seas',
+		hashCode: 724246070,
+		goodReadsId: null,
 	},
 	{
 		author: 'Corey, James A.',
@@ -24657,6 +25305,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Leviathan Wakes',
+		hashCode: 1938539131,
+		goodReadsId: '11158056',
 	},
 	{
 		author: 'Corey, James A.',
@@ -24742,6 +25392,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Caliban's War",
+		hashCode: 2073595528,
+		goodReadsId: '13521359',
 	},
 	{
 		author: 'Corey, James A.',
@@ -24827,6 +25479,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Abaddon's Gate",
+		hashCode: 378483744,
+		goodReadsId: '16131415',
 	},
 	{
 		author: 'Corey, James A.',
@@ -24912,6 +25566,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Nemesis Games',
+		hashCode: 1349308209,
+		goodReadsId: '26370286',
 	},
 	{
 		author: 'Corey, James A.',
@@ -24997,6 +25653,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Babylon's Ashes",
+		hashCode: 208342235,
+		goodReadsId: '33245393',
 	},
 	{
 		author: 'Corey, James A.',
@@ -25082,6 +25740,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Persepolis Rising',
+		hashCode: 1819471614,
+		goodReadsId: '28335696',
 	},
 	{
 		author: 'Corey, James A',
@@ -25167,6 +25827,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: "Tiamat's Wrath",
+		hashCode: 782331078,
+		goodReadsId: '40088654',
 	},
 	{
 		author: 'Herbert, Frank',
@@ -25255,6 +25917,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: '21st Century Sub/Dragon of the Sea',
+		hashCode: 591661289,
+		goodReadsId: '1862572',
 	},
 	{
 		author: 'Robertson, David C',
@@ -25341,6 +26005,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'nonFiction'],
 		title: 'Brick by Brick',
+		hashCode: 796084169,
+		goodReadsId: '17190398',
 	},
 	{
 		author: 'Metz, Sandi',
@@ -25409,6 +26075,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'nonFiction'],
 		title: 'Practical Object-Oriented Design: An Agile Primer Using Ruby',
+		hashCode: 1134417623,
+		goodReadsId: '13507787',
 	},
 	{
 		author: 'Crouch, Blake',
@@ -25471,6 +26139,8 @@ module.exports = [
 		review: 0,
 		tags: ['horror', 'mystery', 'sciFi', 'fiction'],
 		title: 'Pines',
+		hashCode: 77118691,
+		goodReadsId: '17920175',
 	},
 	{
 		author: 'Thiel, Peter',
@@ -25557,6 +26227,8 @@ module.exports = [
 		review: 0,
 		tags: ['business', 'nonFiction'],
 		title: 'Zero to One',
+		hashCode: 862052217,
+		goodReadsId: '22856316',
 	},
 	{
 		author: 'Rand, Ayn',
@@ -25646,6 +26318,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'dystopian', 'sciFi', 'fiction'],
 		title: 'Anthem',
+		hashCode: 1966041065,
+		goodReadsId: null,
 	},
 	{
 		author: 'Abdul-Jabbar, Kareem',
@@ -25713,6 +26387,8 @@ module.exports = [
 		review: 0,
 		tags: ['history', 'military', 'nonFiction'],
 		title: "Brothers In Arms: The Epic Story of the 761st Tank Battalion, WWII's Forgotten Heroes",
+		hashCode: 1923419443,
+		goodReadsId: '170212',
 	},
 	{
 		author: 'Corey, James S.A.',
@@ -25798,6 +26474,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Churn',
+		hashCode: 213889475,
+		goodReadsId: '22140537',
 	},
 	{
 		author: 'Corey, James S.A.',
@@ -25884,6 +26562,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Vital Abyss',
+		hashCode: 1681576395,
+		goodReadsId: '26170028',
 	},
 	{
 		author: 'Corey, James S.A.',
@@ -25968,6 +26648,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Strange Dogs',
+		hashCode: 2038683365,
+		goodReadsId: '34909370',
 	},
 	{
 		author: 'Corey, James S.A.',
@@ -26054,6 +26736,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'Gods of Risk',
+		hashCode: 1422776335,
+		goodReadsId: '15789698',
 	},
 	{
 		author: 'Corey, James S.A.',
@@ -26140,6 +26824,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi', 'fiction'],
 		title: 'The Butcher of Anderson Station',
+		hashCode: 194484401,
+		goodReadsId: '11711626',
 	},
 	{
 		author: 'Atwood, Margaret',
@@ -26206,6 +26892,8 @@ module.exports = [
 		review: 0,
 		tags: ['dystopian', 'sciFi', 'fiction'],
 		title: "The Handmaid's Tale",
+		hashCode: 481106707,
+		goodReadsId: '5106',
 	},
 	{
 		author: 'Simpson, Kyle',
@@ -26271,6 +26959,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'nonFiction'],
 		title: "You Don't Know JS: Scopes and Closures",
+		hashCode: 1391689455,
+		goodReadsId: '21445305',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26331,6 +27021,8 @@ module.exports = [
 		review: 0,
 		tags: ['classics', 'humor', 'sciFi', 'fiction'],
 		title: "The Hitchhiker's Guide to the Galaxy",
+		hashCode: 1844119450,
+		goodReadsId: '8710',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26420,6 +27112,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'The Restaurant at the End of the Universe',
+		hashCode: 357591664,
+		goodReadsId: '39109900',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26506,6 +27200,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Life, the Universe and Everything',
+		hashCode: 631601560,
+		goodReadsId: '7305293',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26595,6 +27291,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'So Long, and Thanks for All the Fish',
+		hashCode: 346590249,
+		goodReadsId: '41957794',
 	},
 	{
 		author: 'Adams, Douglass',
@@ -26659,6 +27357,8 @@ module.exports = [
 		review: 0,
 		tags: ['humor', 'sciFi', 'fiction'],
 		title: 'Mostly Harmless',
+		hashCode: 1922050653,
+		goodReadsId: '569429',
 	},
 	{
 		author: 'Rothfuss, Patrick',
@@ -26726,6 +27426,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'The Name of the Wind',
+		hashCode: 573154150,
+		goodReadsId: '20497532',
 	},
 	{
 		author: 'Liu, Ken',
@@ -26807,6 +27509,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'The Grace of Kings',
+		hashCode: 457816906,
+		goodReadsId: '25315895',
 	},
 	{
 		author: 'Rothfuss, Patrick',
@@ -26892,6 +27596,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: "The Wise Man's Fear",
+		hashCode: 1954058327,
+		goodReadsId: '10136175',
 	},
 	{
 		author: 'Wizards RPG Team',
@@ -26956,6 +27662,8 @@ module.exports = [
 		review: 0,
 		tags: ['fantasy', 'fiction'],
 		title: 'Dungeons and Dragons: Eberron, Rising From the Last War',
+		hashCode: 877070446,
+		goodReadsId: '52237508',
 	},
 	{
 		author: 'Thompson, Kate',
@@ -27021,6 +27729,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'nonFiction'],
 		title: 'Zero Bugs and Program Faster',
+		hashCode: 746403991,
+		goodReadsId: '28638295',
 	},
 	{
 		author: 'Hunt, Andrew and David Thomas',
@@ -27103,6 +27813,8 @@ module.exports = [
 		review: 0,
 		tags: ['computerProgramming', 'nonFiction'],
 		title: 'The Pragmatic Programmer: From Journeyman to Master',
+		hashCode: 380812642,
+		goodReadsId: '9714218',
 	},
 	{
 		author: 'DeCandido, Keith R.A., Kevin Dilmore, Christie Golden, Dean Wesley Smith, and Dayton Ward',
@@ -27185,6 +27897,8 @@ module.exports = [
 		review: 0,
 		tags: ['sciFi'],
 		title: 'Star Tek: Starfleet Corp of Engineers- Book One: Have Tech. Will Travel',
+		hashCode: 307572587,
+		goodReadsId: '3519642',
 	},
 	{
 		author: 'Kelly, Scott',
@@ -27271,91 +27985,7 @@ module.exports = [
 		review: 0,
 		tags: ['nonFiction'],
 		title: 'Endurance: My Year in Space, A Lifetime of Discovery',
-	},
-	{
-		author: 'Thiel, Peter',
-		date: '2020-06-13T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'ZH4oAwAAQBAJ',
-			etag: 'IE+wcvpEke8',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/ZH4oAwAAQBAJ',
-			volumeInfo: {
-				title: 'Zero to One',
-				subtitle: 'Notes on Startups, or How to Build the Future',
-				authors: ['Peter Thiel', 'Blake Masters'],
-				publisher: 'Currency',
-				publishedDate: '2014-09-16',
-				description:
-					'#1 NEW YORK TIMES BESTSELLER If you want to build a better future, you must believe in secrets. The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things. Thiel begins with the contrarian premise that we live in an age of technological stagnation, even if we’re too distracted by shiny mobile devices to notice. Information technology has improved rapidly, but there is no reason why progress should be limited to computers or Silicon Valley. Progress can be achieved in any industry or area of business. It comes from the most important skill that every leader must master: learning to think for yourself. Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. Tomorrow’s champions will not win by competing ruthlessly in today’s marketplace. They will escape competition altogether, because their businesses will be unique. Zero to One presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.',
-				industryIdentifiers: [
-					{ type: 'ISBN_13', identifier: '9780804139304' },
-					{ type: 'ISBN_10', identifier: '080413930X' },
-				],
-				readingModes: { text: true, image: false },
-				pageCount: 224,
-				printType: 'BOOK',
-				categories: ['Business & Economics'],
-				averageRating: 4,
-				ratingsCount: 2795,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: true,
-				contentVersion: '1.4.4.0.preview.2',
-				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=ZH4oAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=ZH4oAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
-				},
-				language: 'en',
-				previewLink:
-					'http://books.google.com/books?id=ZH4oAwAAQBAJ&printsec=frontcover&dq=Zero+to+One&hl=&cd=1&source=gbs_api',
-				infoLink: 'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ&source=gbs_api',
-				canonicalVolumeLink: 'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ',
-			},
-			saleInfo: {
-				country: 'US',
-				saleability: 'FOR_SALE',
-				isEbook: true,
-				listPrice: { amount: 14.99, currencyCode: 'USD' },
-				retailPrice: { amount: 14.99, currencyCode: 'USD' },
-				buyLink:
-					'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ&rdid=book-ZH4oAwAAQBAJ&rdot=1&source=gbs_api',
-				offers: [
-					{
-						finskyOfferType: 1,
-						listPrice: { amountInMicros: 14990000, currencyCode: 'USD' },
-						retailPrice: { amountInMicros: 14990000, currencyCode: 'USD' },
-						giftable: true,
-					},
-				],
-			},
-			accessInfo: {
-				country: 'US',
-				viewability: 'PARTIAL',
-				embeddable: true,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED_FOR_ACCESSIBILITY',
-				epub: {
-					isAvailable: true,
-					acsTokenLink:
-						'http://books.google.com/books/download/Zero_to_One-sample-epub.acsm?id=ZH4oAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api',
-				},
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=ZH4oAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'SAMPLE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['business', 'nonFiction'],
-		title: 'Zero to One',
+		hashCode: 265423836,
+		goodReadsId: '29852119',
 	},
 ];

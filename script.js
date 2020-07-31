@@ -1,8 +1,6 @@
 /*
   To run: node script.js
 
-  TODO: With ISBN can I get the goodreads link
-  TODO: Same for amazon?
   TODO: cli to add a new book?
 */
 
@@ -10,9 +8,12 @@ const constants = require('./constants.js');
 const fetch = require('node-fetch');
 const fs = require('fs');
 const getHashCode = require('./getHashCode.js');
+const goodReadsIds = require('./DATA/GoodReadsIds');
+const https = require('https');
 const manuallyProcessed = require('./DATA/manuallyProcessed.js');
 const parsers = require('./parsers.js');
 const querystring = require('querystring');
+const secrets = require('./secrets');
 
 // ================================================================
 // Utils
@@ -40,7 +41,44 @@ function consolidateBook(book, googleData) {
     review: book.review,
     tags: book.tags,
     title: book.title,
+    hashCode: book.hashCode,
   });
+}
+
+function goodreadsHttpsRequest(isbn, title) {
+  console.log(`Fetching Goodreads for ${title}`);
+  return new Promise((resolve, reject) => {
+    const req = https.get(`https://www.goodreads.com/book/isbn_to_id/${isbn}?key=${secrets.key}`, (res) => {
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        return reject(new Error('statusCode=' + res.statusCode));
+      }
+
+      let data = '';
+      res.on('data', function(chunk) {
+        data += chunk;
+      });
+
+      res.on('end', function() {
+        resolve(data);
+      });
+    });
+
+    req.on('error', (e) => {
+      reject(e.message);
+    });
+  });
+}
+
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function waitThenDo(cb, idx) {
+  await sleep(1200 * idx);
+  return cb();
 }
 // ================================================================
 // ================================================================
@@ -53,11 +91,12 @@ const allBooks = [...manuallyProcessed, ...regularBooks, ...graphicNovels].sort(
 
 // FETCH THE BOOK DATA FROM THE GOOGLE BOOKS API OR LOAD THE CACHED DATA
 const booksWithFetch = allBooks.map((book)=> {
-  const cacheFilename = `./DATA/GoogleData/${getHashCode(book.title)}.json`;
+  const hashCode = getHashCode(book.title);
+  const googleCacheFilename = `./DATA/GoogleData/${hashCode}.json`;
 
   let cachedData;
   let fetcher;
-  if (!fs.existsSync(cacheFilename)) {
+  if (!fs.existsSync(googleCacheFilename)) {
     fetcher = () => {
       const q = querystring.escape(book.title);
       fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}`)
@@ -73,33 +112,34 @@ const booksWithFetch = allBooks.map((book)=> {
               )
             )
 
-            writeFile(cacheFilename, JSON.stringify(foundItem));
+            writeFile(googleCacheFilename, JSON.stringify(foundItem));
 
             return foundItem;
           }
         )
     }
   } else {
-    cachedData = JSON.parse(fs.readFileSync(cacheFilename).toString());
+    cachedData = JSON.parse(fs.readFileSync(googleCacheFilename).toString());
   }
 
   return {
     ...book,
+    hashCode,
     cachedData,
-    fetchPromise: fetcher && fetcher(),
+    googleFetchPromise: fetcher && fetcher(),
   };
 });
 
-const fetchPromises = booksWithFetch.map((bk) => bk.fetchPromise).filter(Boolean);
+const googleFetchPromises = booksWithFetch.map((bk) => bk.googleFetchPromise).filter(Boolean);
 
 // ONCE ALL THE `fetchPromises` HAVE RESOLVED GO THROUGH AND COLLECT THE DATA
-Promise.all(fetchPromises).then((results) => {
+Promise.all(googleFetchPromises).then((results) => {
   const bookPromises = [];
   const booksWithGoogleData = [];
 
   booksWithFetch.forEach((book) => {
-    if (book.fetchPromise) {
-      const bookPromise = book.fetchPromise.then((data) => {
+    if (book.googleFetchPromise) {
+      const bookPromise = book.googleFetchPromise.then((data) => {
         const { volumeInfo } = data;
   
         const identifiers = volumeInfo.industryIdentifiers;
@@ -132,6 +172,38 @@ Promise.all(fetchPromises).then((results) => {
 
   // ONCE THE LAST SET OF PROMISES RESOLVE WRITE THE OUTPUT
   Promise.all(bookPromises).then(() => {
-    writeFile('output.js', `module.exports = ${JSON.stringify(booksWithGoogleData)};`);
+    const booksWithGoodReadsData = [];
+    const goodReadsPromises = [];
+
+    booksWithGoogleData.forEach((bk, idx) => {
+      const hashCode = bk.hashCode;
+      const isbn = bk.googleData.volumeInfo.industryIdentifiers[0].identifier;
+
+      if (Object.keys(goodReadsIds).includes(hashCode.toString())) {
+        booksWithGoodReadsData.push({ ...bk, goodReadsId: goodReadsIds[hashCode] });
+      } else {
+        goodReadsPromises.push(waitThenDo(() => {
+          goodreadsHttpsRequest(isbn, bk.title).then((data) => {
+            booksWithGoodReadsData.push({ ...bk, goodReadsId: data });
+          }, (e) => {
+            console.log(`REJECTED - ${bk.title}`);
+            console.log(`REJECTED- ${e}`);
+
+            booksWithGoodReadsData.push({ ...bk, goodReadsId: null });
+          })
+        }, idx));
+      }
+    });
+
+    Promise.all(goodReadsPromises).then(() => {
+      const newGoodReadsCache = {};
+      
+      booksWithGoodReadsData.forEach((bk) => {
+        newGoodReadsCache[bk.hashCode] = bk.goodReadsId;
+      });
+
+      writeFile('./DATA/GoodReadsIds.js', `module.exports = ${JSON.stringify(newGoodReadsCache)};`);
+      writeFile('output.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
+    });
   })
 })
