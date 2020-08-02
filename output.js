@@ -620,138 +620,6 @@ module.exports = [
 		goodReadsId: '15799209',
 	},
 	{
-		author: 'Moore, Alan',
-		date: '2011-04-11T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'ixfQngEACAAJ',
-			etag: 'aDgvvZVF60Y',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/ixfQngEACAAJ',
-			volumeInfo: {
-				title: 'Watchmen',
-				authors: ['Alan Moore'],
-				publisher: 'Dc Comics',
-				publishedDate: '2014',
-				description:
-					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401245250' },
-					{ type: 'ISBN_13', identifier: '9781401245252' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 448,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				averageRating: 4,
-				ratingsCount: 3907,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/Watchmen.html?hl=&id=ixfQngEACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=ixfQngEACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel', 'fiction'],
-		title: 'Watchmen',
-		hashCode: 609803975,
-		goodReadsId: '18339835',
-	},
-	{
-		author: 'Moore, Alan',
-		date: '2011-04-21T07:00:00.000Z',
-		googleData: {
-			kind: 'books#volume',
-			id: 'lsOhPwAACAAJ',
-			etag: '8QpO2s9XZqs',
-			selfLink: 'https://www.googleapis.com/books/v1/volumes/lsOhPwAACAAJ',
-			volumeInfo: {
-				title: 'V for Vendetta',
-				authors: ['Alan Moore', 'David Lloyd', 'Steve Whitaker', 'Siobhan Dodds'],
-				publisher: 'Vertigo',
-				publishedDate: '2005',
-				description:
-					'In an alternate future in which Germany wins World War II and Britain becomesa fascist state, a vigilante named "V" stalks the streets of London trying tofree England of its ideological chains.',
-				industryIdentifiers: [
-					{ type: 'ISBN_10', identifier: '1401207928' },
-					{ type: 'ISBN_13', identifier: '9781401207922' },
-				],
-				readingModes: { text: false, image: false },
-				pageCount: 288,
-				printType: 'BOOK',
-				categories: ['Comics & Graphic Novels'],
-				averageRating: 4,
-				ratingsCount: 3254,
-				maturityRating: 'NOT_MATURE',
-				allowAnonLogging: false,
-				contentVersion: 'preview-1.0.0',
-				comicsContent: true,
-				imageLinks: {
-					smallThumbnail:
-						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
-					thumbnail:
-						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
-				},
-				language: 'en',
-				previewLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&cd=1&source=gbs_api',
-				infoLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&source=gbs_api',
-				canonicalVolumeLink: 'https://books.google.com/books/about/V_for_Vendetta.html?hl=&id=lsOhPwAACAAJ',
-			},
-			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
-			accessInfo: {
-				country: 'US',
-				viewability: 'NO_PAGES',
-				embeddable: false,
-				publicDomain: false,
-				textToSpeechPermission: 'ALLOWED',
-				epub: { isAvailable: false },
-				pdf: { isAvailable: false },
-				webReaderLink:
-					'http://play.google.com/books/reader?id=lsOhPwAACAAJ&hl=&printsec=frontcover&source=gbs_api',
-				accessViewStatus: 'NONE',
-				quoteSharingAllowed: false,
-			},
-			searchInfo: {
-				textSnippet:
-					'A frightening and powerful tale of the loss of freedom and identity in a totalitarian world.',
-			},
-		},
-		notes: null,
-		review: 0,
-		tags: ['graphicNovel', 'fiction'],
-		title: 'V for Vendetta',
-		hashCode: 670470818,
-		goodReadsId: '5805',
-	},
-	{
 		author: 'Buettner, Robert',
 		date: '2007-01-18T08:00:00.000Z',
 		googleData: {
@@ -10254,6 +10122,72 @@ module.exports = [
 		goodReadsId: '26715548',
 	},
 	{
+		author: 'Moore, Alan',
+		date: '2011-04-11T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'ixfQngEACAAJ',
+			etag: 'aDgvvZVF60Y',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/ixfQngEACAAJ',
+			volumeInfo: {
+				title: 'Watchmen',
+				authors: ['Alan Moore'],
+				publisher: 'Dc Comics',
+				publishedDate: '2014',
+				description:
+					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401245250' },
+					{ type: 'ISBN_13', identifier: '9781401245252' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 448,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				averageRating: 4,
+				ratingsCount: 3907,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=ixfQngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=ixfQngEACAAJ&dq=Watchmen&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/Watchmen.html?hl=&id=ixfQngEACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=ixfQngEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'As former members of a disbanded group of superheroes called the Crimebusters start turning up dead, the remaining members of the group try to discover the identity of the murderer before they, too, are killed.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'Watchmen',
+		hashCode: 609803975,
+		goodReadsId: '18339835',
+	},
+	{
 		author: 'Fraction, Matt',
 		date: '2011-04-12T07:00:00.000Z',
 		googleData: {
@@ -10466,6 +10400,72 @@ module.exports = [
 		title: "The Invincible Iron Man: World's Most Wanted Vol 2",
 		hashCode: 81452555,
 		goodReadsId: '18924872',
+	},
+	{
+		author: 'Moore, Alan',
+		date: '2011-04-21T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'lsOhPwAACAAJ',
+			etag: '8QpO2s9XZqs',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/lsOhPwAACAAJ',
+			volumeInfo: {
+				title: 'V for Vendetta',
+				authors: ['Alan Moore', 'David Lloyd', 'Steve Whitaker', 'Siobhan Dodds'],
+				publisher: 'Vertigo',
+				publishedDate: '2005',
+				description:
+					'In an alternate future in which Germany wins World War II and Britain becomesa fascist state, a vigilante named "V" stalks the streets of London trying tofree England of its ideological chains.',
+				industryIdentifiers: [
+					{ type: 'ISBN_10', identifier: '1401207928' },
+					{ type: 'ISBN_13', identifier: '9781401207922' },
+				],
+				readingModes: { text: false, image: false },
+				pageCount: 288,
+				printType: 'BOOK',
+				categories: ['Comics & Graphic Novels'],
+				averageRating: 4,
+				ratingsCount: 3254,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: false,
+				contentVersion: 'preview-1.0.0',
+				comicsContent: true,
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=lsOhPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+				},
+				language: 'en',
+				previewLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&cd=1&source=gbs_api',
+				infoLink: 'http://books.google.com/books?id=lsOhPwAACAAJ&dq=V+for+Vendetta&hl=&source=gbs_api',
+				canonicalVolumeLink: 'https://books.google.com/books/about/V_for_Vendetta.html?hl=&id=lsOhPwAACAAJ',
+			},
+			saleInfo: { country: 'US', saleability: 'NOT_FOR_SALE', isEbook: false },
+			accessInfo: {
+				country: 'US',
+				viewability: 'NO_PAGES',
+				embeddable: false,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED',
+				epub: { isAvailable: false },
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=lsOhPwAACAAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'NONE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'A frightening and powerful tale of the loss of freedom and identity in a totalitarian world.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['graphicNovel', 'fiction'],
+		title: 'V for Vendetta',
+		hashCode: 670470818,
+		goodReadsId: '5805',
 	},
 	{
 		author: 'Wood, Brian',
@@ -27987,5 +27987,93 @@ module.exports = [
 		title: 'Endurance: My Year in Space, A Lifetime of Discovery',
 		hashCode: 265423836,
 		goodReadsId: '29852119',
+	},
+	{
+		author: 'Thiel, Peter',
+		date: '2020-06-13T07:00:00.000Z',
+		googleData: {
+			kind: 'books#volume',
+			id: 'ZH4oAwAAQBAJ',
+			etag: 'IE+wcvpEke8',
+			selfLink: 'https://www.googleapis.com/books/v1/volumes/ZH4oAwAAQBAJ',
+			volumeInfo: {
+				title: 'Zero to One',
+				subtitle: 'Notes on Startups, or How to Build the Future',
+				authors: ['Peter Thiel', 'Blake Masters'],
+				publisher: 'Currency',
+				publishedDate: '2014-09-16',
+				description:
+					'#1 NEW YORK TIMES BESTSELLER If you want to build a better future, you must believe in secrets. The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things. Thiel begins with the contrarian premise that we live in an age of technological stagnation, even if we’re too distracted by shiny mobile devices to notice. Information technology has improved rapidly, but there is no reason why progress should be limited to computers or Silicon Valley. Progress can be achieved in any industry or area of business. It comes from the most important skill that every leader must master: learning to think for yourself. Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. Tomorrow’s champions will not win by competing ruthlessly in today’s marketplace. They will escape competition altogether, because their businesses will be unique. Zero to One presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.',
+				industryIdentifiers: [
+					{ type: 'ISBN_13', identifier: '9780804139304' },
+					{ type: 'ISBN_10', identifier: '080413930X' },
+				],
+				readingModes: { text: true, image: false },
+				pageCount: 224,
+				printType: 'BOOK',
+				categories: ['Business & Economics'],
+				averageRating: 4,
+				ratingsCount: 2795,
+				maturityRating: 'NOT_MATURE',
+				allowAnonLogging: true,
+				contentVersion: '1.4.4.0.preview.2',
+				panelizationSummary: { containsEpubBubbles: false, containsImageBubbles: false },
+				imageLinks: {
+					smallThumbnail:
+						'http://books.google.com/books/content?id=ZH4oAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+					thumbnail:
+						'http://books.google.com/books/content?id=ZH4oAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
+				},
+				language: 'en',
+				previewLink:
+					'http://books.google.com/books?id=ZH4oAwAAQBAJ&printsec=frontcover&dq=Zero+to+One&hl=&cd=1&source=gbs_api',
+				infoLink: 'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ&source=gbs_api',
+				canonicalVolumeLink: 'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ',
+			},
+			saleInfo: {
+				country: 'US',
+				saleability: 'FOR_SALE',
+				isEbook: true,
+				listPrice: { amount: 14.99, currencyCode: 'USD' },
+				retailPrice: { amount: 14.99, currencyCode: 'USD' },
+				buyLink:
+					'https://play.google.com/store/books/details?id=ZH4oAwAAQBAJ&rdid=book-ZH4oAwAAQBAJ&rdot=1&source=gbs_api',
+				offers: [
+					{
+						finskyOfferType: 1,
+						listPrice: { amountInMicros: 14990000, currencyCode: 'USD' },
+						retailPrice: { amountInMicros: 14990000, currencyCode: 'USD' },
+						giftable: true,
+					},
+				],
+			},
+			accessInfo: {
+				country: 'US',
+				viewability: 'PARTIAL',
+				embeddable: true,
+				publicDomain: false,
+				textToSpeechPermission: 'ALLOWED_FOR_ACCESSIBILITY',
+				epub: {
+					isAvailable: true,
+					acsTokenLink:
+						'http://books.google.com/books/download/Zero_to_One-sample-epub.acsm?id=ZH4oAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api',
+				},
+				pdf: { isAvailable: false },
+				webReaderLink:
+					'http://play.google.com/books/reader?id=ZH4oAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api',
+				accessViewStatus: 'SAMPLE',
+				quoteSharingAllowed: false,
+			},
+			searchInfo: {
+				textSnippet:
+					'In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.',
+			},
+		},
+		notes: null,
+		review: 0,
+		tags: ['business', 'nonFiction'],
+		title: 'Zero to One',
+		hashCode: 862052217,
+		goodReadsId: '22856316',
 	},
 ];
