@@ -9,6 +9,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const getGoogleCachePath = require('./utils/getGoogleCachePath');
 const getHashCode = require('./utils/getHashCode.js');
+const goodreadsHttpsRequest = require('./utils/goodreadsHttpsRequest');
 const goodReadsIds = require('./DATA/GoodReadsIds');
 const https = require('https');
 const manuallyProcessed = require('./DATA/manuallyProcessed.js');
@@ -36,31 +37,6 @@ function consolidateBook(book, googleData) {
     hashCode: book.hashCode,
   });
 }
-
-function goodreadsHttpsRequest(isbn, title) {
-  console.log(`Fetching Goodreads for ${title}`);
-  return new Promise((resolve, reject) => {
-    const req = https.get(`https://www.goodreads.com/book/isbn_to_id/${isbn}?key=${secrets.key}`, (res) => {
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        return reject(new Error('statusCode=' + res.statusCode));
-      }
-
-      let data = '';
-      res.on('data', function(chunk) {
-        data += chunk;
-      });
-
-      res.on('end', function() {
-        resolve(data);
-      });
-    });
-
-    req.on('error', (e) => {
-      reject(e.message);
-    });
-  });
-}
-
 
 function sleep(ms) {
   return new Promise((resolve) => {
