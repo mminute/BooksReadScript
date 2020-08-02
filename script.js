@@ -6,6 +6,7 @@
 
 const constants = require('./constants.js');
 const fetch = require('node-fetch');
+const formatGoogleData = require('./utils/formatGoogleData');
 const fs = require('fs');
 const getGoogleCachePath = require('./utils/getGoogleCachePath');
 const getHashCode = require('./utils/getHashCode.js');
@@ -108,26 +109,7 @@ Promise.all(googleFetchPromises).then((results) => {
   booksWithFetch.forEach((book) => {
     if (book.googleFetchPromise) {
       const bookPromise = book.googleFetchPromise.then((data) => {
-        const { volumeInfo } = data;
-  
-        const identifiers = volumeInfo.industryIdentifiers;
-        const isbn10 = (identifiers.find((ident) => ident.type === 'ISBN_10') || {}).identifier;
-        const isbn13 = (identifiers.find((ident) => ident.type === 'ISBN_13') || {}).identifier;
-  
-        const imageLinks = volumeInfo.imageLinks || {};
-  
-        const googleData = {
-          author: volumeInfo.authors[0],
-          categories: volumeInfo.categories,
-          description: volumeInfo.description,
-          image: imageLinks.thumbnail || imageLinks.smallThumbnail,
-          isbn: {
-            isbn10,
-            isbn13,
-          },
-          link: volumeInfo.canonicalVolumeLink,
-          title: volumeInfo.title,
-        };
+        const googleData = formatGoogleData(data);
 
         booksWithGoogleData.push(consolidateBook(book, googleData));
       })
