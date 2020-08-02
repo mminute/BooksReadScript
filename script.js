@@ -7,29 +7,21 @@
 const constants = require('./constants.js');
 const fetch = require('node-fetch');
 const fs = require('fs');
-const getHashCode = require('./getHashCode.js');
+const getGoogleCachePath = require('./utils/getGoogleCachePath');
+const getHashCode = require('./utils/getHashCode.js');
 const goodReadsIds = require('./DATA/GoodReadsIds');
 const https = require('https');
 const manuallyProcessed = require('./DATA/manuallyProcessed.js');
 const parsers = require('./parsers.js');
 const querystring = require('querystring');
 const secrets = require('./secrets');
+const writeFile = require('./utils/writeFile');
 
 // ================================================================
 // Utils
 // ================================================================
 function sortByDate(book1, book2) {
   return book1.date - book2.date;
-}
-
-function writeFile(filename, contents) {
-  fs.writeFile(filename, contents, function cb (err) {
-    if (err) {
-      throw err;
-    }
-
-    console.log(`File created! ${filename}`);
-  })
 }
 
 function consolidateBook(book, googleData) {
@@ -92,7 +84,7 @@ const allBooks = [...manuallyProcessed, ...regularBooks, ...graphicNovels].sort(
 // FETCH THE BOOK DATA FROM THE GOOGLE BOOKS API OR LOAD THE CACHED DATA
 const booksWithFetch = allBooks.map((book)=> {
   const hashCode = getHashCode(book.title);
-  const googleCacheFilename = `./DATA/GoogleData/${hashCode}.json`;
+  const googleCacheFilename = getGoogleCachePath(hashCode);
 
   let cachedData;
   let fetcher;
