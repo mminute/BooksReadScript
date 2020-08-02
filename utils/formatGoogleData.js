@@ -1,9 +1,11 @@
-function formatGoogleData() {
+function formatGoogleData(data) {
   const { volumeInfo } = data;
 
   const identifiers = volumeInfo.industryIdentifiers;
   const isbn10 = (identifiers.find((ident) => ident.type === 'ISBN_10') || {}).identifier;
   const isbn13 = (identifiers.find((ident) => ident.type === 'ISBN_13') || {}).identifier;
+
+  const imageLinks = volumeInfo.imageLinks || {};
 
   return {
     author: volumeInfo.authors[0],
