@@ -1,20 +1,9 @@
-const constants = require('./constants.js');
-const categorizedTitles = require('./DATA/CategorizedTitles');
 const c = require('./constants.js');
+const categorizedTitles = require('./DATA/CategorizedTitles');
+const fictionTags = require('./fictionTags');
 
 function shouldBeFiction(tags) {
   let isFiction = false;
-
-  const fictionTags = [
-    c.alternateHistory,
-    c.cyberPunk,
-    c.fantasy,
-    c.graphicNovel,
-    c.militarySciFi,
-    c.sciFi,
-    c.shortFiction,
-    c.steamPunk,
-  ];
 
   return !!fictionTags.map(fictionTag => tags.includes(fictionTag)).filter(Boolean).length;
 }
@@ -63,7 +52,7 @@ function parseRegularBooks(str) {
 }
 
 function parseGraphicNovels(str) {
-  return parseLine({ str, defaultTags: [constants.graphicNovel] })
+  return parseLine({ str, defaultTags: [c.graphicNovel] })
 }
 
 module.exports = { parseRegularBooks, parseGraphicNovels };
