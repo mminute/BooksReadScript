@@ -5,8 +5,6 @@ function writeFile(filename, contents) {
     if (err) {
       throw err;
     }
-
-    console.log(`File created! ${filename}`);
   })
 }
 
