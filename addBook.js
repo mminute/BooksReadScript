@@ -79,6 +79,34 @@ async function getNewTagsFiction(newTags) {
   return processed;
 }
 
+async function processTags(tags) {
+  const tagsArr = tags.split(',').map((w) => w.replace(' ', ''));
+  let cleanTags = [];
+  const dirtyTags = [];
+  let newTags;
+
+  tagsArr.forEach((tag) => {
+    const collection = canonicalTags.includes(tag) ? cleanTags : dirtyTags;
+    collection.push(tag);
+  })
+
+  if (dirtyTags.length) {
+    const cleansedTags = await fixDirtyTags(dirtyTags);
+    
+    cleanTags = [...cleanTags, ...cleansedTags];
+
+    newTags = await getNewTagsFiction(cleanTags.filter((tag) => !canonicalTags.includes(tag)));
+  }
+
+  if (cleanTags.find(tag => fictionTags.includes(tag)).length) {
+    cleanTags.push(c.fiction)
+  }
+
+  cleanTags = Array.from(new Set(cleanTags)); // Remove any duplicates now that your are done adding tags
+
+  return { cleanTags, newTags };
+}
+
 function isValidIsbn(isbn) {
   return !isNaN(isbn) && [10, 13].includes(isbn.length);
 }
@@ -125,13 +153,18 @@ function processDate(rawDate) {
   return new Date(readDate);
 }
 
-function printUserInput({ author, date, isbn, title }) {
+function printUserInput({ author, date, isbn, notes, review, tags, title }) {
   console.log('===================================');
   console.log('===================================');
   console.log(`Title: ${title}`);
   console.log(`Author: ${author}`);
   console.log(`Date: ${date.toDateString()}`);
   console.log(`ISBN: ${isbn}`)
+  if (notes) {
+    console.log(`Notes: ${notes}`);
+  }
+  console.log(`Review: ${review}`)
+  console.log(`Tags: ${tags.join(', ')}`)
   console.log('===================================');
   console.log('===================================');
 }
@@ -148,37 +181,37 @@ function confirmInput() {
 
 function getUserInput() {
   const questions = [
-    // {
-    //   message: 'Enter the book title:',
-    //   name: 'title',
-    //   type: 'input',
-    // },
-    // {
-    //   message: 'Enter the book author:',
-    //   name: 'author',
-    //   type: 'input',
-    // },
-    // {
-    //   message: 'Enter the book ISBN:',
-    //   name: 'isbn',
-    //   type: 'number',
-    // },
-    // {
-    //   message: 'Enter the date you finished reading the book (YYYYMMDD):',
-    //   name: 'date',
-    //   type: 'number',
-    // },
-    // {
-    //   message: 'Enter notes:',
-    //   name: 'notes',
-    //   type: 'input',
-    // },
-    // {
-    //   message: 'Enter a review:',
-    //   name: 'review',
-    //   type: 'list',
-    //   choices: ['Neutral', 'Liked', 'Disliked'],
-    // },
+    {
+      message: 'Enter the book title:',
+      name: 'title',
+      type: 'input',
+    },
+    {
+      message: 'Enter the book author:',
+      name: 'author',
+      type: 'input',
+    },
+    {
+      message: 'Enter the book ISBN:',
+      name: 'isbn',
+      type: 'number',
+    },
+    {
+      message: 'Enter the date you finished reading the book (YYYYMMDD):',
+      name: 'date',
+      type: 'number',
+    },
+    {
+      message: 'Enter notes:',
+      name: 'notes',
+      type: 'input',
+    },
+    {
+      message: 'Enter a review:',
+      name: 'review',
+      type: 'list',
+      choices: ['Neutral', 'Liked', 'Disliked'],
+    },
   ];
 
   return inquirer.prompt(questions);
@@ -213,36 +246,18 @@ function getUserTags() {
 }
 
 const run = async () => {
-  // const userInput = await getUserInput();
-  // const { author, date: rawDate, isbn, title } = userInput;
+  const { author, date: rawDate, isbn, notes, review, title } = await getUserInput();
   const { tags } = await getUserTags();
-  const author = 'helloworld';
-  const isbn = 9780804139304;
-  const title = 'Zero to One';
-  const rawDate = 20200731;
-  const review = 0;
-  const notes = '';
+  // const author = 'helloworld';
+  // const isbn = 9780804139304;
+  // const notes = '';
+  // const rawDate = 20200731;
+  // const review = 0;
+  // const title = 'Zero to One';
 
-  const tagsArr = tags.split(',').map((w) => w.replace(' ', ''));
-  let cleanTags = [];
-  const dirtyTags = [];
-  let newTags;
+  const { cleanTags, newTags } = await processTags(tags);
 
-  tagsArr.forEach((tag) => {
-    const collection = canonicalTags.includes(tag) ? cleanTags : dirtyTags;
-    collection.push(tag);
-  })
-
-  if (dirtyTags.length) {
-    const cleansedTags = await fixDirtyTags(dirtyTags);
-    
-    cleanTags = [...cleanTags, ...cleansedTags];
-    if (cleanTags.find(tag => fictionTags.includes(tag)).length) {
-      cleanTags.push(c.fiction)
-    }
-
-    newTags = await getNewTagsFiction(cleanTags.filter((tag) => !canonicalTags.includes(tag)));
-  }
+  console.log(cleanTags, newTags);
 
   const readDate = processDate(rawDate);
   if (!readDate) {
@@ -254,11 +269,13 @@ const run = async () => {
     return;
   }
 
-  printUserInput({ author, date: readDate, isbn, title });
+  printUserInput({ author, date: readDate, isbn, notes, review, tags: cleanTags, title });
 
-  // const { confirm: inputConfirmed } = await confirmInput();
+  const { confirm: inputConfirmed } = await confirmInput();
 
-  // console.log(inputConfirmed);
+  if (!inputConfirmed) {
+    return;
+  }
 
   const hashCode = getHashCode(title);
   const googleCacheFilename = getGoogleCachePath(hashCode);
@@ -280,7 +297,6 @@ const run = async () => {
       const data = res.items[0];
       console.log(`writing- ${googleCacheFilename}`);
       googleDate = data;
-      // writeFile(googleCacheFilename, JSON.stringify(data));
     });
 
     apiPromises.push(goolgePromise);
@@ -310,13 +326,15 @@ const run = async () => {
       googleData: formatGoogleData(googleData),
       notes: notes.length ? notes : null,
       review: ReviewMap[review],
-      tags: Array.from(new Set(cleanTags)),
+      tags: cleanTags,
       title,
       hashCode,
       goodReadsId,
     };
 
     // TODO: Write the google data file
+    // writeFile(googleCacheFilename, JSON.stringify(data));
+    // TODO: Update output.js with new book
     // TODO: Add the goodreads id to the goodreads id hash
     // TODO: Update constants.js with new tags
     // TODO: Update fictionTags.js with new tags if needed
