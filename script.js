@@ -1,7 +1,5 @@
 /*
   To run: node script.js
-
-  TODO: cli to add a new book?
 */
 
 const constants = require('./constants.js');
