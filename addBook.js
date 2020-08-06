@@ -187,7 +187,7 @@ function getUserInput() {
       type: 'input',
     },
     {
-      message: 'Enter the book author:',
+      message: 'Enter the book author (Last, First Middle ...):',
       name: 'author',
       type: 'input',
     },
