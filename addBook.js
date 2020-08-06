@@ -8,6 +8,7 @@
   https://www.npmjs.com/package/inquirer
 */
 
+const booksReadRecord = require('./output');
 const c = require('./constants.js');
 const fetch = require('node-fetch');
 const fictionTags = require('./fictionTags');
@@ -18,9 +19,8 @@ const getHashCode = require('./utils/getHashCode.js');
 const goodreadsHttpsRequest = require('./utils/goodreadsHttpsRequest');
 const goodReadsIds = require('./DATA/GoodReadsIds');
 const inquirer = require("inquirer");
+const querystring = require('querystring');
 const writeFile = require('./utils/writeFile');
-
-const testing = true;
 
 const canonicalTags = Object.values(c);
 
@@ -98,7 +98,7 @@ async function processTags(tags) {
     newTags = await getNewTagsFiction(cleanTags.filter((tag) => !canonicalTags.includes(tag)));
   }
 
-  if (cleanTags.find(tag => fictionTags.includes(tag)).length) {
+  if (cleanTags.find(tag => fictionTags.includes(tag)) || newTags && newTags.find(tag => tag.isFiction)) {
     cleanTags.push(c.fiction)
   }
 
@@ -108,7 +108,7 @@ async function processTags(tags) {
 }
 
 function isValidIsbn(isbn) {
-  return !isNaN(isbn) && [10, 13].includes(isbn.length);
+  return !isNaN(isbn) && [10, 13].includes(isbn.toString().length);
 }
 
 function processDate(rawDate) {
@@ -245,26 +245,44 @@ function getUserTags() {
   );
 }
 
+function updateGoodreadsIds(hashCode, goodreadsId) {
+  const updatedGoodreadsIds = { ...goodReadsIds, [hashCode]: goodreadsId };
+  writeFile('./DATA/GoodReadsIds.js', `module.exports = ${JSON.stringify(updatedGoodreadsIds)};`);
+}
+
 const run = async () => {
   const { author, date: rawDate, isbn, notes, review, title } = await getUserInput();
   const { tags } = await getUserTags();
-  // const author = 'helloworld';
-  // const isbn = 9780804139304;
-  // const notes = '';
-  // const rawDate = 20200731;
-  // const review = 0;
-  // const title = 'Zero to One';
 
   const { cleanTags, newTags } = await processTags(tags);
+  if (newTags) {
+    const updatedAllTags = { ...c };
 
-  console.log(cleanTags, newTags);
+    newTags.forEach((newTag) => {
+      updatedAllTags[newTag.tag] = newTag.tag;
+    });
+
+    writeFile('./constants.js', `module.exports = ${JSON.stringify(updatedAllTags)};`);
+
+    const newFictionTags =
+      newTags
+        .filter(newTag => newTag.isFiction)
+        .map(newTag => newTag.tag);
+
+    if (newFictionTags.length) {
+      writeFile(
+        './fictionTags.js',
+        `module.exports = ${JSON.stringify([...fictionTags, ...newFictionTags])};`,
+      );
+    }
+  }
 
   const readDate = processDate(rawDate);
   if (!readDate) {
     return;
   }
 
-  if (!testing && !isValidIsbn(isbn)) {
+  if (!isValidIsbn(isbn)) {
     console.log('Invalid ISBN');
     return;
   }
@@ -287,16 +305,20 @@ const run = async () => {
   if (!fs.existsSync(googleCacheFilename)) {
     const goolgePromise = fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`)
     .then((res) => {
-      console.log(`FETCHED Google Books Data`);
+      console.log(`Received Google Books response`);
       return res.json();
     }, (e) => {
       console.log('FAILED to fetch Google Books Data');
       console.log(e);
     })
     .then((res) => {
-      const data = res.items[0];
-      console.log(`writing- ${googleCacheFilename}`);
-      googleDate = data;
+      const data = res.items && res.items[0];
+
+      if (data) {
+        console.log(`writing Google Books Data- ${googleCacheFilename}`);
+        writeFile(googleCacheFilename, JSON.stringify(data));
+        googleDate = data;
+      }
     });
 
     apiPromises.push(goolgePromise);
@@ -309,11 +331,13 @@ const run = async () => {
   } else {
     const goodReadsPromise = goodreadsHttpsRequest(isbn, title).then((data) => {
       goodReadsId = data;
+      updateGoodreadsIds(hashCode.toString(), goodReadsId);
     }, (e) => {
       console.log(`REJECTED - ${title}`);
       console.log(`REJECTED- ${e}`);
 
-      goodReadsId = data;
+      goodReadsId = null;
+      updateGoodreadsIds(hashCode.toString(), goodReadsId);
     });
 
     apiPromises.push(goodReadsPromise);
@@ -323,7 +347,6 @@ const run = async () => {
     const book = {
       author,
       date: readDate,
-      googleData: formatGoogleData(googleData),
       notes: notes.length ? notes : null,
       review: ReviewMap[review],
       tags: cleanTags,
@@ -332,17 +355,45 @@ const run = async () => {
       goodReadsId,
     };
 
-    // TODO: Write the google data file
-    // writeFile(googleCacheFilename, JSON.stringify(data));
-    // TODO: Update output.js with new book
-    // TODO: Add the goodreads id to the goodreads id hash
-    // TODO: Update constants.js with new tags
-    // TODO: Update fictionTags.js with new tags if needed
-    // TODO: separate file with dict of book title hashes and reviews?
+    function writeNewBook(googleData) {
+      // Add the new book to the array booksReadRecord, and write the new array to the origin file of booksReadRecord
+      writeFile(
+        'output.js',
+        `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`,
+      );
+    }
 
+    if (googleData) {
+      writeNewBook(googleData);
+    } else {
+      // If no book is found through an ISBN search try searching by title
+      const q = querystring.escape(title);
+      const backupGooglePromise = fetch(`https://www.googleapis.com/books/v1/volumes?q=${q}`)
+        .then((res) => {
+          console.log('Searched Google Books by title');
+          return res.json();
+        })
+        .then((res) => {
+            // return the first item that has an ISBN and the author is a good match
+            const foundItem = res.items && res.items.find((itm) => {
+              const { volumeInfo } = itm;
+              const { authors, industryIdentifiers } = volumeInfo;
+              // We've already searched by title so check if the author is a good match
+              const authorMatch = !!authors.join(',').toLowerCase().match(author.split(',')[0].toLowerCase());
+              const hasIsbn = industryIdentifiers.find((ident) => ['ISBN_10', 'ISBN_13'].includes(ident.type));
 
+              return authorMatch && hasIsbn;
+            });
 
-    // console.log(book);
+            if (foundItem) {
+              console.log('Found Google Books result by title search')
+              writeFile(googleCacheFilename, JSON.stringify(foundItem));
+            }
+
+            writeNewBook(foundItem);            
+          }
+        );
+    }
   })
 };
 
