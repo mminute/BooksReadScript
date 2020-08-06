@@ -1,0 +1,51 @@
+{
+	"kind": "books#volume",
+	"id": "gMcab1F-IL4C",
+	"etag": "q7vStVlo6R8",
+	"selfLink": "https://www.googleapis.com/books/v1/volumes/gMcab1F-IL4C",
+	"volumeInfo": {
+		"title": "Slaughterhouse 5",
+		"authors": ["Kurt Vonnegut"],
+		"publisher": "Random House",
+		"publishedDate": "1991",
+		"description": "'The great, urgent, passionate American writer of our century, who offers us a model of the kind of compassionate thinking that might yet save us from ourselves.' George Saunders Prisoner of war, optometrist, time-traveller - these are the life roles of Billy Pilgrim, hero of this miraculously moving, bitter and funny story of innocence faced with apocalypse. Slaughterhouse Five is one of the world's great anti-war books. Centring on the infamous fire-bombing of Dresden in the Second World War, Billy Pilgrim's odyssey through time reflects the journey of our own fractured lives as we search for meaning in what we are afraid to know. 'An extraordinary success. A book to read and reread. He is a true artist' New York Times Book Review",
+		"industryIdentifiers": [
+			{ "type": "ISBN_13", "identifier": "9780099800200" },
+			{ "type": "ISBN_10", "identifier": "0099800209" }
+		],
+		"readingModes": { "text": false, "image": false },
+		"pageCount": 157,
+		"printType": "BOOK",
+		"categories": ["Fiction"],
+		"averageRating": 3.5,
+		"ratingsCount": 260,
+		"maturityRating": "NOT_MATURE",
+		"allowAnonLogging": false,
+		"contentVersion": "0.1.0.0.preview.0",
+		"panelizationSummary": { "containsEpubBubbles": false, "containsImageBubbles": false },
+		"imageLinks": {
+			"smallThumbnail": "http://books.google.com/books/content?id=gMcab1F-IL4C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+			"thumbnail": "http://books.google.com/books/content?id=gMcab1F-IL4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+		},
+		"language": "en",
+		"previewLink": "http://books.google.com/books?id=gMcab1F-IL4C&dq=Slaughterhouse+5&hl=&cd=1&source=gbs_api",
+		"infoLink": "http://books.google.com/books?id=gMcab1F-IL4C&dq=Slaughterhouse+5&hl=&source=gbs_api",
+		"canonicalVolumeLink": "https://books.google.com/books/about/Slaughterhouse_5.html?hl=&id=gMcab1F-IL4C"
+	},
+	"saleInfo": { "country": "US", "saleability": "NOT_FOR_SALE", "isEbook": false },
+	"accessInfo": {
+		"country": "US",
+		"viewability": "NO_PAGES",
+		"embeddable": false,
+		"publicDomain": false,
+		"textToSpeechPermission": "ALLOWED",
+		"epub": { "isAvailable": false },
+		"pdf": { "isAvailable": false },
+		"webReaderLink": "http://play.google.com/books/reader?id=gMcab1F-IL4C&hl=&printsec=frontcover&source=gbs_api",
+		"accessViewStatus": "NONE",
+		"quoteSharingAllowed": false
+	},
+	"searchInfo": {
+		"textSnippet": "But when, exactly? How did he get here? And how does he get out? Travel through time and space on the shoulders of Vonnegut himself. This is a book about war. Listen to what he has to say: it is of the utmost urgency."
+	}
+}

@@ -1,35 +1,27 @@
 /*
   To run: node script.js
-
-  TODO: cli to add a new book?
 */
 
 const constants = require('./constants.js');
 const fetch = require('node-fetch');
+const formatGoogleData = require('./utils/formatGoogleData');
 const fs = require('fs');
-const getHashCode = require('./getHashCode.js');
+const getGoogleCachePath = require('./utils/getGoogleCachePath');
+const getHashCode = require('./utils/getHashCode.js');
+const goodreadsHttpsRequest = require('./utils/goodreadsHttpsRequest');
 const goodReadsIds = require('./DATA/GoodReadsIds');
 const https = require('https');
 const manuallyProcessed = require('./DATA/manuallyProcessed.js');
 const parsers = require('./parsers.js');
 const querystring = require('querystring');
 const secrets = require('./secrets');
+const writeFile = require('./utils/writeFile');
 
 // ================================================================
 // Utils
 // ================================================================
 function sortByDate(book1, book2) {
   return book1.date - book2.date;
-}
-
-function writeFile(filename, contents) {
-  fs.writeFile(filename, contents, function cb (err) {
-    if (err) {
-      throw err;
-    }
-
-    console.log(`File created! ${filename}`);
-  })
 }
 
 function consolidateBook(book, googleData) {
@@ -44,31 +36,6 @@ function consolidateBook(book, googleData) {
     hashCode: book.hashCode,
   });
 }
-
-function goodreadsHttpsRequest(isbn, title) {
-  console.log(`Fetching Goodreads for ${title}`);
-  return new Promise((resolve, reject) => {
-    const req = https.get(`https://www.goodreads.com/book/isbn_to_id/${isbn}?key=${secrets.key}`, (res) => {
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        return reject(new Error('statusCode=' + res.statusCode));
-      }
-
-      let data = '';
-      res.on('data', function(chunk) {
-        data += chunk;
-      });
-
-      res.on('end', function() {
-        resolve(data);
-      });
-    });
-
-    req.on('error', (e) => {
-      reject(e.message);
-    });
-  });
-}
-
 
 function sleep(ms) {
   return new Promise((resolve) => {
@@ -92,7 +59,7 @@ const allBooks = [...manuallyProcessed, ...regularBooks, ...graphicNovels].sort(
 // FETCH THE BOOK DATA FROM THE GOOGLE BOOKS API OR LOAD THE CACHED DATA
 const booksWithFetch = allBooks.map((book)=> {
   const hashCode = getHashCode(book.title);
-  const googleCacheFilename = `./DATA/GoogleData/${hashCode}.json`;
+  const googleCacheFilename = getGoogleCachePath(hashCode);
 
   let cachedData;
   let fetcher;
@@ -140,26 +107,7 @@ Promise.all(googleFetchPromises).then((results) => {
   booksWithFetch.forEach((book) => {
     if (book.googleFetchPromise) {
       const bookPromise = book.googleFetchPromise.then((data) => {
-        const { volumeInfo } = data;
-  
-        const identifiers = volumeInfo.industryIdentifiers;
-        const isbn10 = (identifiers.find((ident) => ident.type === 'ISBN_10') || {}).identifier;
-        const isbn13 = (identifiers.find((ident) => ident.type === 'ISBN_13') || {}).identifier;
-  
-        const imageLinks = volumeInfo.imageLinks || {};
-  
-        const googleData = {
-          author: volumeInfo.authors[0],
-          categories: volumeInfo.categories,
-          description: volumeInfo.description,
-          image: imageLinks.thumbnail || imageLinks.smallThumbnail,
-          isbn: {
-            isbn10,
-            isbn13,
-          },
-          link: volumeInfo.canonicalVolumeLink,
-          title: volumeInfo.title,
-        };
+        const googleData = formatGoogleData(data);
 
         booksWithGoogleData.push(consolidateBook(book, googleData));
       })
