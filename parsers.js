@@ -37,14 +37,14 @@ function parseLine({ defaultTags, str }) {
 
   const tags = getTags(title, defaultTags);
 
-  // Reviews will be -1 (did not like), 0 (neutral), or 1 (liked)
+  // Reviews will be null, -1 (did not like), 0 (neutral), or 1 (liked)
   // TODO: Date is wrong here
   // Make:
   // var a = Date.parse('2020-07-31T00:00:00')
   // var b = new Date(a)
   // b === Fri Jul 31 2020 00:00:00 GMT-0700 (Pacific Daylight Time)
   // b.toDateString() === "Fri Jul 31 2020"
-  return { title, author, date: new Date(date), tags, review: 0, notes: null };
+  return { title, author, date: new Date(date), tags, review: null, notes: null };
 }
 
 function parseRegularBooks(str) {
