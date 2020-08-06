@@ -28076,4 +28076,25 @@ module.exports = [
 		hashCode: 862052217,
 		goodReadsId: '22856316',
 	},
+	{
+		author: 'Robinson, Kim Stanley',
+		date: '2020-07-07T07:00:00.000Z',
+		notes: null,
+		review: 1,
+		tags: ['sciFi', 'fiction'],
+		title: 'Red Moon',
+		hashCode: 780010128,
+		goodReadsId: '40994270',
+		googleData: {
+			author: 'Kim Stanley Robinson',
+			categories: ['Fiction'],
+			description:
+				"'A masterpiece' - Times 'Any new novel by the great Kim Stanley Robinson is always an event and Red Moon doesn't disappoint' - Independent 'Sci-fi fans will love the detail and the optimism about humanity's future in space' - Wall Street Journal IT IS THIRTY YEARS FROM NOW, AND WE HAVE COLONISED THE MOON. American Fred Fredericks is making his first trip, his purpose to install a communications system for China's Lunar Science Foundation. But hours after his arrival he witnesses a murder and is forced into hiding. It is also the first visit for celebrity travel reporter Ta Shu. He has contacts and influence, but he too will find that the moon can be a perilous place for any traveller. Finally, there is Chan Qi. She is the daughter of the Minister of Finance, and without doubt a person of interest to those in power. She is on the moon for reasons of her own, but when she attempts to return to China in secret, the events that unfold will change everything - on the moon, and on Earth. Red Moon is a magnificent novel of space exploration and political revolution from New York Times bestselling author Kim Stanley Robinson. Novels by Kim Stanley Robinson: Icehenge The Memory of Whiteness A Short, Sharp Shock Antarctica The Years of Rice and Salt Galileo's Dream 2312 Shaman Aurora New York 2140 Red Moon",
+			image:
+				'http://books.google.com/books/content?id=iClaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api',
+			isbn: { isbn10: '0356508811', isbn13: '9780356508818' },
+			link: 'https://books.google.com/books/about/Red_Moon.html?hl=&id=iClaDwAAQBAJ',
+			title: 'Red Moon',
+		},
+	},
 ];
