@@ -1,0 +1,22 @@
+{
+  "name": "booksreadscript",
+  "version": "1.0.0",
+  "description": "To install/run: 1. `npm install`",
+  "main": "addBook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mminute/BooksReadScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mminute/BooksReadScript/issues"
+  },
+  "homepage": "https://github.com/mminute/BooksReadScript#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
