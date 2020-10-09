@@ -2,7 +2,6 @@
   To run: node script.js
 */
 
-const constants = require('./constants.js');
 const fetch = require('node-fetch');
 const formatGoogleData = require('./utils/formatGoogleData');
 const fs = require('fs');
@@ -10,11 +9,9 @@ const getGoogleCachePath = require('./utils/getGoogleCachePath');
 const getHashCode = require('./utils/getHashCode.js');
 const goodreadsHttpsRequest = require('./utils/goodreadsHttpsRequest');
 const goodReadsIds = require('./DATA/GoodReadsIds');
-const https = require('https');
 const manuallyProcessed = require('./DATA/manuallyProcessed.js');
 const parsers = require('./parsers.js');
 const querystring = require('querystring');
-const secrets = require('./secrets');
 const writeFile = require('./utils/writeFile');
 
 // ================================================================
@@ -152,6 +149,8 @@ Promise.all(googleFetchPromises).then((results) => {
 
       writeFile('./DATA/GoodReadsIds.js', `module.exports = ${JSON.stringify(newGoodReadsCache)};`);
       writeFile('output.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
+      // TODO: COPY THE DATA TO MY WEBSITE DIRECTORY
+      writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
     });
   })
 })
