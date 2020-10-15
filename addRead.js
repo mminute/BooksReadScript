@@ -357,10 +357,10 @@ const run = async () => {
 
     function writeNewBook(googleData) {
       // Add the new book to the array booksReadRecord, and write the new array to the origin file of booksReadRecord
-      writeFile(
-        'output.js',
-        `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`,
-      );
+      // Update the file in my website repo with the new data too
+      const contents = `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`;
+      writeFile('output.js', contents);
+      writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', contents);
     }
 
     if (googleData) {
