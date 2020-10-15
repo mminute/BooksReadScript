@@ -1,5 +1,6 @@
 const fs = require("fs");
 const writeFile = require('./utils/writeFile');
+const writeToWebsite = require('./utils/writeToWebsite');
 
 function createObject(line) {
   const [title, author] = line.split(' by ');
@@ -24,5 +25,4 @@ const booksToRead = fs
 const contents = `module.exports = ${JSON.stringify(booksToRead)};`;
 
 writeFile('./OUTPUT/booksToRead.js' ,contents);
-
-writeFile('../masonjenningsIOv2/src/DATA/booksToRead.js', contents);
+writeToWebsite(contents);

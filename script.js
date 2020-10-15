@@ -13,6 +13,7 @@ const manuallyProcessed = require('./DATA/manuallyProcessed.js');
 const parsers = require('./parsers.js');
 const querystring = require('querystring');
 const writeFile = require('./utils/writeFile');
+const writeToWebsite = require('./utils/writeToWebsite');
 
 // ================================================================
 // Utils
@@ -148,9 +149,11 @@ Promise.all(googleFetchPromises).then((results) => {
       });
 
       writeFile('./DATA/GoodReadsIds.js', `module.exports = ${JSON.stringify(newGoodReadsCache)};`);
-      writeFile('./OUTPUT/booksRead.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
-      // TODO: COPY THE DATA TO MY WEBSITE DIRECTORY
-      writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
+
+      const contents = `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`;
+      
+      writeFile('./OUTPUT/booksRead.js', contents);
+      writeToWebsite(contents)
     });
   })
 })
