@@ -18,7 +18,6 @@ const getGoogleCachePath = require('./utils/getGoogleCachePath');
 const getHashCode = require('./utils/getHashCode.js');
 const goodreadsHttpsRequest = require('./utils/goodreadsHttpsRequest');
 const goodReadsIds = require('./DATA/GoodReadsIds');
-const inquirer = require("inquirer");
 const querystring = require('querystring');
 const writeFile = require('./utils/writeFile');
 const writeToWebsite = require('./utils/writeToWebsite');
@@ -28,6 +27,8 @@ const confirmInput = require('./AddRead/confirmInput');
 const printUserInput = require('./AddRead/printUserInput');
 const getUserInput = require('./AddRead/getUserInput');
 const getUserTags = require('./AddRead/getUserTags');
+const isValidIsbn = require('./AddRead/isValidIsbn');
+const crossCheckBooksToRead = require('./AddRead/crossCheckBooksToRead');
 
 const canonicalTags = Object.values(c);
 
@@ -73,10 +74,6 @@ async function processTags(tags) {
   cleanTags = Array.from(new Set(cleanTags)); // Remove any duplicates now that your are done adding tags
 
   return { cleanTags, newTags };
-}
-
-function isValidIsbn(isbn) {
-  return !isNaN(isbn) && [10, 13].includes(isbn.toString().length);
 }
 
 function processDate(rawDate) {
@@ -237,6 +234,7 @@ const run = async () => {
       const contents = `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`;
       writeFile('./OUTPUT/booksRead.js', contents);
       writeToWebsite(contents);
+      crossCheckBooksToRead(book);
     }
 
     if (googleData) {
