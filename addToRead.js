@@ -57,6 +57,8 @@ const run = async () => {
     return;
   }
 
+  // TODO: Check to prevent duplicates
+
   const data = { author, link, title, added: new Date() };
 
   const allData = [...booksToReadData, data];
