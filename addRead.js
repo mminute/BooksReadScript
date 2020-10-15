@@ -24,6 +24,7 @@ const writeFile = require('./utils/writeFile');
 const writeToWebsite = require('./utils/writeToWebsite');
 const getValidTag = require('./AddRead/getValidTag');
 const getNewTagsFiction = require('./AddRead/getNewTagsFiction');
+const confirmInput = require('./AddRead/confirmInput');
 
 const canonicalTags = Object.values(c);
 
@@ -131,16 +132,6 @@ function printUserInput({ author, date, isbn, notes, review, tags, title }) {
   console.log(`Tags: ${tags.join(', ')}`)
   console.log('===================================');
   console.log('===================================');
-}
-
-function confirmInput() {
-  return inquirer.prompt([
-    {
-      message: 'Is this information correct?',
-      name: 'confirm',
-      type: 'confirm',
-    },
-  ]);
 }
 
 function getUserInput() {
