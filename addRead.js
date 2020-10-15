@@ -21,6 +21,7 @@ const goodReadsIds = require('./DATA/GoodReadsIds');
 const inquirer = require("inquirer");
 const querystring = require('querystring');
 const writeFile = require('./utils/writeFile');
+const writeToWebsite = require('./utils/writeToWebsite');
 
 const canonicalTags = Object.values(c);
 
@@ -360,7 +361,7 @@ const run = async () => {
       // Update the file in my website repo with the new data too
       const contents = `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`;
       writeFile('./OUTPUT/booksRead.js', contents);
-      writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', contents);
+      writeToWebsite(contents);
     }
 
     if (googleData) {

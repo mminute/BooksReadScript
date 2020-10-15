@@ -4,6 +4,7 @@
 const inquirer = require('inquirer');
 const booksToReadData = require('./OUTPUT/booksToRead');
 const writeFile = require('./utils/writeFile');
+const writeToWebsite = require('./utils/writeToWebsite');
 
 function getUserInput() {
   const questions = [
@@ -63,8 +64,7 @@ const run = async () => {
   const contents = `module.exports = ${JSON.stringify(allData)};`;
 
   writeFile('./OUTPUT/booksToRead.js', contents);
-  // Update the data in my website repo
-  writeFile('../masonjenningsIOv2/src/DATA/booksToRead.js', contents);
+  writeToWebsite(contents)
 };
 
 run();
