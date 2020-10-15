@@ -8,7 +8,7 @@
   https://www.npmjs.com/package/inquirer
 */
 
-const booksReadRecord = require('./output');
+const booksReadRecord = require('./OUTPUT/booksRead');
 const c = require('./constants.js');
 const fetch = require('node-fetch');
 const fictionTags = require('./fictionTags');
@@ -357,10 +357,10 @@ const run = async () => {
 
     function writeNewBook(googleData) {
       // Add the new book to the array booksReadRecord, and write the new array to the origin file of booksReadRecord
-      writeFile(
-        'output.js',
-        `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`,
-      );
+      // Update the file in my website repo with the new data too
+      const contents = `module.exports = ${JSON.stringify([...booksReadRecord, { ...book, googleData: formatGoogleData(googleData) }])};`;
+      writeFile('./OUTPUT/booksRead.js', contents);
+      writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', contents);
     }
 
     if (googleData) {
@@ -394,7 +394,9 @@ const run = async () => {
           }
         );
     }
-  })
+  });
+  // TODO: Check if there is a matching book in OUTPUT/booksToRead
+  // and remove it if found
 };
 
 run();
