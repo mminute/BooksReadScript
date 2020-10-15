@@ -148,7 +148,7 @@ Promise.all(googleFetchPromises).then((results) => {
       });
 
       writeFile('./DATA/GoodReadsIds.js', `module.exports = ${JSON.stringify(newGoodReadsCache)};`);
-      writeFile('output.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
+      writeFile('./OUTPUT/booksRead.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
       // TODO: COPY THE DATA TO MY WEBSITE DIRECTORY
       writeFile('../masonjenningsIOv2/src/DATA/booksRead.js', `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`);
     });
