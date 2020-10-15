@@ -1,4 +1,5 @@
 function crossCheckBooksToRead(book) {
+  console.log('crosscheck');
   console.log(book);
 }
 
