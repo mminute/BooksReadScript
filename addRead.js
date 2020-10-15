@@ -8,7 +8,7 @@
   https://www.npmjs.com/package/inquirer
 */
 
-const booksReadRecord = require('./output');
+const booksReadRecord = require('./OUTPUT/booksRead');
 const c = require('./constants.js');
 const fetch = require('node-fetch');
 const fictionTags = require('./fictionTags');
