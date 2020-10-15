@@ -25,6 +25,7 @@ const writeToWebsite = require('./utils/writeToWebsite');
 const getValidTag = require('./AddRead/getValidTag');
 const getNewTagsFiction = require('./AddRead/getNewTagsFiction');
 const confirmInput = require('./AddRead/confirmInput');
+const printUserInput = require('./AddRead/printUserInput');
 
 const canonicalTags = Object.values(c);
 
@@ -116,22 +117,6 @@ function processDate(rawDate) {
   }
 
   return new Date(readDate);
-}
-
-function printUserInput({ author, date, isbn, notes, review, tags, title }) {
-  console.log('===================================');
-  console.log('===================================');
-  console.log(`Title: ${title}`);
-  console.log(`Author: ${author}`);
-  console.log(`Date: ${date.toDateString()}`);
-  console.log(`ISBN: ${isbn}`)
-  if (notes) {
-    console.log(`Notes: ${notes}`);
-  }
-  console.log(`Review: ${review}`)
-  console.log(`Tags: ${tags.join(', ')}`)
-  console.log('===================================');
-  console.log('===================================');
 }
 
 function getUserInput() {
