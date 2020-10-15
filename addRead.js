@@ -22,6 +22,8 @@ const inquirer = require("inquirer");
 const querystring = require('querystring');
 const writeFile = require('./utils/writeFile');
 const writeToWebsite = require('./utils/writeToWebsite');
+const getValidTag = require('./AddRead/getValidTag');
+const getNewTagsFiction = require('./AddRead/getNewTagsFiction');
 
 const canonicalTags = Object.values(c);
 
@@ -29,30 +31,6 @@ const ReviewMap = {
   Neutral: 0,
   Liked: 1,
   Disliked: -1,
-}
-
-async function getValidTag(tag) {
-  const { isNewTag } = await inquirer.prompt({
-    message: `'${tag}' not found. Is this tag correct?`,
-    name: 'isNewTag',
-    type: 'confirm',
-  });
-
-  if (isNewTag) {
-    return tag;
-  }
-
-  const { updatedTag } = await inquirer.prompt({
-    message: 'Enter the correct tag:',
-    name: 'updatedTag',
-    type: 'input',
-  });
-
-  if (canonicalTags.includes(updatedTag)) {
-    return updatedTag;
-  } else {
-    return await getValidTag(updatedTag);
-  }
 }
 
 async function fixDirtyTags(dirtyTags) {
@@ -63,21 +41,6 @@ async function fixDirtyTags(dirtyTags) {
   }
 
   return cleanTags;
-}
-
-async function getNewTagsFiction(newTags) {
-  const processed = []
-  for (const tag of newTags) {
-    const { isFiction } = await inquirer.prompt({
-      message: `Is ${tag} a fiction tag?`,
-      name: 'isFiction',
-      type: 'confirm',
-    });
-
-    processed.push({ tag, isFiction });
-  }
-
-  return processed;
 }
 
 async function processTags(tags) {
