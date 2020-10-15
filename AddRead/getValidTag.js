@@ -1,4 +1,7 @@
 const inquirer = require("inquirer");
+const c = require('../constants');
+
+const canonicalTags = Object.values(c);
 
 async function getValidTag(tag) {
   const { isNewTag } = await inquirer.prompt({
