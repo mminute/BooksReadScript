@@ -21,7 +21,8 @@ const booksToRead = fs
   .split("\n")
   .map(createObject);
 
-writeFile(
-  './OUTPUT/booksToRead.js',
-  `module.exports = ${JSON.stringify(booksToRead)};`,
-);
+const contents = `module.exports = ${JSON.stringify(booksToRead)};`;
+
+writeFile('./OUTPUT/booksToRead.js' ,contents);
+
+writeFile('../masonjenningsIOv2/src/DATA/booksToRead.js', contents);
