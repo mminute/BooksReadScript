@@ -7,4 +7,7 @@ In the top level directory add `secrets.js` and copy the Good Reads api key and 
 
 Use `node script.js` to generate a new output file based on the data that has been collected in `output.js`
 
-Use `node addBook.js` to add a new entry and update `output.js`
+Use `node addBook.js` to add a new entry and update `OUTPUT/booksRead.js`
+- ran `npm install inquirer` to get this working
+  
+Use `node addToRead.js` to add to `OUTPUT/booksToRead.js`
