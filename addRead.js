@@ -394,7 +394,9 @@ const run = async () => {
           }
         );
     }
-  })
+  });
+  // TODO: Check if there is a matching book in OUTPUT/booksToRead
+  // and remove it if found
 };
 
 run();
