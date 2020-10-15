@@ -27,15 +27,44 @@ function getUserInput() {
   return inquirer.prompt(questions);
 }
 
+function printUserInput({ author, link, title }) {
+  console.log('===================================');
+  console.log('===================================');
+  console.log(`Title: ${title}`);
+  console.log(`Author: ${author}`);
+  console.log(`Link: ${link}`);
+  console.log('===================================');
+  console.log('===================================');
+}
+
+function confirmInput() {
+  return inquirer.prompt([
+    {
+      message: 'Is this information correct?',
+      name: 'confirm',
+      type: 'confirm',
+    },
+  ]);
+}
+
 const run = async () => {
   const { author, link, title } = await getUserInput();
+  printUserInput({ author, link, title });
+  const { confirm: inputConfirmed } = await confirmInput();
+
+  if (!inputConfirmed) {
+    return;
+  }
 
   const data = { author, link, title, added: new Date() };
 
   const allData = [...booksToReadData, data];
 
-  writeFile('./OUTPUT/booksToRead.js', `module.exports = ${JSON.stringify(allData)};`);
-  // TODO: Also save to my website
+  const contents = `module.exports = ${JSON.stringify(allData)};`;
+
+  writeFile('./OUTPUT/booksToRead.js', contents);
+  // Update the data in my website repo
+  writeFile('../masonjenningsIOv2/src/DATA/booksToRead.js', contents);
 };
 
 run();
