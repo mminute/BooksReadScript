@@ -26,6 +26,8 @@ const getValidTag = require('./AddRead/getValidTag');
 const getNewTagsFiction = require('./AddRead/getNewTagsFiction');
 const confirmInput = require('./AddRead/confirmInput');
 const printUserInput = require('./AddRead/printUserInput');
+const getUserInput = require('./AddRead/getUserInput');
+const getUserTags = require('./AddRead/getUserTags');
 
 const canonicalTags = Object.values(c);
 
@@ -117,72 +119,6 @@ function processDate(rawDate) {
   }
 
   return new Date(readDate);
-}
-
-function getUserInput() {
-  const questions = [
-    {
-      message: 'Enter the book title:',
-      name: 'title',
-      type: 'input',
-    },
-    {
-      message: 'Enter the book author (Last, First Middle ...):',
-      name: 'author',
-      type: 'input',
-    },
-    {
-      message: 'Enter the book ISBN:',
-      name: 'isbn',
-      type: 'number',
-    },
-    {
-      message: 'Enter the date you finished reading the book (YYYYMMDD):',
-      name: 'date',
-      type: 'number',
-    },
-    {
-      message: 'Enter notes:',
-      name: 'notes',
-      type: 'input',
-    },
-    {
-      message: 'Enter a review:',
-      name: 'review',
-      type: 'list',
-      choices: ['Neutral', 'Liked', 'Disliked'],
-    },
-  ];
-
-  return inquirer.prompt(questions);
-}
-
-function getUserTags() {
-  const itemsToPrintOnALine = 5;
-  const allTags = Object.values(c);
-  const maxTagLength = Math.max(...allTags.map(t => t.length));
-
-  let tagsOnLine = itemsToPrintOnALine;
-  while (tagsOnLine < allTags.length + itemsToPrintOnALine) {
-    // Pretty print all of the existing tags
-    const stringLine = allTags.slice(tagsOnLine - 5, tagsOnLine).map((t) => {
-      const padding = ' '.repeat((maxTagLength - t.length)/2);
-      const str = ` ${padding}${t}${padding} `;
-      return str.length === maxTagLength + 2 ? str : str + ' '.repeat(maxTagLength + 2 - str.length);
-    }).join('|');
-
-    console.log(stringLine);
-
-    tagsOnLine += itemsToPrintOnALine;
-  }
-
-  return inquirer.prompt(
-    {
-      message: 'Enter a tags (comma separated list):',
-      name: 'tags',
-      type: 'input',
-    },
-  );
 }
 
 function updateGoodreadsIds(hashCode, goodreadsId) {
