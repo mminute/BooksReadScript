@@ -94,4 +94,4 @@ const booksToRead = fs
 const contents = `module.exports = ${JSON.stringify(booksToRead)};`;
 
 writeFile('./OUTPUT/booksToRead.js', contents);
-writeToWebsite(contents);
+writeToWebsite('toRead', contents);

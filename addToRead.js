@@ -66,7 +66,7 @@ const run = async () => {
   const contents = `module.exports = ${JSON.stringify(allData)};`;
 
   writeFile('./OUTPUT/booksToRead.js', contents);
-  writeToWebsite(contents)
+  writeToWebsite('toRead', contents);
 };
 
 run();
