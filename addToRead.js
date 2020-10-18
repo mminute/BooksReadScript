@@ -2,8 +2,11 @@
 // See addRead.js as it was used as a guide for this file
 
 const inquirer = require('inquirer');
-const crossCheckBooksToRead = require('./AddRead/crossCheckBooksToRead');
+const addNewTags = require('./AddRead/addNewTags');
 const booksToReadData = require('./OUTPUT/booksToRead');
+const crossCheckBooksToRead = require('./AddRead/crossCheckBooksToRead');
+const getUserTags = require('./AddRead/getUserTags');
+const processTags = require('./AddRead/processTags');
 const writeFile = require('./utils/writeFile');
 const writeToWebsite = require('./utils/writeToWebsite');
 
@@ -29,11 +32,12 @@ function getUserInput() {
   return inquirer.prompt(questions);
 }
 
-function printUserInput({ author, link, title }) {
+function printUserInput({ author, link, tags, title }) {
   console.log('===================================');
   console.log('===================================');
   console.log(`Title: ${title}`);
   console.log(`Author: ${author}`);
+  console.log(`Tags: ${tags.join(', ')}`);
   console.log(`Link: ${link}`);
   console.log('===================================');
   console.log('===================================');
@@ -42,7 +46,7 @@ function printUserInput({ author, link, title }) {
 function confirmInput() {
   return inquirer.prompt([
     {
-      message: 'Is this information correct?',
+      message: '\nIs this information correct?',
       name: 'confirm',
       type: 'confirm',
     },
@@ -73,14 +77,19 @@ function confirmBookExists() {
 
 const run = async () => {
   const { author, link, title } = await getUserInput();
-  printUserInput({ author, link, title });
+  const { tags } = await getUserTags();
+  const { cleanTags, newTags } = await processTags(tags);
+  printUserInput({ author, link, tags: cleanTags, title });
+
   const { confirm: inputConfirmed } = await confirmInput();
 
   if (!inputConfirmed) {
     return;
   }
 
-  const data = { author, link, title, added: new Date() };
+  addNewTags(newTags);
+
+  const data = { author, link, tags: cleanTags, title, added: new Date() };
 
   const matches = crossCheckBooksToRead(data)
 
@@ -93,7 +102,7 @@ const run = async () => {
     }
   }
 
-  const allData = [...booksToReadData];
+  const allData = [...booksToReadData, data];
 
   const contents = `module.exports = ${JSON.stringify(allData)};`;
 

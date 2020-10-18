@@ -1,8 +1,9 @@
 const inquirer = require("inquirer");
 const c = require('../constants.js');
 
+const itemsToPrintOnALine = 5;
+
 function getUserTags() {
-  const itemsToPrintOnALine = 5;
   const allTags = Object.values(c);
   const maxTagLength = Math.max(...allTags.map(t => t.length));
 
@@ -22,7 +23,7 @@ function getUserTags() {
 
   return inquirer.prompt(
     {
-      message: 'Enter a tags (comma separated list):',
+      message: 'Enter tags (comma separated list):',
       name: 'tags',
       type: 'input',
     },
