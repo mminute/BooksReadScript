@@ -1,11 +1,10 @@
 Crucible of Gold by Naomi Novik 
 Blackout by Mira Grant 
 The Killing Moon by N.K. Jemisin 
-Packing for mars by mary roach
 Nerd Do Well: A Small Boy?s Journey to Becoming a Big Kid by Simon Pegg
 Rite of Passage by Alexie Panshin
 Naked Lunch by William Burroughs
-The children of men by p.d. james
+The children of men by P.D. James
 The Mongoliad by Neal Stephenson
 A History of the World in 6 Glasses by Tom Standage
 Alvin Maker Series by Orson Scott Card
@@ -59,7 +58,7 @@ Logan's Run by George Clayton Johnson and William F. Nolan
 Aussie Grit- My F1 Journey by Mark Webber
 The Girl with the Dragon Tattoo by Stieg Larsson
 Black Reconstruction in America, 1860-1880 by WEB Dubois
-Black hole by bucky sinister
+Black hole by Bucky Sinister
 Weighing Shadows by Lisa Goldstein
 Luna: New Moon by Ian McDonald
 Blue Gemini by Mike Jenne
@@ -95,15 +94,13 @@ The Wealth of Nations by Adam Smith
 The Art of War by Sun Tzu
 The Prince by Machiavelli
 The Grid: The Fraying Wires Between Americans and Our Energy Future by Gretchen Bakke
-Seveneves by Neal Stephenson
 Beren and Luthien by JRR Tolkien
 The golden compass by Philip Pullman
 For the Win by Cory Doctorow
 The Shadow of the Torturer by Gene Wolfe
 Snow Crash by Neal Stephenson
-Children of the fleet by orson scott card
+Children of the fleet by Orson Scott Card
 Luna: Wolf Moon by Ian Macdonald
-Endurance by scott kelly
 Mortal Engines by Phillip Reeve
 Iron Gold by Pierce Brown
 Annihilation by Jeff VanderMeer
@@ -121,7 +118,7 @@ Lost in a good game by Pete Etchells
 The Calculating Stars: A Lady Astronaut Novel by Mary Robinette Kowal
 Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy by Cathy O’Neil
 The Long Way to a Small,  Angry Planet by Becky Chambers
-Ruined by Design. Monteiro, Mike.
+Ruined By Design by Mike Monteiro
 SpaceCorp by Ejner Fulsang
 Your Money or Your Life by Vicki Robin
 The Underground Railroad by Colson Whitehead
@@ -137,4 +134,4 @@ Blindsight by Peter Watts
 The Last  Astronaut by David Wellington
 Rosewater (The Wormwood Trilogy: Book 1) by Tade Thompson
 Records of the Medieval Sword by Ewart Oakeshott
-American War by omar el akkad
+American War by Omar El Akkad
