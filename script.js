@@ -98,7 +98,7 @@ const booksWithFetch = allBooks.map((book)=> {
 const googleFetchPromises = booksWithFetch.map((bk) => bk.googleFetchPromise).filter(Boolean);
 
 // ONCE ALL THE `fetchPromises` HAVE RESOLVED GO THROUGH AND COLLECT THE DATA
-Promise.all(googleFetchPromises).then((results) => {
+Promise.all(googleFetchPromises).then(() => {
   const bookPromises = [];
   const booksWithGoogleData = [];
 

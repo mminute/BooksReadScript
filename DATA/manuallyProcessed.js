@@ -4,6 +4,14 @@ const graphicNovelTag = [constants.graphicNovel];
 
 const manuallyProcessed = [
   {
+    title: 'B.P.R.D. 4: The Dead',
+    author: 'Mignola, Mike',
+    date: new Date('October 7, 2012'),
+    tags: graphicNovelTag,
+    review: 0,
+    notes: null,
+  },
+  {
     title: "B.P.R.D. 3: Plauge of Frogs",
     author: 'Mignola, Mike',
     date: new Date('February 16, 2012'),
