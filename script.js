@@ -153,7 +153,7 @@ Promise.all(googleFetchPromises).then((results) => {
       const contents = `module.exports = ${JSON.stringify(booksWithGoodReadsData)};`;
       
       writeFile('./OUTPUT/booksRead.js', contents);
-      writeToWebsite('read', contents)
+      writeToWebsite('read', contents);
     });
   })
 })

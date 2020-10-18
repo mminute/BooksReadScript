@@ -50,11 +50,11 @@ function crossCheckBooksToRead(readBook) {
 
   return matchedBooksOnToRead.sort((a, b) => {
     if (a.matchScore < b.matchScore) {
-      return -1;
+      return 1;
     }
 
     if (a.matchScore > b.matchScore) {
-      return 1;
+      return -1;
     }
  
     // a must be equal to b
