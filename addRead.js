@@ -130,7 +130,7 @@ const run = async () => {
       if (data) {
         console.log(`writing Google Books Data- ${googleCacheFilename}`);
         writeFile(googleCacheFilename, JSON.stringify(data));
-        googleDate = data;
+        googleData = data; // TODO this was googleDate instead of googleData, should be data?
       }
     });
 

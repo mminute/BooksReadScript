@@ -8,7 +8,7 @@ function formatGoogleData(data) {
   const imageLinks = volumeInfo.imageLinks || {};
 
   return {
-    author: volumeInfo.authors[0],
+    author: volumeInfo.authors && volumeInfo.authors[0],
     categories: volumeInfo.categories,
     description: volumeInfo.description,
     image: imageLinks.thumbnail || imageLinks.smallThumbnail,
