@@ -115,7 +115,9 @@ const run = async () => {
   let goodReadsId;
   const apiPromises = [];
 
-  if (!fs.existsSync(googleCacheFilename)) {
+  if (fs.existsSync(googleCacheFilename)) {
+    googleData = JSON.parse(fs.readFileSync(googleCacheFilename).toString());
+  } else {
     const goolgePromise = fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`)
     .then((res) => {
       console.log(`Received Google Books response`);
@@ -135,8 +137,6 @@ const run = async () => {
     });
 
     apiPromises.push(goolgePromise);
-  } else {
-    googleData = JSON.parse(fs.readFileSync(googleCacheFilename).toString());
   }
 
   if (Object.keys(goodReadsIds).includes(hashCode.toString())) {
