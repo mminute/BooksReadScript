@@ -15,7 +15,7 @@ function getUserInput() {
     {
       message: 'Enter the book ISBN:',
       name: 'isbn',
-      type: 'number',
+      type: 'string',
     },
     {
       message: 'Enter the date you finished reading the book (YYYYMMDD):',

@@ -129,7 +129,7 @@ const run = async () => {
   }
 
   if (!isValidIsbn(isbn)) {
-    if (isNaN(isbn)) {
+    if (isNaN(parseInt(isbn))) {
       console.log("The ISBN you entered is not a number");
       const { ignoreIsbn } = await proceedWithouISBN();
 
@@ -335,5 +335,3 @@ const run = async () => {
 };
 
 run();
-
-// Asimov's Science Fiction: January/Febuary 2020
