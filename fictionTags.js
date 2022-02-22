@@ -9,4 +9,5 @@ module.exports = [
   c.sciFi,
   c.shortFiction,
   c.steamPunk,
+  c.historicalFiction
 ];
