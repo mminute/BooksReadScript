@@ -271,9 +271,9 @@ const run = async () => {
       writeToWebsite("read", contents);
       const matchedToReads = crossCheckBooksToRead(book);
 
-      matchedToReads.forEach((matchedBk) => {
+      matchedToReads.forEach((matchedBk, idx) => {
         console.log("===========================");
-        console.log("Option 1:");
+        console.log(`Option ${idx + 1}:`);
         console.log("===========================");
         console.log(matchedBk.title);
         console.log(matchedBk.author);
@@ -312,11 +312,11 @@ const run = async () => {
               const { volumeInfo } = itm;
               const { authors, industryIdentifiers } = volumeInfo;
               // We've already searched by title so check if the author is a good match
-              const authorMatch = !!authors
+              const authorMatch = !!authors && authors
                 .join(",")
                 .toLowerCase()
                 .match(author.split(",")[0].toLowerCase());
-              const hasIsbn = industryIdentifiers.find((ident) =>
+              const hasIsbn = !!industryIdentifiers && industryIdentifiers.find((ident) =>
                 ["ISBN_10", "ISBN_13"].includes(ident.type)
               );
 
