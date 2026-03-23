@@ -1,4 +1,7 @@
 function formatGoogleData(data) {
+  if (!data) {
+    return ({});
+  }
   const { volumeInfo } = data;
 
   const identifiers = volumeInfo.industryIdentifiers;
